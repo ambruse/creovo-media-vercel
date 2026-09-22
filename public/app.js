@@ -156,10 +156,10 @@ const projects = [
 const insights = [
   {
     title: "Attention is borrowed. Relevance is earned.",
-    label: "CREOVO NOTES / CULTURE",
+    label: "CREOVO NOTES / CREATIVE THINKING",
     body: [
       "A feed can deliver an impression. It cannot manufacture a reason to care. That difference should shape a brand’s first question: what are we contributing to the conversation?",
-      "Start with a community, not a demographic. Learn its references, rituals and tensions. The strongest cultural ideas tend to begin with a specific observation rather than a broad claim about what everyone wants.",
+      "Start with a community, not a demographic. Learn its references, rituals and tensions. The strongest creative ideas tend to begin with a specific observation rather than a broad claim about what everyone wants.",
       "Strong content interprets that context. Give each idea a clear intention, a useful format and room to feel native to the channel where people discover it.",
       "Measure what happened beyond the first view. Saves, considered responses, repeat visits and useful conversations can help explain whether the idea resonated. Choose the measures around the actual objective, not the other way around.",
       "Relevance is not a permanent position. It is a practice: observe, contribute, listen, evolve.",
