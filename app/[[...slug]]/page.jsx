@@ -1,6 +1,7 @@
 import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { allRoutes, pageForRoute, routeForSlug, siteUrl, structuredDataFor } from '../../lib/site';
+import WorkMedia from '../../components/WorkMedia';
 
 export const dynamicParams = false;
 
@@ -50,6 +51,7 @@ export default async function Page({ params }) {
         />
       ))}
       <div className={page.bodyClass || undefined} dangerouslySetInnerHTML={{ __html: page.body }} />
+      <WorkMedia route={route} />
       <Script src={route === '/' ? '/app.js' : '/pages.js'} strategy="afterInteractive" />
     </>
   );
