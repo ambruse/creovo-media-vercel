@@ -21,6 +21,7 @@ function usePortalTarget(selector, position = 'beforeend') {
     const host = document.querySelector(selector);
     if (!host) return undefined;
     const mount = document.createElement('div');
+    mount.className = 'work-media-portal';
     host.insertAdjacentElement(position, mount);
     setTarget(mount);
     return () => mount.remove();
@@ -33,10 +34,13 @@ function ManagedVideo({ video, className = '', eager = false, active }) {
   useEffect(() => {
     const element = document.querySelector(`[data-video-id="${video.id}"]`);
     if (!element || active !== undefined || !('IntersectionObserver' in window)) return undefined;
+    const mobile = matchMedia('(max-width: 700px)').matches;
     const observer = new IntersectionObserver(([entry]) => {
+      const frame = element.closest('.motion-rail-item');
+      frame?.classList.toggle('is-current', entry.isIntersecting);
       if (entry.isIntersecting) element.play().catch(() => {});
       else element.pause();
-    }, { rootMargin: '180px 0px', threshold: 0.12 });
+    }, { rootMargin: mobile ? '40px 0px' : '180px 0px', threshold: mobile ? 0.48 : 0.12 });
     observer.observe(element);
     return () => observer.disconnect();
   }, [video.id, active]);
@@ -95,7 +99,7 @@ function HeroReel({ video }) {
 function WorkRail({ videos }) {
   const target = usePortalTarget('.work-page-grid', 'beforeend');
   if (!target) return null;
-  return createPortal(<section className="motion-work-rail" aria-label="Work in motion"><header><span className="micro">WORK IN MOTION</span><h2>Stories that<br /><em>move.</em></h2></header><div className="motion-rail-track">{videos.map((video, index) => <article className="motion-rail-item" key={video.id}><ManagedVideo video={video} className="motion-rail-video" eager={index === 0} /><div><span className="micro">{video.category} / {video.year}</span><h3>{video.title}</h3></div></article>)}</div></section>, target);
+  return createPortal(<section className="motion-work-rail" aria-label="Work in motion"><header><span className="micro">WORK IN MOTION</span><h2>Stories that<br /><em>move.</em></h2><p>Scroll through selected films and social-first stories.</p></header><div className="motion-rail-track">{videos.map((video, index) => <article className={`motion-rail-item motion-format-${index % 3}`} key={video.id}><ManagedVideo video={video} className="motion-rail-video" eager={index === 0} /><div><span className="micro">0{index + 1} / {video.category} / {video.year}</span><h3>{video.title}</h3><a href="/contact/">Start a similar project <span aria-hidden="true">↗</span></a></div></article>)}</div></section>, target);
 }
 
 function ServiceReel({ video, service }) {
