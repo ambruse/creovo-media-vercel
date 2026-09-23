@@ -156,16 +156,16 @@
 .service-motion-reel b { font-size:13px; font-weight:500; }
 .page-hero:has(.service-motion-reel) { padding-right:clamp(270px,30vw,480px); }
 @media (max-width:700px) {
-  body:has(.motion-work-rail) { --work-gutter:clamp(18px,5.4vw,25px); }
-  body:has(.motion-work-rail) .page-body main { padding-top:calc(76px + env(safe-area-inset-top)); }
-  body:has(.motion-work-rail) .breadcrumbs { padding-inline:var(--work-gutter); padding-top:18px; }
-  body:has(.motion-work-rail) .page-hero { min-height:auto; padding:58px var(--work-gutter) 52px; gap:28px; align-items:start; }
-  body:has(.motion-work-rail) .page-hero::before { width:88vw; right:-44vw; top:-16%; }
-  body:has(.motion-work-rail) .page-hero h1 { margin-top:24px; font-size:clamp(48px,14vw,66px); line-height:.92; }
-  body:has(.motion-work-rail) .page-hero .page-intro { font-size:16px; line-height:1.62; max-width:36ch; }
-  body:has(.motion-work-rail) .page-section:has(> .work-page-grid) { padding:0 0 90px; border-bottom:0; }
-  body:has(.motion-work-rail) .work-page-grid { display:block; }
-  body:has(.motion-work-rail) .work-card { display:none; }
+  .work-route { --work-gutter:clamp(18px,5.4vw,25px); }
+  .work-route main { padding-top:calc(76px + env(safe-area-inset-top)); }
+  .work-route .breadcrumbs { padding-inline:var(--work-gutter); padding-top:18px; }
+  .work-route .page-hero { min-height:auto; padding:58px var(--work-gutter) 52px; gap:28px; align-items:start; }
+  .work-route .page-hero::before { width:88vw; right:-44vw; top:-16%; }
+  .work-route .page-hero h1 { margin-top:24px; font-size:clamp(48px,14vw,66px); line-height:.92; }
+  .work-route .page-hero .page-intro { font-size:16px; line-height:1.62; max-width:36ch; }
+  .work-route .page-section:has(> .work-page-grid) { padding:0 0 90px; border-bottom:0; }
+  .work-route .work-page-grid { display:block; }
+  .work-route .work-card { display:none !important; }
   .motion-work-rail { width:100%; padding:68px 0 0; border-top:1px solid var(--line); overflow:visible; }
   .motion-work-rail header { display:block; margin:0; padding:0 var(--work-gutter) 38px; }
   .motion-work-rail header .micro { display:block; margin-bottom:20px; color:var(--accent); }
@@ -183,13 +183,13 @@
   .motion-format-2 { height:min(72svh,680px); min-height:500px; }
   .service-motion-reel { position:relative; right:auto; bottom:auto; width:100%; max-width:310px; margin-top:20px; aspect-ratio:16/9; }
   .page-hero:has(.service-motion-reel) { padding-right:var(--space); }
-  body:has(.motion-work-rail) .trust-note { padding:85px var(--work-gutter) calc(100px + env(safe-area-inset-bottom)); }
-  body:has(.motion-work-rail) .trust-note h2 { font-size:clamp(42px,12vw,58px); }
+  .work-route .trust-note { padding:85px var(--work-gutter) calc(100px + env(safe-area-inset-bottom)); }
+  .work-route .trust-note h2 { font-size:clamp(42px,12vw,58px); }
 }
 @media (min-width:701px) and (max-width:900px) {
-  body:has(.motion-work-rail) .page-section:has(> .work-page-grid) { padding-inline:var(--space); }
-  body:has(.motion-work-rail) .work-page-grid { display:block; }
-  body:has(.motion-work-rail) .work-card { display:none; }
+  .work-route .page-section:has(> .work-page-grid) { padding-inline:var(--space); }
+  .work-route .work-page-grid { display:block; }
+  .work-route .work-card { display:none !important; }
   .motion-work-rail { width:100%; padding-top:80px; }
   .motion-work-rail header { display:block; margin-bottom:38px; }
   .motion-work-rail header .micro { display:block; margin-bottom:18px; color:var(--accent); }
@@ -198,7 +198,7 @@
   .motion-rail-item { width:100%; height:min(78svh,720px); aspect-ratio:auto; }
   .motion-rail-item > div { max-width:520px; }
 }
-@media (max-width:360px) { .motion-rail-item { min-height:480px; height:72svh; } .motion-format-1 { min-height:450px; height:68svh; } body:has(.motion-work-rail) .page-hero h1 { font-size:clamp(44px,13.5vw,56px); } }
+@media (max-width:360px) { .motion-rail-item { min-height:480px; height:72svh; } .motion-format-1 { min-height:450px; height:68svh; } .work-route .page-hero h1 { font-size:clamp(44px,13.5vw,56px); } }
 @media (max-width:900px) and (orientation:landscape) { .motion-rail-item { height:82svh; min-height:390px; } .motion-rail-item > div { max-width:55%; } .motion-rail-track { gap:28px; } }
 @media (prefers-reduced-motion:reduce) { .motion-rail-track { animation:none; overflow:auto; width:auto; padding-bottom:12px; } }
 .trust-note { text-align: center; }

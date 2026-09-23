@@ -40,6 +40,7 @@ export default async function Page({ params }) {
   const route = routeForSlug(slug);
   const page = pageForRoute(route);
   if (!page) notFound();
+  const pageClass = [page.bodyClass, route === '/work/' ? 'work-route' : ''].filter(Boolean).join(' ');
 
   return (
     <>
@@ -50,7 +51,7 @@ export default async function Page({ params }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(entry).replaceAll('<', '\\u003c') }}
         />
       ))}
-      <div className={page.bodyClass || undefined} dangerouslySetInnerHTML={{ __html: page.body }} />
+      <div className={pageClass || undefined} dangerouslySetInnerHTML={{ __html: page.body }} />
       <WorkMedia route={route} />
       <Script src={route === '/' ? '/app.js' : '/pages.js'} strategy="afterInteractive" />
     </>
