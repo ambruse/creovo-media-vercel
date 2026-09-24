@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    { "source": "/services/event-management/:path*", "destination": "/services/event-coverage/", "permanent": true },
+    { "source": "/services/ad-campaigns/:path*", "destination": "/services/digital-marketing/", "permanent": true },
+    { "source": "/ar/services/event-management/:path*", "destination": "/ar/services/event-coverage/", "permanent": true },
+    { "source": "/ar/services/ad-campaigns/:path*", "destination": "/ar/services/digital-marketing/", "permanent": true }
+  ],
+  "headers": [
+    { "source": "/videos/:path*", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }] },
+    { "source": "/(.*)", "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }, { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }] }
+  ]
+}

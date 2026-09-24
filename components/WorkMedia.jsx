@@ -1,118 +1,52 @@
 'use client';
+import { useEffect,useRef,useState } from 'react';
+import { workVideos,getRandomWorkVideos } from '../lib/work-videos';
+import { ui,localePath } from '../content/ui.mjs';
+import { track } from '../lib/analytics';
 
-import { useEffect, useMemo, useState } from 'react';
-import { createPortal } from 'react-dom';
-import { getRandomWorkVideos, workVideos } from '../lib/work-videos';
-
-const serviceMap = {
-  '/services/video-production/': 'Video Production',
-  '/services/content-creation/': 'Content Creation',
-  '/services/social-media/': 'Social Media',
-  '/services/ad-campaigns/': 'Ad Campaigns',
-  '/services/branding/': 'Brand Storytelling',
-  '/services/digital-marketing/': 'Ad Campaigns',
-  '/services/event-management/': 'Content Creation',
-  '/services/web-design/': 'Brand Storytelling',
-};
-
-function usePortalTarget(selector, position = 'beforeend') {
-  const [target, setTarget] = useState(null);
-  useEffect(() => {
-    const host = document.querySelector(selector);
-    if (!host) return undefined;
-    const mount = document.createElement('div');
-    mount.className = 'work-media-portal';
-    host.insertAdjacentElement(position, mount);
-    setTarget(mount);
-    return () => mount.remove();
-  }, [selector, position]);
-  return target;
+// A page-wide playback budget: 1 preview on narrow screens, 2 on desktop.
+const candidates=new Map();
+let playerOpen=false;
+function reconcile(){
+ const reduced=matchMedia('(prefers-reduced-motion:reduce)').matches;
+ const budget=innerWidth<901?1:2;
+ const chosen=[...candidates].filter(([,v])=>v.ratio>.2&&v.allowed).sort((a,b)=>b[1].ratio-a[1].ratio).slice(0,budget).map(([el])=>el);
+ for(const [el,entry] of candidates){if(!playerOpen&&!document.hidden&&!reduced&&!document.body.classList.contains('paused')&&chosen.includes(el)){if(!el.getAttribute('src')){el.src=entry.src;el.load();}if(el.paused)el.play().catch(()=>{});}else el.pause();}
 }
-
-function ManagedVideo({ video, className = '', eager = false, active }) {
-  const [failed, setFailed] = useState(false);
-  useEffect(() => {
-    const element = document.querySelector(`[data-video-id="${video.id}"]`);
-    if (!element || active !== undefined || !('IntersectionObserver' in window)) return undefined;
-    const mobile = matchMedia('(max-width: 700px)').matches;
-    const observer = new IntersectionObserver(([entry]) => {
-      const frame = element.closest('.motion-rail-item');
-      frame?.classList.toggle('is-current', entry.isIntersecting);
-      if (entry.isIntersecting) element.play().catch(() => {});
-      else element.pause();
-    }, { rootMargin: mobile ? '40px 0px' : '180px 0px', threshold: mobile ? 0.48 : 0.12 });
-    observer.observe(element);
-    return () => observer.disconnect();
-  }, [video.id, active]);
-  useEffect(() => {
-    if (active === undefined) return undefined;
-    const element = document.querySelector(`[data-video-id="${video.id}"]`);
-    if (!element) return undefined;
-    if (active) element.play().catch(() => {});
-    else element.pause();
-    return undefined;
-  }, [active, video.id]);
-  if (failed) return <div className={`${className} video-fallback`} aria-hidden="true" />;
-  return <video className={className} data-video-id={video.id} muted playsInline loop preload={eager ? 'metadata' : 'none'} autoPlay={eager} onError={() => setFailed(true)} aria-hidden="true"><source src={video.src} type="video/mp4" /></video>;
+function Preview({video,allowed=true}){
+ const ref=useRef(null);
+ useEffect(()=>{
+  const el=ref.current;const item={src:video.preview,ratio:0,allowed};candidates.set(el,item);
+  const observer=new IntersectionObserver(([entry])=>{item.ratio=entry.isIntersecting?entry.intersectionRatio:0;reconcile();},{threshold:[0,.2,.5,.75,1]});observer.observe(el);
+  document.addEventListener('visibilitychange',reconcile);document.addEventListener('creovo-motion',reconcile);const mq=matchMedia('(prefers-reduced-motion:reduce)');mq.addEventListener('change',reconcile);
+  return()=>{observer.disconnect();el.pause();el.removeAttribute('src');el.load();candidates.delete(el);document.removeEventListener('visibilitychange',reconcile);document.removeEventListener('creovo-motion',reconcile);mq.removeEventListener('change',reconcile);};
+ },[video]);
+ useEffect(()=>{const entry=candidates.get(ref.current);if(entry){entry.allowed=allowed;reconcile();}},[allowed]);
+ return <video ref={ref} poster={video.poster} width={video.width} height={video.height} muted loop playsInline preload="none" aria-hidden="true" className="work-preview"/>;
 }
-
-function Universe({ videos }) {
-  const [active, setActive] = useState(0);
-  const [progress, setProgress] = useState(0);
-  const target = usePortalTarget('.work', 'afterbegin');
-  useEffect(() => {
-    const update = () => {
-      const section = document.querySelector('.media-universe');
-      if (!section) return;
-      const rect = section.getBoundingClientRect();
-      const range = Math.max(1, rect.height - innerHeight);
-      const next = Math.max(0, Math.min(1, -rect.top / range));
-      setProgress(next);
-      setActive(Math.min(videos.length - 1, Math.floor(next * videos.length)));
-    };
-    addEventListener('scroll', update, { passive: true });
-    update();
-    return () => removeEventListener('scroll', update);
-  }, [videos.length]);
-  if (!target) return null;
-  const current = videos[active];
-  return createPortal(
-    <section className="media-universe" aria-label="Creovo Media Universe">
-      <div className="universe-sticky" style={{ '--universe-progress': progress }}>
-        <div className="universe-heading"><span className="micro">[02] / CREOVO MEDIA UNIVERSE</span><h2>Our work,<br /><em>in motion.</em></h2><p>Move through a living edit of recent Creovo work.</p></div>
-        <div className="universe-field" aria-hidden="true">
-          {videos.map((video, index) => <div className={`universe-frame frame-${index} ${active === index ? 'is-active' : ''}`} key={video.id}><ManagedVideo video={video} className="universe-video" eager={index === 0} active={Math.abs(active - index) < 2} /></div>)}
-          <div className="universe-vignette" />
-        </div>
-        <div className="universe-caption" aria-live="polite"><span className="micro">0{active + 1} / 0{videos.length}</span><div><span className="micro">{current.category} / {current.year}</span><h3>{current.title}</h3></div><a href="/work/">View work <span aria-hidden="true">↗</span></a></div>
-      </div>
-    </section>, target,
-  );
-}
-
-function HeroReel({ video }) {
-  const target = usePortalTarget('.hero', 'beforeend');
-  if (!target) return null;
-  return createPortal(<div className="hero-work-signal"><ManagedVideo video={video} className="hero-work-video" eager /><span className="micro">LIVE WORK REEL</span></div>, target);
-}
-
-function WorkRail({ videos }) {
-  const target = usePortalTarget('.work-page-grid', 'beforeend');
-  if (!target) return null;
-  return createPortal(<section className="motion-work-rail" aria-label="Work in motion"><header><span className="micro">WORK IN MOTION</span><h2>Stories that<br /><em>move.</em></h2><p>Scroll through selected films and social-first stories.</p></header><div className="motion-rail-track">{videos.map((video, index) => <article className={`motion-rail-item motion-format-${index % 3}`} key={video.id}><ManagedVideo video={video} className="motion-rail-video" eager={index === 0} /><div><span className="micro">0{index + 1} / {video.category} / {video.year}</span><h3>{video.title}</h3><a href="/contact/">Start a similar project <span aria-hidden="true">↗</span></a></div></article>)}</div></section>, target);
-}
-
-function ServiceReel({ video, service }) {
-  const target = usePortalTarget('.page-hero', 'beforeend');
-  if (!target) return null;
-  return createPortal(<aside className="service-motion-reel"><ManagedVideo video={video} className="service-motion-video" eager /><div><span className="micro">SELECTED MOTION</span><b>{service}</b></div></aside>, target);
-}
-
-export default function WorkMedia({ route }) {
-  const videos = useMemo(() => getRandomWorkVideos(7), []);
-  if (route === '/') return <><HeroReel video={videos[0]} /><Universe videos={videos.slice(0, 6)} /></>;
-  if (route === '/work/') return <WorkRail videos={videos.slice(0, 6)} />;
-  if (route === '/services/') return <ServiceReel video={videos[0]} service="Creative services" />;
-  if (serviceMap[route]) return <ServiceReel video={videos[0]} service={serviceMap[route]} />;
-  return null;
+export default function WorkMedia({mode='portfolio',locale='en'}){
+ const t=ui[locale],count=mode==='universe'?6:workVideos.length;
+ const [videos,setVideos]=useState(workVideos.slice(0,count)),[active,setActive]=useState(0),[selected,setSelected]=useState(null),[failed,setFailed]=useState(false),[pageSize,setPageSize]=useState(6);
+ const section=useRef(null),dialog=useRef(null),full=useRef(null),started=useRef(false);
+ const [compact,setCompact]=useState(false);
+ useEffect(()=>{const mq=matchMedia('(max-width:900px)');const update=()=>setCompact(mq.matches);update();mq.addEventListener('change',update);return()=>{mq.removeEventListener('change',update);playerOpen=false;};},[]);
+ useEffect(()=>{let previous;try{previous=sessionStorage.getItem(`creovo.first.${mode}`);}catch{}const chosen=getRandomWorkVideos(count,workVideos,previous);setVideos(chosen);try{sessionStorage.setItem(`creovo.first.${mode}`,chosen[0].id);}catch{}},[count,mode]);
+ useEffect(()=>{
+  if(mode!=='universe')return;
+  let frame=0; const update=()=>{frame=0;const el=section.current;if(!el)return;const r=el.getBoundingClientRect();const p=Math.max(0,Math.min(.999,-r.top/Math.max(1,r.height-innerHeight)));el.style.setProperty('--journey',p);setActive(Math.floor(p*6));};
+  const scroll=()=>{if(!frame)frame=requestAnimationFrame(update);};addEventListener('scroll',scroll,{passive:true});addEventListener('resize',scroll);update();return()=>{removeEventListener('scroll',scroll);removeEventListener('resize',scroll);cancelAnimationFrame(frame);};
+ },[mode]);
+ useEffect(()=>{if(selected){setFailed(false);dialog.current.showModal();track('portfolio_interaction',{video_id:selected.id});}},[selected]);
+ const open=v=>{playerOpen=true;started.current=false;for(const [el] of candidates)el.pause();setSelected(v);};
+ const close=()=>{full.current?.pause();dialog.current?.close();setSelected(null);playerOpen=false;reconcile();};
+ return <section ref={section} className={`work-experience ${mode==='universe'?'spatial-universe':'editorial-portfolio'}`} aria-label={mode==='universe'?t.universe:t.portfolio}>
+  <div className="work-experience-inner"><header className="work-experience-heading"><p className="micro">{mode==='universe'?t.universe:t.portfolio}</p><h2>{mode==='universe'?t.ourWork:t.stories}<br/><em>{mode==='universe'?t.inMotion:t.move}</em></h2><p>{t.scrollWork}</p></header>
+   <div className="work-scenes">{videos.slice(0,mode==='universe'?6:pageSize).map((v,i)=><article key={v.id} className={`work-scene scene-${i} ${i===active?'dominant':''}`} style={{'--media-ratio':`${v.width} / ${v.height}`}}>
+    <button className="scene-open" onClick={()=>open(v)} aria-label={`${t.play} — ${t.film} ${v.number}`}><Preview video={v} allowed={compact||mode!=='universe'||i===active}/><span className="scene-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7z"/></svg></span></button>
+    <div className="scene-caption"><span className="micro">Creovo Media / {String(v.number).padStart(2,'0')}</span><h3>{t.film} {v.number}</h3><a href={localePath('/contact/',locale)}>{t.similar}</a></div>
+   </article>)}</div>
+   {mode==='universe'?<a className="universe-work-link" href={localePath('/work/',locale)}>{t.viewWork}</a>:pageSize<videos.length&&<button className="page-button load-work" onClick={()=>setPageSize(n=>n+6)}>{locale==='ar'?'شاهد المزيد من الأعمال':'More work'}</button>}
+  </div>
+  <dialog className="film-dialog" ref={dialog} onCancel={close} onClose={()=>{full.current?.pause();setSelected(null);playerOpen=false;reconcile();}} aria-label={t.play}><button className="film-close" onClick={close}>{t.close}</button>{selected&&<><h2>{t.film} {selected.number}</h2><video ref={full} src={selected.src} poster={selected.poster} controls playsInline preload="metadata" onError={()=>setFailed(true)} onPlay={()=>{if(!started.current){track('video_start',{video_id:selected.id});started.current=true;}}} onEnded={()=>track('video_complete',{video_id:selected.id})} aria-label={`${t.film} ${selected.number}`}/>{failed&&<p role="status">{t.videoError}</p>}<a href={selected.src}>{t.openVideo}</a></>}</dialog>
+ </section>;
 }

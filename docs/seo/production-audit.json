@@ -1,0 +1,350 @@
+[
+  {
+    "url": "https://creovomedia.com/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:12.725Z"
+  },
+  {
+    "url": "https://creovomedia.com/",
+    "agent": "Googlebot",
+    "hops": [
+      {
+        "url": "https://creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:13.125Z"
+  },
+  {
+    "url": "https://creovomedia.com/",
+    "agent": "bingbot",
+    "hops": [
+      {
+        "url": "https://creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:13.484Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:13.625Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/",
+    "agent": "Googlebot",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:13.761Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/",
+    "agent": "bingbot",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:13.900Z"
+  },
+  {
+    "url": "http://creovomedia.com/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "http://creovomedia.com/",
+        "status": 308,
+        "location": "https://creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:14.615Z"
+  },
+  {
+    "url": "http://creovomedia.com/",
+    "agent": "Googlebot",
+    "hops": [
+      {
+        "url": "http://creovomedia.com/",
+        "status": 308,
+        "location": "https://creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:15.223Z"
+  },
+  {
+    "url": "http://creovomedia.com/",
+    "agent": "bingbot",
+    "hops": [
+      {
+        "url": "http://creovomedia.com/",
+        "status": 308,
+        "location": "https://creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:15.990Z"
+  },
+  {
+    "url": "http://www.creovomedia.com/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "http://www.creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:16.608Z"
+  },
+  {
+    "url": "http://www.creovomedia.com/",
+    "agent": "Googlebot",
+    "hops": [
+      {
+        "url": "http://www.creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:17.265Z"
+  },
+  {
+    "url": "http://www.creovomedia.com/",
+    "agent": "bingbot",
+    "hops": [
+      {
+        "url": "http://www.creovomedia.com/",
+        "status": 308,
+        "location": "https://www.creovomedia.com/",
+        "robots": null
+      },
+      {
+        "url": "https://www.creovomedia.com/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/",
+    "checkedAt": "2026-09-24T09:30:17.822Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/robots.txt",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/robots.txt",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "checkedAt": "2026-09-24T09:30:17.957Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/sitemap.xml",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/sitemap.xml",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "checkedAt": "2026-09-24T09:30:18.591Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/services/branding/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/services/branding/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/services/branding/",
+    "checkedAt": "2026-09-24T09:30:18.848Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/services/video-production/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/services/video-production/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/services/video-production/",
+    "checkedAt": "2026-09-24T09:30:19.117Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/work/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/work/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/work/",
+    "checkedAt": "2026-09-24T09:30:19.386Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/contact/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/contact/",
+        "status": 200,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "canonical": "https://www.creovomedia.com/contact/",
+    "checkedAt": "2026-09-24T09:30:19.524Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/ar/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/ar/",
+        "status": 404,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "checkedAt": "2026-09-24T09:30:19.780Z"
+  },
+  {
+    "url": "https://www.creovomedia.com/missing-creovo-audit/",
+    "agent": "Mozilla/5.0",
+    "hops": [
+      {
+        "url": "https://www.creovomedia.com/missing-creovo-audit/",
+        "status": 404,
+        "location": null,
+        "robots": null
+      }
+    ],
+    "checkedAt": "2026-09-24T09:30:19.911Z"
+  }
+]
