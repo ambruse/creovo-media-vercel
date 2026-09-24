@@ -1,6 +1,6 @@
 # Creovo Media implementation record
 
-24 September 2026. This release implements the repository foundation; it does not claim search authority, indexing, rankings or leads have already increased.
+24 September 2026. The foundation is implemented, pushed to the existing GitHub main branch and verified on the live Vercel site. This does not claim search authority, indexing, rankings or leads have already increased.
 
 ## Executive summary
 
@@ -66,7 +66,8 @@ Consent-aware session attribution records landing path, language, referrer hostn
 
 - `npm run build`: passed, 44 content pages exported.
 - `npm run verify:export`: 44 pages, zero failures. Checks initial HTML lang/dir, one H1, title uniqueness, self-canonical, locale alternates, valid JSON-LD, local references, sitemap/noindex policy and 404 noindex. See `docs/seo/export-validation.json`.
-- Browser checks: Arabic desktop hero; 390×844 Arabic mobile work and contact; no page-width overflow; one visible mobile preview; zero preview playback while the modal is open; Arabic empty-field validation. Desktop/tablet/English verification is recorded in the final QA notes when complete.
+- Browser checks: Arabic desktop hero; 390×844 Arabic mobile work and contact; no page-width overflow; one visible mobile preview; zero preview playback while the modal is open; Arabic empty-field validation. English desktop, Arabic tablet, menu and same-page locale switching also pass; see `docs/seo/browser-qa.md`.
+- Live deployment: all 44 pages respond 200 with the correct canonical and language. robots.txt/sitemap.xml respond 200; missing English and Arabic routes respond 404. Legacy service routes redirect permanently to their successors. Non-slash legacy requests first receive Next.js slash normalization, resulting in two permanent hops. See `docs/seo/deployment-validation.json` and `node scripts/verify-production.mjs`.
 - No actual business enquiry was submitted. Sensor permissions/physical iPhone and Android tilt are not hardware-tested. Static build checks do not validate Vercel redirect execution or live account integrations.
 
 ## Bing, AI search and external authority
@@ -78,7 +79,7 @@ AI visibility is not a separate invented schema or llms.txt ranking guarantee. U
 ## Remaining release / owner actions
 
 1. Coordinate preferred apex domain versus currently serving www in Vercel, then retest redirects/canonicals and production crawler access.
-2. Deploy the validated source through the existing Git/Vercel workflow; local build success is not proof of deployment.
+2. Deployment through the existing Git/Vercel workflow is complete. Keep the live verification script as a release check; deployment does not establish search-engine indexing.
 3. Verify Search Console, Bing and GA4 ownership; set account IDs, test consent and lead events, submit the canonical sitemap.
 4. Confirm hours, public-office eligibility, email and WhatsApp. Supply approved company/team information.
 5. Supply client scope/approvals, media mapping, rights, upload dates and meaningful outcomes. Then publish case studies/watch pages and warranted sector content.

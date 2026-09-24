@@ -44,4 +44,6 @@ After deployment, re-run HTTP tests and compare output with this baseline. Verif
 
 ## Monitoring ownership
 
+Post-release verification: all 44 locale pages now return 200 with self-canonicals and correct languages. Arabic is no longer 404. Exact old service paths return permanent successor redirects; missing slash variants have a preliminary Next.js normalization hop. Deliberately missing routes remain 404, and robots/sitemap return 200. See `docs/seo/deployment-validation.json`. The apex/www domain setting is unchanged and still needs coordination.
+
 Owner/hosting administrator: enable Vercel error/edge logs and an external uptime check for homepage, one service and robots.txt; investigate repeated 5xx with timestamps and request IDs. Review Search Console indexing and Crawl Stats weekly initially. No scheduled monitoring service was created in this task.

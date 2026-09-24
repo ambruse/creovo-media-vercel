@@ -1,0 +1,386 @@
+{
+  "checkedAt": "2026-09-24T11:23:14.085Z",
+  "failures": [],
+  "records": [
+    {
+      "path": "/services/branding/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/branding/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/branding/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/branding/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/video-production/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/video-production/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/social-media/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/social-media/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/social-media/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/social-media/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/video-production/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/video-production/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/content-creation/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/content-creation/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/content-creation/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/content-creation/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/seo/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/seo/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/digital-marketing/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/digital-marketing/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/digital-marketing/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/digital-marketing/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/web-design/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/web-design/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/web-design/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/web-design/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/seo/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/seo/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/work/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/work/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/event-coverage/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/event-coverage/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/work/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/work/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/services/influencer-marketing/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/services/influencer-marketing/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/event-coverage/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/event-coverage/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/influencer-marketing/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/services/influencer-marketing/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/about/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/about/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/contact/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/about/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/contact/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/contact/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/case-studies/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/case-studies/",
+      "lang": "ar",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/case-studies/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/case-studies/",
+      "lang": "en",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/ar/industries/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/industries/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/insights/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/insights/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/insights/creative-agency-brief/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/insights/creative-agency-brief/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/insights/creative-agency-brief/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/insights/creative-agency-brief/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/industries/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/industries/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/insights/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/insights/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/insights/brand-strategy-vs-brand-identity/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/insights/brand-strategy-vs-brand-identity/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/insights/brand-strategy-vs-brand-identity/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/insights/brand-strategy-vs-brand-identity/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/insights/corporate-video-production-process/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/insights/corporate-video-production-process/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/insights/corporate-video-production-process/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/insights/corporate-video-production-process/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/insights/social-media-management-vs-content-creation/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/insights/social-media-management-vs-content-creation/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/insights/social-media-management-vs-content-creation/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/insights/social-media-management-vs-content-creation/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/privacy/",
+      "lang": "en",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/ar/privacy/",
+      "status": 200,
+      "canonical": "https://www.creovomedia.com/ar/privacy/",
+      "lang": "ar",
+      "robots": "index, follow"
+    },
+    {
+      "path": "/services/event-management",
+      "status": 308,
+      "location": "/services/event-management/",
+      "normalizationHop": {
+        "status": 308,
+        "location": "/services/event-coverage/"
+      }
+    },
+    {
+      "path": "/services/event-management/",
+      "status": 308,
+      "location": "/services/event-coverage/"
+    },
+    {
+      "path": "/services/ad-campaigns",
+      "status": 308,
+      "location": "/services/ad-campaigns/",
+      "normalizationHop": {
+        "status": 308,
+        "location": "/services/digital-marketing/"
+      }
+    },
+    {
+      "path": "/services/ad-campaigns/",
+      "status": 308,
+      "location": "/services/digital-marketing/"
+    },
+    {
+      "path": "/ar/services/event-management",
+      "status": 308,
+      "location": "/ar/services/event-management/",
+      "normalizationHop": {
+        "status": 308,
+        "location": "/ar/services/event-coverage/"
+      }
+    },
+    {
+      "path": "/ar/services/event-management/",
+      "status": 308,
+      "location": "/ar/services/event-coverage/"
+    },
+    {
+      "path": "/ar/services/ad-campaigns",
+      "status": 308,
+      "location": "/ar/services/ad-campaigns/",
+      "normalizationHop": {
+        "status": 308,
+        "location": "/ar/services/digital-marketing/"
+      }
+    },
+    {
+      "path": "/ar/services/ad-campaigns/",
+      "status": 308,
+      "location": "/ar/services/digital-marketing/"
+    },
+    {
+      "path": "/missing-creovo-audit/",
+      "status": 404
+    },
+    {
+      "path": "/ar/missing-creovo-audit/",
+      "status": 404
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    }
+  ]
+}
