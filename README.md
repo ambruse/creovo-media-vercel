@@ -29,4 +29,6 @@ Edit `content/ui.mjs`, `content/services.mjs` and `content/insights.mjs`. Both l
 
 Place source videos in `public/videos/work/`, then run `npm run prepare:media`. This creates a manifest, measured dimensions, muted short previews, posters and optimized brand artwork. Approved editorial metadata belongs in `content/video-details.mjs` so rescanning does not discard it. If replacing an existing source, give it a new stable filename or regenerate its matching poster/preview; existing derivatives are reused. Do not invent publication dates or client attribution.
 
+Video quality: the active `hq-v2` profile preserves source resolution, encodes 10-second H.264 previews at CRF 18, and generates full-resolution JPEG posters. It replaces the former 640-pixel CRF 29 previews. Full playback uses the untouched original. Only visible videos load/play (one mobile, two desktop); improved quality increases transfer size. Low-resolution source footage needs a higher-resolution master to gain actual detail.
+
 See `CREOVO-SEO-IMPLEMENTATION.md`, `CREOVO-SEO-KEYWORD-MAP.md`, `SEO-PAGE-MATRIX.md` and `CREOVO-SEO-CONTENT-ROADMAP.md` for implementation, research and remaining account/evidence actions.
