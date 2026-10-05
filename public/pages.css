@@ -287,3 +287,30 @@
   .page-footer-base { gap: 25px; }
   .hero-seo-line { margin-top: 16px; font-size: 8px; letter-spacing: .14em; }
 }
+
+/* Supplied Creovo editorial photography: stable, responsive and deliberately quiet. */
+.editorial-media { position:relative; display:block; width:100%; aspect-ratio:var(--editorial-ratio); overflow:hidden; background:#141414; }
+.editorial-media img { display:block; width:100%; height:100%; object-fit:cover; }
+.home-process-media { margin-top:clamp(38px,5vw,72px); }
+.home-production-media { margin-top:clamp(52px,7vw,92px); max-height:min(78svh,820px); }
+.home-about-section { grid-template-rows:auto 1fr; row-gap:clamp(26px,4vw,48px); }
+.home-about-section > :first-child { grid-column:1; grid-row:1; }
+.home-about-section > .long-copy { grid-column:2; grid-row:1/3; }
+.home-about-section > .home-process-media { grid-column:1; grid-row:2; align-self:start; margin-top:0; }
+.about-process-media,.service-process-media { margin-top:clamp(44px,6vw,78px); }
+.service-editorial-media { margin-top:clamp(46px,6vw,84px); }
+.service-editorial-media--portrait { width:min(100%,520px); margin-inline-start:auto; }
+.service-editorial-media--wide { aspect-ratio:16/9; }
+.service-editorial-media--brand { max-width:1240px; }
+.service-editorial-media--web { max-width:1280px; }
+@media (max-width:1000px) {
+  .home-about-section { grid-template-columns:1fr; grid-template-rows:auto; row-gap:30px; }
+  .home-about-section > :first-child,.home-about-section > .long-copy,.home-about-section > .home-process-media { grid-column:1; grid-row:auto; }
+  .home-production-media { max-height:72svh; }
+}
+@media (max-width:700px) {
+  .home-process-media { margin-top:34px; }
+  .home-production-media { margin-top:42px; max-height:none; }
+  .about-process-media,.service-process-media,.service-editorial-media { margin-top:36px; }
+  .service-editorial-media--portrait { width:100%; max-width:100%; }
+}
