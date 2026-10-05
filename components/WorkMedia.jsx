@@ -25,22 +25,32 @@ function Preview({video,allowed=true}){
  return <video ref={ref} poster={video.poster} width={video.width} height={video.height} muted loop playsInline preload="none" aria-hidden="true" className="work-preview"/>;
 }
 function SingleWorkFilm({label,locale}){
- const figure=useRef(null),video=useRef(null);
+ const figure=useRef(null),video=useRef(null),playerDialog=useRef(null),player=useRef(null),inView=useRef(false);
  useEffect(()=>{
   const frame=figure.current,el=video.current;if(!frame||!el)return;
   const reduced=matchMedia('(prefers-reduced-motion:reduce)');let visible=false;
   const update=()=>{
-   if(visible&&!el.src){el.src='/videos/work/creovo-work-scenes.mp4';el.load();}
-   if(visible&&!reduced.matches&&!document.hidden&&!document.body.classList.contains('paused'))el.play().catch(()=>{});
+   inView.current=visible;
+   if(visible&&!el.src&&!reduced.matches&&!document.hidden&&!document.body.classList.contains('paused')&&!playerDialog.current?.open){el.src='/videos/work/creovo-work-scenes.mp4';el.load();}
+   if(visible&&!reduced.matches&&!document.hidden&&!document.body.classList.contains('paused')&&!playerDialog.current?.open)el.play().catch(()=>{});
    else el.pause();
   };
   const observer=new IntersectionObserver(([entry])=>{visible=entry.isIntersecting&&entry.intersectionRatio>=.25;frame.toggleAttribute('data-visible',visible);update();},{threshold:[0,.25,.5,1]});observer.observe(frame);
   document.addEventListener('visibilitychange',update);document.addEventListener('creovo-motion',update);reduced.addEventListener('change',update);
   return()=>{observer.disconnect();el.pause();el.removeAttribute('src');el.load();document.removeEventListener('visibilitychange',update);document.removeEventListener('creovo-motion',update);reduced.removeEventListener('change',update);};
  },[]);
+ const openPlayer=()=>{
+  const preview=video.current,dialog=playerDialog.current,full=player.current;if(!preview||!dialog||!full||dialog.open)return;
+  preview.pause();dialog.showModal();if(!full.src){full.src='/videos/work/creovo-work-scenes.mp4';full.load();}full.play().catch(()=>{});
+ };
+ const closePlayer=()=>{
+  const full=player.current;full?.pause();if(full){full.removeAttribute('src');full.load();}
+  if(inView.current&&!document.hidden&&!matchMedia('(prefers-reduced-motion:reduce)').matches&&!document.body.classList.contains('paused'))video.current?.play().catch(()=>{});
+ };
  return <figure ref={figure} className="universe-film">
-  <div className="universe-film-frame"><video ref={video} poster="/videos/posters/creovo-work-scenes.jpg" width="1080" height="1920" muted loop playsInline controls preload="none" aria-label={label}/></div>
+  <div className="universe-film-frame"><video ref={video} poster="/videos/posters/creovo-work-scenes.jpg" width="1080" height="1920" muted loop playsInline preload="none" aria-hidden="true"/><button type="button" className="universe-film-play" onClick={openPlayer} aria-label={locale==='ar'?'شاهد الفيلم':'Play the film'}><span className="universe-film-play-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg></span><span>{locale==='ar'?'شاهد الفيلم':'PLAY FILM'}</span><svg className="universe-film-play-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-5 5 5-5 5"/></svg></button></div>
   <figcaption className="universe-film-caption"><span className="micro">CREOVO MEDIA / {locale==='ar'?'لقطات من أعمالنا':'WORK IN MOTION'}</span><span className="universe-film-live" aria-hidden="true"><i/> {locale==='ar'?'فيلم أصلي · ٠٠:٣٦':'ORIGINAL FILM · 00:36'}</span></figcaption>
+  <dialog ref={playerDialog} className="universe-player-dialog" aria-label={label} onCancel={()=>{}} onClose={closePlayer}><header className="universe-player-top"><span className="micro">CREOVO MEDIA <i/> {locale==='ar'?'الفيلم الكامل':'THE FULL FILM'}</span><button type="button" className="film-close" onClick={()=>playerDialog.current?.close()} aria-label={locale==='ar'?'إغلاق المشغل':'Close player'}>{locale==='ar'?'إغلاق':'CLOSE'}</button></header><video ref={player} controls playsInline preload="none" aria-label={label}/></dialog>
  </figure>;
 }
 export default function WorkMedia({mode='portfolio',locale='en'}){
