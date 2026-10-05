@@ -166,17 +166,6 @@ select:focus-visible {
     transform 0.3s var(--ease),
     visibility 0.3s;
 }
-.nav-shell.hero-nav,
-.nav-shell.hero-nav.scrolled {
-  --text: #0b0b0b;
-  color: var(--text);
-  background: #9EDA23;
-  border-color: #9EDA23;
-  backdrop-filter: none;
-}
-.nav-shell.hero-nav :is(a, button):focus-visible {
-  outline-color: #0b0b0b;
-}
 .nav-shell.hero-nav:not(.logo-visible) > .logo {
   opacity: 0;
   visibility: hidden;
