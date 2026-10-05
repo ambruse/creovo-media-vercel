@@ -1,6 +1,7 @@
 // Locale values are authored together; URLs stay stable across both languages.
+import { serviceSearch } from './service-search.mjs';
 const pair = (en, ar) => ({ en, ar });
-export const services = [
+const baseServices = [
   { slug:'branding', name:pair('Branding','العلامة التجارية والهوية البصرية'), title:pair('Branding Agency in Qatar','تصميم الهوية البصرية وبناء العلامات التجارية في قطر'),
     heading:pair('A clear identity. A recognizable brand.','هوية واضحة. وعلامة يعرفها جمهورك.'),
     intro:pair('Creovo Media connects positioning, identity and brand applications for businesses in Qatar. We start with what your brand needs to communicate, then shape a visual and verbal system your team can use consistently.','تربط Creovo Media بين تموضع العلامة وهويتها وتطبيقاتها للشركات في قطر. نبدأ بالرسالة التي تحتاج علامتك إلى إيصالها، ثم نبني نظاماً بصرياً ولفظياً يستطيع فريقك استخدامه باتساق.'),
@@ -66,4 +67,10 @@ export const services = [
     questions:[pair('Do you organize the entire event?','هل تتولون تنظيم الفعالية بالكامل؟'),pair('What is needed to plan the coverage?','ما المطلوب لتخطيط التغطية؟')],
     answers:[pair('This service focuses on media coverage. Share any wider production needs so the scope and responsibilities can be confirmed before booking.','تركز هذه الخدمة على التغطية الإعلامية. شارك أي احتياجات إنتاجية أوسع لتأكيد النطاق والمسؤوليات قبل الحجز.'),pair('Send the venue, date, schedule, audience, priority guests and required outputs. Access restrictions and consent requirements should be raised early.','أرسل الموقع والتاريخ والبرنامج والجمهور والضيوف الأساسيين والمخرجات المطلوبة. ينبغي توضيح قيود الدخول ومتطلبات الموافقة مبكراً.')],related:['video-production','content-creation'] },
 ];
+export const services = baseServices.map(service => {
+  const detail=serviceSearch[service.slug];
+  return {...service,...detail,creativeHeading:service.heading,heading:detail.title||service.title,
+    questions:[...service.questions,...(detail.faqs||[]).map(([q])=>q)],
+    answers:[...service.answers,...(detail.faqs||[]).map(([,a])=>a)]};
+});
 export const serviceBySlug = Object.fromEntries(services.map(s=>[s.slug,s]));

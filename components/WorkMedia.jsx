@@ -1,6 +1,6 @@
 'use client';
 import { useEffect,useRef,useState } from 'react';
-import { workVideos,getRandomWorkVideos } from '../lib/work-videos';
+import { workVideos,getRandomWorkVideos,workTitle } from '../lib/work-videos';
 import { ui,localePath } from '../content/ui.mjs';
 import { track } from '../lib/analytics';
 
@@ -42,11 +42,11 @@ export default function WorkMedia({mode='portfolio',locale='en'}){
  return <section ref={section} className={`work-experience ${mode==='universe'?'spatial-universe':'editorial-portfolio'}`} aria-label={mode==='universe'?t.universe:t.portfolio}>
   <div className="work-experience-inner"><header className="work-experience-heading"><p className="micro">{mode==='universe'?t.universe:t.portfolio}</p><h2>{mode==='universe'?t.ourWork:t.stories}<br/><em>{mode==='universe'?t.inMotion:t.move}</em></h2><p>{t.scrollWork}</p></header>
    <div className="work-scenes">{videos.slice(0,mode==='universe'?6:pageSize).map((v,i)=><article key={v.id} className={`work-scene scene-${i} ${i===active?'dominant':''}`} style={{'--media-ratio':`${v.width} / ${v.height}`}}>
-    <button className="scene-open" onClick={()=>open(v)} aria-label={`${t.play} — ${t.film} ${v.number}`}><Preview video={v} allowed={compact||mode!=='universe'||i===active}/><span className="scene-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7z"/></svg></span></button>
-    <div className="scene-caption"><span className="micro">Creovo Media / {String(v.number).padStart(2,'0')}</span><h3>{t.film} {v.number}</h3><a href={localePath('/contact/',locale)}>{t.similar}</a></div>
+    <button className="scene-open" onClick={()=>open(v)} aria-label={`${t.play} — ${workTitle(v,locale)}`}><Preview video={v} allowed={compact||mode!=='universe'||i===active}/><span className="scene-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7z"/></svg></span></button>
+    <div className="scene-caption"><span className="micro">Creovo Media / {String(v.number).padStart(2,'0')}</span><h3>{workTitle(v,locale)}</h3><a href={localePath('/contact/',locale)+'?service=content-creation'}>{t.similar}</a>{mode==='portfolio'&&<a className="work-service-link" data-portfolio-service="content-creation" href={localePath('/services/content-creation/',locale)}>{locale==='ar'?'خدمة صناعة المحتوى':'Content creation service'}</a>}</div>
    </article>)}</div>
    {mode==='universe'?<a className="universe-work-link" href={localePath('/work/',locale)}>{t.viewWork}</a>:pageSize<videos.length&&<button className="page-button load-work" onClick={()=>setPageSize(n=>n+6)}>{locale==='ar'?'شاهد المزيد من الأعمال':'More work'}</button>}
   </div>
-  <dialog className="film-dialog" ref={dialog} onCancel={close} onClose={()=>{full.current?.pause();setSelected(null);playerOpen=false;reconcile();}} aria-label={t.play}><button className="film-close" onClick={close}>{t.close}</button>{selected&&<><h2>{t.film} {selected.number}</h2><video ref={full} src={selected.src} poster={selected.poster} controls playsInline preload="metadata" onError={()=>setFailed(true)} onPlay={()=>{if(!started.current){track('video_start',{video_id:selected.id});started.current=true;}}} onEnded={()=>track('video_complete',{video_id:selected.id})} aria-label={`${t.film} ${selected.number}`}/>{failed&&<p role="status">{t.videoError}</p>}<a href={selected.src}>{t.openVideo}</a></>}</dialog>
+  <dialog className="film-dialog" ref={dialog} onCancel={close} onClose={()=>{full.current?.pause();setSelected(null);playerOpen=false;reconcile();}} aria-label={t.play}><button className="film-close" onClick={close}>{t.close}</button>{selected&&<><h2>{workTitle(selected,locale)}</h2><video ref={full} src={selected.src} poster={selected.poster} controls playsInline preload="metadata" onError={()=>setFailed(true)} onPlay={()=>{if(!started.current){track('video_start',{video_id:selected.id});started.current=true;}}} onEnded={()=>track('video_complete',{video_id:selected.id})} aria-label={workTitle(selected,locale)}/>{failed&&<p role="status">{t.videoError}</p>}<a href={selected.src}>{t.openVideo}</a></>}</dialog>
  </section>;
 }

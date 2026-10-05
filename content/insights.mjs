@@ -1,5 +1,7 @@
+import {websiteGuide} from './website-guide.mjs';
 const p=(en,ar)=>({en,ar});
 export const insights=[
+ websiteGuide,
  {slug:'creative-agency-brief',service:'branding', title:p('How to brief a creative agency','كيف تكتب موجزاً لوكالة إبداعية'), description:p('A practical checklist for defining the objective, audience, deliverables and approval process before a creative project begins.','قائمة عملية لتحديد الهدف والجمهور والمخرجات وآلية الموافقة قبل بدء مشروع إبداعي.'), sections:[
  [p('Start with the decision','ابدأ بالقرار'),p('Explain what the work needs to help someone understand or do. “We need a video” defines a format; “help buyers understand the product before requesting a quote” defines a job. Include the audience, existing research and what they currently believe.','اشرح ما الذي ينبغي أن يساعد العمل شخصاً على فهمه أو فعله. «نحتاج فيديو» تحدد صيغة، بينما «نساعد المشترين على فهم المنتج قبل طلب عرض» تحدد مهمة. أضف الجمهور والأبحاث المتاحة وما يعتقده حالياً.')],
  [p('Separate essentials from preferences','ميّز الضروري عن المفضل'),p('List required outputs, channels, languages, dates and brand constraints. Add references with a note explaining what is useful about each one. A preference for a visual style should not obscure an essential delivery requirement.','حدد المخرجات والقنوات واللغات والمواعيد وقيود العلامة المطلوبة. أرفق مراجع مع توضيح ما يفيدك في كل منها. يجب ألا تحجب الرغبة في أسلوب بصري معين متطلباً أساسياً للتسليم.')],

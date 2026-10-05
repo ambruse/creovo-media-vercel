@@ -1,0 +1,1894 @@
+[
+  {
+    "locale": "en",
+    "route": "/",
+    "title": "Creative & Digital Media Agency in Qatar | Creovo Media",
+    "description": "Creovo Media is a creative and digital media agency based in Al Wakrah, serving businesses across Qatar. We connect brand strategy, content, production and digital delivery around the next step your business needs.",
+    "heading": "Creative & digital media agency in Qatar",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "en",
+    "route": "/services/",
+    "title": "Services | Creovo Media",
+    "description": "Nine connected services. A scope built around your objective.",
+    "heading": "Many lenses. One vision.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "en",
+    "route": "/services/branding/",
+    "title": "Branding Agency in Qatar | Creovo Media",
+    "description": "Creovo Media connects positioning, identity and brand applications for businesses in Qatar. We start with what your brand needs to communicate, then shape a visual and verbal system your team can use consistently.",
+    "heading": "A clear identity. A recognizable brand.",
+    "service": {
+      "slug": "branding",
+      "name": {
+        "en": "Branding",
+        "ar": "العلامة التجارية والهوية البصرية"
+      },
+      "title": {
+        "en": "Branding Agency in Qatar",
+        "ar": "تصميم الهوية البصرية وبناء العلامات التجارية في قطر"
+      },
+      "heading": {
+        "en": "A clear identity. A recognizable brand.",
+        "ar": "هوية واضحة. وعلامة يعرفها جمهورك."
+      },
+      "intro": {
+        "en": "Creovo Media connects positioning, identity and brand applications for businesses in Qatar. We start with what your brand needs to communicate, then shape a visual and verbal system your team can use consistently.",
+        "ar": "تربط Creovo Media بين تموضع العلامة وهويتها وتطبيقاتها للشركات في قطر. نبدأ بالرسالة التي تحتاج علامتك إلى إيصالها، ثم نبني نظاماً بصرياً ولفظياً يستطيع فريقك استخدامه باتساق."
+      },
+      "capabilities": {
+        "en": [
+          "Positioning and brand strategy",
+          "Visual identity and logo systems",
+          "Typography, colour and brand guidelines",
+          "Rebranding and creative direction"
+        ],
+        "ar": [
+          "استراتيجية العلامة وتموضعها",
+          "الهوية البصرية وأنظمة الشعار",
+          "الخطوط والألوان ودليل الهوية",
+          "تجديد العلامة والتوجيه الإبداعي"
+        ]
+      },
+      "deliverables": {
+        "en": "The agreed scope can include positioning, identity assets, usage guidelines and selected brand applications. A logo project and a complete brand system require different briefs; we clarify that distinction before quoting.",
+        "ar": "قد يشمل النطاق المتفق عليه تموضع العلامة وملفات الهوية ودليل الاستخدام وتطبيقات مختارة. يختلف مشروع الشعار عن نظام الهوية المتكامل، ونوضح هذا الفرق قبل إعداد العرض."
+      },
+      "approach": {
+        "en": "We review your existing identity, audience and competitors before choosing what to retain or change. Recognition, usability and consistency guide the creative direction.",
+        "ar": "نراجع هويتك الحالية وجمهورك ومنافسيك قبل تحديد ما يحتاج إلى الاستمرار أو التغيير. يقود التوجيه الإبداعي وضوح العلامة وسهولة استخدامها واتساقها."
+      },
+      "questions": [
+        {
+          "en": "Is branding the same as logo design?",
+          "ar": "هل بناء العلامة هو نفسه تصميم الشعار؟"
+        },
+        {
+          "en": "When should we consider rebranding?",
+          "ar": "متى نحتاج إلى تجديد العلامة؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "A logo is one part of a brand identity. Branding also addresses positioning, messaging and how the identity works across customer touchpoints.",
+          "ar": "الشعار جزء من هوية العلامة. يشمل بناء العلامة أيضاً تموضعها ورسائلها وطريقة ظهور هويتها في نقاط التواصل مع العملاء."
+        },
+        {
+          "en": "Consider a review when your offer, audience or business direction changes, or when the existing identity is difficult to use consistently. A review does not always require a complete redesign.",
+          "ar": "فكّر في المراجعة عندما تتغير خدماتك أو جمهورك أو توجه شركتك، أو حين يصعب استخدام الهوية الحالية باتساق. لا تعني المراجعة دائماً إعادة تصميم كاملة."
+        }
+      ],
+      "related": [
+        "web-design",
+        "content-creation"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/social-media/",
+    "title": "Social Media Management Agency in Qatar | Creovo Media",
+    "description": "Creovo Media plans, creates and manages social content for Qatar businesses. We connect the audience, publishing rhythm and brand voice so each channel has a defined role instead of simply filling a calendar.",
+    "heading": "A social presence with a clear purpose.",
+    "service": {
+      "slug": "social-media",
+      "name": {
+        "en": "Social Media Management",
+        "ar": "إدارة مواقع التواصل الاجتماعي"
+      },
+      "title": {
+        "en": "Social Media Management Agency in Qatar",
+        "ar": "إدارة حسابات التواصل الاجتماعي في قطر"
+      },
+      "heading": {
+        "en": "A social presence with a clear purpose.",
+        "ar": "حضور اجتماعي له هدف واضح."
+      },
+      "intro": {
+        "en": "Creovo Media plans, creates and manages social content for Qatar businesses. We connect the audience, publishing rhythm and brand voice so each channel has a defined role instead of simply filling a calendar.",
+        "ar": "تخطط Creovo Media للمحتوى الاجتماعي وتنتجه وتديره للشركات في قطر. نربط بين الجمهور وجدول النشر وصوت العلامة ليؤدي كل حساب دوراً واضحاً بدلاً من الاكتفاء بملء التقويم."
+      },
+      "capabilities": {
+        "en": [
+          "Channel strategy and content calendars",
+          "Creative concepts, copy and social video",
+          "Publishing and community workflows",
+          "Reporting and content review"
+        ],
+        "ar": [
+          "استراتيجية القنوات وتقويم المحتوى",
+          "الأفكار الإبداعية والنصوص والفيديو الاجتماعي",
+          "النشر وآليات إدارة المجتمع",
+          "التقارير ومراجعة المحتوى"
+        ]
+      },
+      "deliverables": {
+        "en": "Agree the platforms, content formats, monthly production volume, publishing responsibilities and reporting cadence in the brief. Instagram, TikTok or LinkedIn should be selected for audience fit, not included automatically.",
+        "ar": "نحدد المنصات وصيغ المحتوى وحجم الإنتاج الشهري ومسؤوليات النشر ودورية التقارير في موجز المشروع. يُختار Instagram أو TikTok أو LinkedIn وفق الجمهور، وليس بصورة تلقائية."
+      },
+      "approach": {
+        "en": "Production and publishing are planned together. We establish approvals, response responsibilities and a practical learning cycle so the next content plan builds on actual audience response.",
+        "ar": "نخطط للإنتاج والنشر معاً. نحدد آلية الموافقات ومسؤوليات الرد ودورة عملية للتعلّم، كي تستند الخطة التالية إلى استجابة الجمهور الفعلية."
+      },
+      "questions": [
+        {
+          "en": "Is content creation included in management?",
+          "ar": "هل تشمل الإدارة صناعة المحتوى؟"
+        },
+        {
+          "en": "Which platforms should our business use?",
+          "ar": "ما المنصات المناسبة لشركتنا؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "The scope specifies which assets we produce and which your team supplies. Management can also include planning, publishing and reporting beyond production.",
+          "ar": "يحدد النطاق المواد التي ننتجها وما يقدمه فريقك. وقد تشمل الإدارة التخطيط والنشر والتقارير إلى جانب الإنتاج."
+        },
+        {
+          "en": "Start with where your customers discover and evaluate your offer. We consider your audience, available material and team capacity before recommending channels.",
+          "ar": "ابدأ بالقنوات التي يكتشف فيها عملاؤك خدماتك ويقيّمونها. ندرس الجمهور والمواد المتاحة وقدرة الفريق قبل التوصية بالقنوات."
+        }
+      ],
+      "related": [
+        "content-creation",
+        "digital-marketing"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/video-production/",
+    "title": "Video Production Company in Qatar | Creovo Media",
+    "description": "From the first treatment to the final cut, Creovo Media connects creative direction and production for brand, product, corporate and social video in Qatar. Each film starts with a communication objective and the screens it needs to reach.",
+    "heading": "Film with a point of view.",
+    "service": {
+      "slug": "video-production",
+      "name": {
+        "en": "Video Production",
+        "ar": "إنتاج الفيديو"
+      },
+      "title": {
+        "en": "Video Production Company in Qatar",
+        "ar": "شركة إنتاج فيديو في قطر"
+      },
+      "heading": {
+        "en": "Film with a point of view.",
+        "ar": "فيديو يحمل رؤية واضحة."
+      },
+      "intro": {
+        "en": "From the first treatment to the final cut, Creovo Media connects creative direction and production for brand, product, corporate and social video in Qatar. Each film starts with a communication objective and the screens it needs to reach.",
+        "ar": "من المعالجة الإبداعية الأولى إلى النسخة النهائية، تربط Creovo Media بين الرؤية والإنتاج لأفلام العلامات والمنتجات والشركات والمحتوى الاجتماعي في قطر. يبدأ كل فيديو بهدف اتصالي واضح ومعرفة الشاشات التي سيظهر عليها."
+      },
+      "capabilities": {
+        "en": [
+          "Concepts, scripts and storyboards",
+          "Location, crew and production planning",
+          "Filming, lighting and production sound",
+          "Editing, colour, sound and delivery formats"
+        ],
+        "ar": [
+          "الأفكار والسيناريو ولوحات المشاهد",
+          "تخطيط المواقع والفريق والإنتاج",
+          "التصوير والإضاءة وتسجيل الصوت",
+          "المونتاج والألوان والصوت وصيغ التسليم"
+        ]
+      },
+      "deliverables": {
+        "en": "A project may require a hero film, shorter edits, vertical versions or product sequences. We agree the duration, aspect ratios, languages, revision rounds and usage needs before filming so the production captures the right material.",
+        "ar": "قد يحتاج المشروع إلى فيلم رئيسي أو نسخ مختصرة أو عمودية أو مشاهد للمنتجات. نتفق على المدة ونسب الأبعاد واللغات وجولات التعديل والاستخدامات قبل التصوير لضمان التقاط المواد المناسبة."
+      },
+      "approach": {
+        "en": "Pre-production resolves the message, shot plan and logistics before the shoot. Editing then brings the narrative, pace, colour and sound together. Location access, permissions and any casting are confirmed for the specific brief.",
+        "ar": "تحسم مرحلة ما قبل الإنتاج الرسالة وخطة اللقطات والترتيبات قبل التصوير. ثم يجمع المونتاج السرد والإيقاع والألوان والصوت. تُؤكد إمكانية استخدام المواقع والتصاريح وأي متطلبات لاختيار المشاركين وفق المشروع."
+      },
+      "questions": [
+        {
+          "en": "What should we prepare before requesting a film?",
+          "ar": "ماذا نجهز قبل طلب إنتاج فيديو؟"
+        },
+        {
+          "en": "Can one shoot support different platforms?",
+          "ar": "هل يمكن أن يخدم تصوير واحد منصات متعددة؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Share the objective, audience, references, intended channels, key messages and deadline. Existing brand assets and location constraints help us plan an appropriate production.",
+          "ar": "شارك الهدف والجمهور والمراجع والقنوات والرسائل الأساسية والموعد المطلوب. تساعدنا ملفات الهوية وقيود المواقع على التخطيط لإنتاج مناسب."
+        },
+        {
+          "en": "Yes, when the formats are planned in advance. Vertical and horizontal framing, shorter narratives and text-safe areas influence the shot list and edit plan.",
+          "ar": "نعم، عندما تُخطط الصيغ مسبقاً. يؤثر التأطير العمودي والأفقي والقصص المختصرة ومساحات النص في قائمة اللقطات وخطة المونتاج."
+        }
+      ],
+      "related": [
+        "content-creation",
+        "event-coverage"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/content-creation/",
+    "title": "Content Creation Agency in Qatar | Creovo Media",
+    "description": "Creovo Media creates campaign, product and social content for businesses in Qatar. We turn a brand direction into a practical set of stories, images and video assets suited to how people discover the business.",
+    "heading": "One idea. Many useful expressions.",
+    "service": {
+      "slug": "content-creation",
+      "name": {
+        "en": "Content Creation",
+        "ar": "صناعة المحتوى"
+      },
+      "title": {
+        "en": "Content Creation Agency in Qatar",
+        "ar": "صناعة المحتوى للعلامات التجارية في قطر"
+      },
+      "heading": {
+        "en": "One idea. Many useful expressions.",
+        "ar": "فكرة واحدة. وتعبيرات متعددة."
+      },
+      "intro": {
+        "en": "Creovo Media creates campaign, product and social content for businesses in Qatar. We turn a brand direction into a practical set of stories, images and video assets suited to how people discover the business.",
+        "ar": "تنتج Creovo Media محتوى الحملات والمنتجات والمنصات الاجتماعية للشركات في قطر. نحوّل اتجاه العلامة إلى قصص وصور وفيديوهات عملية تناسب طريقة اكتشاف الجمهور للشركة."
+      },
+      "capabilities": {
+        "en": [
+          "Creative direction and content concepts",
+          "Product and lifestyle content",
+          "Short-form video and reels",
+          "Campaign assets and channel adaptations"
+        ],
+        "ar": [
+          "التوجيه الإبداعي وأفكار المحتوى",
+          "محتوى المنتجات وأسلوب الحياة",
+          "الفيديوهات القصيرة والريلز",
+          "مواد الحملات وتكييفها للقنوات"
+        ]
+      },
+      "deliverables": {
+        "en": "We define a content list with the formats, versions, copy requirements and delivery schedule. Production can be planned in batches so a focused session creates a coherent collection rather than disconnected posts.",
+        "ar": "نحدد قائمة بالمحتوى تشمل الصيغ والنسخ والنصوص المطلوبة وجدول التسليم. يمكن تنظيم الإنتاج على دفعات لتنتج الجلسة مجموعة مترابطة بدلاً من منشورات منفصلة."
+      },
+      "approach": {
+        "en": "For an F&B brief, texture, preparation and the customer occasion can shape the story. Corporate, hospitality and retail briefs need different evidence and tone; the approach follows the actual audience.",
+        "ar": "في مشاريع الأغذية والمشروبات، قد تقود القصة تفاصيل المنتج وتحضيره ومناسبة تناوله. وتحتاج مشاريع الشركات والضيافة والتجزئة إلى أدلة ونبرة مختلفة، لذلك يتبع النهج الجمهور الفعلي."
+      },
+      "questions": [
+        {
+          "en": "How is content creation different from social management?",
+          "ar": "ما الفرق بين صناعة المحتوى وإدارة الحسابات؟"
+        },
+        {
+          "en": "What determines the production scope?",
+          "ar": "ما الذي يحدد نطاق الإنتاج؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Content creation produces the assets. Social management adds channel planning, publishing and ongoing review. The two can be combined when the brief requires it.",
+          "ar": "تنتج صناعة المحتوى المواد، بينما تضيف إدارة الحسابات تخطيط القنوات والنشر والمراجعة المستمرة. يمكن الجمع بينهما بحسب احتياجات المشروع."
+        },
+        {
+          "en": "The number of concepts, locations, products, formats, languages and revisions affects the production plan. We define these before confirming delivery.",
+          "ar": "يؤثر عدد الأفكار والمواقع والمنتجات والصيغ واللغات والتعديلات في خطة الإنتاج. نحدد هذه العناصر قبل تأكيد التسليم."
+        }
+      ],
+      "related": [
+        "video-production",
+        "social-media"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/digital-marketing/",
+    "title": "Digital Marketing Agency in Qatar | Creovo Media",
+    "description": "Creovo Media brings campaign strategy, content and measurement together for Qatar businesses. We define the audience and conversion journey before deciding how the campaign should look and where it should run.",
+    "heading": "Connect the creative to the business goal.",
+    "service": {
+      "slug": "digital-marketing",
+      "name": {
+        "en": "Digital Marketing",
+        "ar": "التسويق الرقمي"
+      },
+      "title": {
+        "en": "Digital Marketing Agency in Qatar",
+        "ar": "وكالة تسويق رقمي في قطر"
+      },
+      "heading": {
+        "en": "Connect the creative to the business goal.",
+        "ar": "اربط الإبداع بهدف عملك."
+      },
+      "intro": {
+        "en": "Creovo Media brings campaign strategy, content and measurement together for Qatar businesses. We define the audience and conversion journey before deciding how the campaign should look and where it should run.",
+        "ar": "تجمع Creovo Media استراتيجية الحملات والمحتوى والقياس للشركات في قطر. نحدد الجمهور ومسار التحويل قبل تقرير شكل الحملة والقنوات التي ستعمل عليها."
+      },
+      "capabilities": {
+        "en": [
+          "Digital strategy and campaign planning",
+          "Creative and paid-media coordination",
+          "Landing-page and conversion review",
+          "Measurement and campaign learning"
+        ],
+        "ar": [
+          "الاستراتيجية الرقمية وتخطيط الحملات",
+          "تنسيق الإبداع والإعلام المدفوع",
+          "مراجعة صفحات الوصول والتحويل",
+          "القياس والتعلّم من الحملات"
+        ]
+      },
+      "deliverables": {
+        "en": "A campaign brief connects audience, offer, creative assets, landing pages and success measures. Media budgets, production costs and ongoing management are scoped separately so responsibilities are clear.",
+        "ar": "يربط موجز الحملة بين الجمهور والعرض والمواد الإبداعية وصفحات الوصول ومقاييس النجاح. تُحدد ميزانيات الإعلان وتكاليف الإنتاج والإدارة المستمرة بصورة منفصلة لتوضيح المسؤوليات."
+      },
+      "approach": {
+        "en": "We review the full path from first impression to enquiry. The aim is useful business response, measured against an agreed objective. Organic-search work is scoped through the dedicated SEO service.",
+        "ar": "نراجع المسار كاملاً من الانطباع الأول إلى الاستفسار. الهدف استجابة تجارية مفيدة تُقاس وفق هدف متفق عليه. ويُحدد عمل البحث العضوي ضمن خدمة تحسين محركات البحث المستقلة."
+      },
+      "questions": [
+        {
+          "en": "Does the campaign fee include advertising spend?",
+          "ar": "هل تشمل تكلفة الحملة ميزانية الإعلان؟"
+        },
+        {
+          "en": "How do you define success?",
+          "ar": "كيف تحددون النجاح؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "The proposal separates media spend, creative production and management where applicable. No budget is assumed until the audience, channels and objective are understood.",
+          "ar": "يفصل العرض بين الإنفاق الإعلاني والإنتاج الإبداعي والإدارة عند الحاجة. لا تُفترض ميزانية قبل فهم الجمهور والقنوات والهدف."
+        },
+        {
+          "en": "We agree meaningful measures such as qualified enquiries or relevant visits, then verify what can be tracked. Results depend on the offer, audience, budget and execution.",
+          "ar": "نتفق على مقاييس مفيدة مثل الاستفسارات المؤهلة أو الزيارات ذات الصلة، ثم نتحقق مما يمكن تتبعه. تعتمد النتائج على العرض والجمهور والميزانية والتنفيذ."
+        }
+      ],
+      "related": [
+        "seo",
+        "social-media"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/seo/",
+    "title": "SEO Agency in Qatar | Creovo Media",
+    "description": "Creovo Media helps Qatar businesses organize their websites around the questions buyers ask. Technical foundations, service content and clear conversion paths work together to support relevant organic discovery.",
+    "heading": "Be found for the work you actually do.",
+    "service": {
+      "slug": "seo",
+      "name": {
+        "en": "SEO",
+        "ar": "تحسين محركات البحث"
+      },
+      "title": {
+        "en": "SEO Agency in Qatar",
+        "ar": "خدمات تحسين محركات البحث في قطر"
+      },
+      "heading": {
+        "en": "Be found for the work you actually do.",
+        "ar": "اظهر لمن يبحث عن خدماتك فعلاً."
+      },
+      "intro": {
+        "en": "Creovo Media helps Qatar businesses organize their websites around the questions buyers ask. Technical foundations, service content and clear conversion paths work together to support relevant organic discovery.",
+        "ar": "تساعد Creovo Media الشركات في قطر على تنظيم مواقعها حول أسئلة العملاء. تعمل الأسس التقنية ومحتوى الخدمات ومسارات التواصل الواضحة معاً لدعم الوصول عبر البحث العضوي."
+      },
+      "capabilities": {
+        "en": [
+          "Technical crawl and indexability audits",
+          "Search intent and keyword mapping",
+          "On-page content and internal linking",
+          "Local-search and measurement foundations"
+        ],
+        "ar": [
+          "تدقيق الزحف والفهرسة تقنياً",
+          "تحليل نية البحث وخريطة الكلمات",
+          "محتوى الصفحات والروابط الداخلية",
+          "أسس البحث المحلي والقياس"
+        ]
+      },
+      "deliverables": {
+        "en": "An agreed engagement can include a technical issue register, intent map, metadata and linking improvements, structured-data recommendations and a prioritized content plan. Search Console and analytics access are required for evidence-based reporting.",
+        "ar": "قد يشمل الاتفاق سجلاً للمشكلات التقنية وخريطة لنية البحث وتحسين البيانات الوصفية والروابط وتوصيات البيانات المنظمة وخطة محتوى مرتبة بالأولوية. يتطلب إعداد تقارير مبنية على الأدلة صلاحية الوصول إلى Search Console والتحليلات."
+      },
+      "approach": {
+        "en": "We address availability and indexability before adding pages. One useful destination should answer each distinct buying intent. Progress is assessed through search visibility and enquiry quality, not ranking guarantees.",
+        "ar": "نعالج الإتاحة والفهرسة قبل إضافة صفحات. ينبغي أن تخدم كل صفحة مفيدة نية شراء مميزة. يُقيّم التقدم عبر الظهور في البحث وجودة الاستفسارات، دون ضمانات لترتيب محدد."
+      },
+      "questions": [
+        {
+          "en": "Can you guarantee the first position on Google?",
+          "ar": "هل تضمنون المركز الأول في Google؟"
+        },
+        {
+          "en": "What affects how long SEO takes?",
+          "ar": "ما الذي يؤثر في مدة ظهور نتائج السيو؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "No. Search engines control rankings. We can define the work, implementation priorities and reporting, but cannot guarantee a position or a fixed volume of leads.",
+          "ar": "لا. تتحكم محركات البحث في الترتيب. نستطيع تحديد العمل وأولويات التنفيذ والتقارير، لكن لا نضمن ترتيباً معيناً أو عدداً ثابتاً من العملاء المحتملين."
+        },
+        {
+          "en": "The starting technical condition, competition, content evidence and implementation pace all matter. An audit is needed before setting realistic milestones.",
+          "ar": "تؤثر الحالة التقنية الحالية والمنافسة وأدلة المحتوى وسرعة التنفيذ. يلزم التدقيق قبل تحديد مراحل واقعية للعمل."
+        }
+      ],
+      "related": [
+        "web-design",
+        "digital-marketing"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/web-design/",
+    "title": "Website Design Company in Qatar | Creovo Media",
+    "description": "Creovo Media designs responsive websites for Qatar businesses, connecting brand expression, information architecture and usability. We plan how visitors explore the offer and how the team will maintain the site after launch.",
+    "heading": "A website that makes the next step clear.",
+    "service": {
+      "slug": "web-design",
+      "name": {
+        "en": "Website Design",
+        "ar": "تصميم المواقع"
+      },
+      "title": {
+        "en": "Website Design Company in Qatar",
+        "ar": "تصميم وتطوير مواقع إلكترونية في قطر"
+      },
+      "heading": {
+        "en": "A website that makes the next step clear.",
+        "ar": "موقع يجعل الخطوة التالية واضحة."
+      },
+      "intro": {
+        "en": "Creovo Media designs responsive websites for Qatar businesses, connecting brand expression, information architecture and usability. We plan how visitors explore the offer and how the team will maintain the site after launch.",
+        "ar": "تصمم Creovo Media مواقع متجاوبة للشركات في قطر، تجمع بين تعبير العلامة وهيكلة المعلومات وسهولة الاستخدام. نخطط لكيفية استكشاف الزوار للخدمات وإدارة الفريق للموقع بعد الإطلاق."
+      },
+      "capabilities": {
+        "en": [
+          "Website strategy and information architecture",
+          "UX and interface design",
+          "Responsive development and interactions",
+          "Performance, accessibility and SEO foundations"
+        ],
+        "ar": [
+          "استراتيجية الموقع وهيكلة المعلومات",
+          "تجربة المستخدم وتصميم الواجهات",
+          "التطوير المتجاوب والتفاعلات",
+          "أسس الأداء وإمكانية الوصول والسيو"
+        ]
+      },
+      "deliverables": {
+        "en": "The proposal defines the page structure, design system, responsive templates, integrations and handover. Hosting, domain ownership, content supply and ongoing support should be agreed before development begins.",
+        "ar": "يحدد العرض هيكل الصفحات ونظام التصميم والقوالب المتجاوبة والتكاملات والتسليم. يجب الاتفاق على الاستضافة وملكية النطاق وتوفير المحتوى والدعم المستمر قبل بدء التطوير."
+      },
+      "approach": {
+        "en": "We treat mobile navigation, form completion and loading behaviour as part of the design. Search-friendly content and accessible interactions should remain clear even when the visual experience includes motion.",
+        "ar": "نعدّ التنقل على الهاتف وإكمال النماذج وسلوك التحميل جزءاً من التصميم. يجب أن يبقى المحتوى القابل للاكتشاف والتفاعل الميسّر واضحين حتى عندما تتضمن التجربة حركة بصرية."
+      },
+      "questions": [
+        {
+          "en": "Can you redesign an existing website?",
+          "ar": "هل يمكنكم إعادة تصميم موقع قائم؟"
+        },
+        {
+          "en": "What should we provide before design starts?",
+          "ar": "ماذا نقدم قبل بدء التصميم؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Yes. The first step is to review the current structure, content, user needs and URLs worth preserving. Redirect planning is part of a migration when addresses change.",
+          "ar": "نعم. نبدأ بمراجعة الهيكل والمحتوى واحتياجات المستخدمين والروابط التي ينبغي الحفاظ عليها. يشمل الانتقال تخطيط إعادة التوجيه إذا تغيرت العناوين."
+        },
+        {
+          "en": "Share your brand assets, business priorities, existing domain and hosting details, content responsibilities and required integrations.",
+          "ar": "شارك ملفات الهوية وأولويات العمل وتفاصيل النطاق والاستضافة ومسؤوليات المحتوى والتكاملات المطلوبة."
+        }
+      ],
+      "related": [
+        "branding",
+        "seo"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/influencer-marketing/",
+    "title": "Influencer Marketing Agency in Qatar | Creovo Media",
+    "description": "Creovo Media connects campaign objectives with creator fit for brands in Qatar. We consider audience relevance, creative direction and deliverables before selecting who should tell the story.",
+    "heading": "The right voice for the right story.",
+    "service": {
+      "slug": "influencer-marketing",
+      "name": {
+        "en": "Influencer Marketing",
+        "ar": "التسويق عبر المؤثرين"
+      },
+      "title": {
+        "en": "Influencer Marketing Agency in Qatar",
+        "ar": "التسويق عبر المؤثرين في قطر"
+      },
+      "heading": {
+        "en": "The right voice for the right story.",
+        "ar": "الصوت المناسب للقصة المناسبة."
+      },
+      "intro": {
+        "en": "Creovo Media connects campaign objectives with creator fit for brands in Qatar. We consider audience relevance, creative direction and deliverables before selecting who should tell the story.",
+        "ar": "تربط Creovo Media أهداف الحملة بملاءمة صانع المحتوى للعلامات في قطر. ندرس صلة الجمهور والتوجيه الإبداعي والمخرجات قبل اختيار من يروي القصة."
+      },
+      "capabilities": {
+        "en": [
+          "Campaign strategy and creator identification",
+          "Brand-fit review and coordination",
+          "Briefing and content approval planning",
+          "Deliverables, usage terms and reporting"
+        ],
+        "ar": [
+          "استراتيجية الحملة واختيار صناع المحتوى",
+          "مراجعة ملاءمة العلامة والتنسيق",
+          "إعداد الموجز وتخطيط اعتماد المحتوى",
+          "المخرجات وشروط الاستخدام والتقارير"
+        ]
+      },
+      "deliverables": {
+        "en": "Agree the creator criteria, content formats, posting schedule, approvals and reporting needs in advance. Creator fees, availability, exclusivity and paid usage require project-specific confirmation.",
+        "ar": "اتفق مسبقاً على معايير اختيار صناع المحتوى وصيغ المحتوى وجدول النشر والموافقات والتقارير. تتطلب الأتعاب والتوفر والحصرية والاستخدام المدفوع تأكيداً خاصاً بالمشروع."
+      },
+      "approach": {
+        "en": "Follower counts alone do not establish fit. We assess the audience, the creator’s style and how a sponsored message can be communicated clearly. We do not claim an exclusive or guaranteed creator roster.",
+        "ar": "لا تكفي أعداد المتابعين لتحديد الملاءمة. نقيّم الجمهور وأسلوب صانع المحتوى وكيفية إيصال الرسالة الإعلانية بوضوح. لا ندّعي امتلاك قائمة حصرية أو مضمونة من المؤثرين."
+      },
+      "questions": [
+        {
+          "en": "Can we reuse creator content in paid advertising?",
+          "ar": "هل نستطيع استخدام محتوى المؤثر في الإعلانات المدفوعة؟"
+        },
+        {
+          "en": "How are creators selected?",
+          "ar": "كيف يتم اختيار صناع المحتوى؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Only if the agreed rights allow it. Usage duration, channels, territory and editing permissions should be explicit in the campaign agreement.",
+          "ar": "فقط إذا سمحت الحقوق المتفق عليها بذلك. يجب توضيح مدة الاستخدام والقنوات والنطاق الجغرافي وصلاحيات التعديل في اتفاق الحملة."
+        },
+        {
+          "en": "Selection follows the audience, category, creative fit and budget. Availability and the final commercial terms are confirmed with each creator.",
+          "ar": "يتبع الاختيار الجمهور والمجال والملاءمة الإبداعية والميزانية. يُؤكد التوفر والشروط التجارية النهائية مع كل صانع محتوى."
+        }
+      ],
+      "related": [
+        "social-media",
+        "content-creation"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/services/event-coverage/",
+    "title": "Event Coverage & Video Production in Qatar | Creovo Media",
+    "description": "Creovo Media documents corporate events, launches and brand occasions in Qatar through planned visual coverage. We identify the moments, people and messages that matter before the event begins.",
+    "heading": "Keep the moment. Extend the story.",
+    "service": {
+      "slug": "event-coverage",
+      "name": {
+        "en": "Event Coverage",
+        "ar": "تغطية الفعاليات"
+      },
+      "title": {
+        "en": "Event Coverage & Video Production in Qatar",
+        "ar": "تصوير وتغطية الفعاليات في قطر"
+      },
+      "heading": {
+        "en": "Keep the moment. Extend the story.",
+        "ar": "وثّق اللحظة. وامنح القصة امتداداً."
+      },
+      "intro": {
+        "en": "Creovo Media documents corporate events, launches and brand occasions in Qatar through planned visual coverage. We identify the moments, people and messages that matter before the event begins.",
+        "ar": "توثّق Creovo Media فعاليات الشركات والإطلاقات ومناسبات العلامات في قطر عبر تغطية بصرية مخططة. نحدد اللحظات والأشخاص والرسائل المهمة قبل بدء الفعالية."
+      },
+      "capabilities": {
+        "en": [
+          "Coverage planning and priority shot lists",
+          "Event photography and videography",
+          "Interviews and highlight films",
+          "Social edits and delivery planning"
+        ],
+        "ar": [
+          "تخطيط التغطية وقائمة اللقطات المهمة",
+          "التصوير الفوتوغرافي والفيديو للفعاليات",
+          "المقابلات وأفلام الملخصات",
+          "النسخ الاجتماعية وتخطيط التسليم"
+        ]
+      },
+      "deliverables": {
+        "en": "The scope specifies coverage hours, crew, key moments and the required edits or image selections. Fast-turnaround or same-day delivery is confirmed only when the schedule and resources support it.",
+        "ar": "يحدد النطاق ساعات التغطية والفريق واللحظات الأساسية والنسخ المطلوبة أو مختارات الصور. لا يُؤكد التسليم السريع أو في اليوم نفسه إلا إذا سمح الجدول والموارد بذلك."
+      },
+      "approach": {
+        "en": "We plan around the run of show, venue access, lighting and sound conditions. Speaker priorities, brand assets and interview permissions help make the final coverage useful beyond the day itself.",
+        "ar": "نخطط وفق برنامج الفعالية وإمكانية الوصول للموقع وظروف الإضاءة والصوت. تساعد أولويات المتحدثين ومواد العلامة وتصاريح المقابلات على جعل التغطية مفيدة بعد يوم الحدث."
+      },
+      "questions": [
+        {
+          "en": "Do you organize the entire event?",
+          "ar": "هل تتولون تنظيم الفعالية بالكامل؟"
+        },
+        {
+          "en": "What is needed to plan the coverage?",
+          "ar": "ما المطلوب لتخطيط التغطية؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "This service focuses on media coverage. Share any wider production needs so the scope and responsibilities can be confirmed before booking.",
+          "ar": "تركز هذه الخدمة على التغطية الإعلامية. شارك أي احتياجات إنتاجية أوسع لتأكيد النطاق والمسؤوليات قبل الحجز."
+        },
+        {
+          "en": "Send the venue, date, schedule, audience, priority guests and required outputs. Access restrictions and consent requirements should be raised early.",
+          "ar": "أرسل الموقع والتاريخ والبرنامج والجمهور والضيوف الأساسيين والمخرجات المطلوبة. ينبغي توضيح قيود الدخول ومتطلبات الموافقة مبكراً."
+        }
+      ],
+      "related": [
+        "video-production",
+        "content-creation"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/work/",
+    "title": "Work | Creovo Media",
+    "description": "A selection of films and content supplied from the Creovo Media portfolio. Explore the work, then tell us what you want to create.",
+    "heading": "Selected work",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "en",
+    "route": "/case-studies/",
+    "title": "Case studies | Creovo Media",
+    "description": "Our films are available in the portfolio. Detailed client stories will be published when the scope, credits and outcomes are confirmed.",
+    "heading": "Work with context.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": true
+  },
+  {
+    "locale": "en",
+    "route": "/about/",
+    "title": "About | Creovo Media",
+    "description": "Creovo Media is based in Al Wakrah and works with businesses across Qatar on branding, content, production and digital experiences. We bring the disciplines around each brief together, from the first conversation to delivery.",
+    "heading": "Independent minds. Shared purpose.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "en",
+    "route": "/contact/",
+    "title": "Contact | Creovo Media",
+    "description": "Tell us about the challenge, the audience and what success should look like. Your enquiry goes directly to the Creovo Media team.",
+    "heading": "Start a project",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "en",
+    "route": "/industries/",
+    "title": "Industries | Creovo Media",
+    "description": "We welcome briefs from restaurants and F&B, corporate companies, real estate, hospitality, luxury brands, startups and retail. Each project begins with its own audience, operating context and business objective.",
+    "heading": "Different sectors. Specific briefs.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "en",
+    "route": "/insights/",
+    "title": "Insights | Creovo Media",
+    "description": "Practical guides for planning creative work, understanding the process and choosing the right scope.",
+    "heading": "Useful thinking for your next brief.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "en",
+    "route": "/insights/creative-agency-brief/",
+    "title": "How to brief a creative agency | Creovo Media",
+    "description": "A practical checklist for defining the objective, audience, deliverables and approval process before a creative project begins.",
+    "heading": "How to brief a creative agency",
+    "article": {
+      "slug": "creative-agency-brief",
+      "service": "branding",
+      "title": {
+        "en": "How to brief a creative agency",
+        "ar": "كيف تكتب موجزاً لوكالة إبداعية"
+      },
+      "description": {
+        "en": "A practical checklist for defining the objective, audience, deliverables and approval process before a creative project begins.",
+        "ar": "قائمة عملية لتحديد الهدف والجمهور والمخرجات وآلية الموافقة قبل بدء مشروع إبداعي."
+      },
+      "sections": [
+        [
+          {
+            "en": "Start with the decision",
+            "ar": "ابدأ بالقرار"
+          },
+          {
+            "en": "Explain what the work needs to help someone understand or do. “We need a video” defines a format; “help buyers understand the product before requesting a quote” defines a job. Include the audience, existing research and what they currently believe.",
+            "ar": "اشرح ما الذي ينبغي أن يساعد العمل شخصاً على فهمه أو فعله. «نحتاج فيديو» تحدد صيغة، بينما «نساعد المشترين على فهم المنتج قبل طلب عرض» تحدد مهمة. أضف الجمهور والأبحاث المتاحة وما يعتقده حالياً."
+          }
+        ],
+        [
+          {
+            "en": "Separate essentials from preferences",
+            "ar": "ميّز الضروري عن المفضل"
+          },
+          {
+            "en": "List required outputs, channels, languages, dates and brand constraints. Add references with a note explaining what is useful about each one. A preference for a visual style should not obscure an essential delivery requirement.",
+            "ar": "حدد المخرجات والقنوات واللغات والمواعيد وقيود العلامة المطلوبة. أرفق مراجع مع توضيح ما يفيدك في كل منها. يجب ألا تحجب الرغبة في أسلوب بصري معين متطلباً أساسياً للتسليم."
+          }
+        ],
+        [
+          {
+            "en": "Plan approvals before production",
+            "ar": "خطط للموافقات قبل الإنتاج"
+          },
+          {
+            "en": "Identify one person who consolidates feedback, the final approver and any legal or stakeholder review needed. Confirm what assets you can supply and which permissions are already secured. This makes the proposal more accurate and reduces avoidable rework.",
+            "ar": "حدد شخصاً يجمع الملاحظات وصاحب الموافقة النهائية وأي مراجعة قانونية أو مراجعة من أصحاب المصلحة. وضح المواد التي تستطيع توفيرها والتصاريح المؤكدة. يجعل ذلك العرض أدق ويقلل إعادة العمل التي يمكن تجنبها."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/insights/brand-strategy-vs-brand-identity/",
+    "title": "Brand strategy and identity: different jobs, one system | Creovo Media",
+    "description": "Understand what strategy and visual identity each contribute before deciding the scope of a branding brief.",
+    "heading": "Brand strategy and identity: different jobs, one system",
+    "article": {
+      "slug": "brand-strategy-vs-brand-identity",
+      "service": "branding",
+      "title": {
+        "en": "Brand strategy and identity: different jobs, one system",
+        "ar": "استراتيجية العلامة وهويتها: مهمتان في نظام واحد"
+      },
+      "description": {
+        "en": "Understand what strategy and visual identity each contribute before deciding the scope of a branding brief.",
+        "ar": "افهم دور الاستراتيجية والهوية البصرية قبل تحديد نطاق مشروع علامتك."
+      },
+      "sections": [
+        [
+          {
+            "en": "Strategy makes the choices",
+            "ar": "الاستراتيجية تحدد الاختيارات"
+          },
+          {
+            "en": "Brand strategy clarifies the audience, position and promise. It helps the team decide which messages belong and which do not. A strategy brief should describe the business problem, competing offers and the reason customers should care.",
+            "ar": "توضح استراتيجية العلامة الجمهور والتموضع والوعد. تساعد الفريق في تحديد الرسائل المناسبة وغير المناسبة. ينبغي أن يصف موجز الاستراتيجية مشكلة العمل والعروض المنافسة والسبب الذي يجعل العملاء يهتمون."
+          }
+        ],
+        [
+          {
+            "en": "Identity makes those choices visible",
+            "ar": "الهوية تجعل الاختيارات مرئية"
+          },
+          {
+            "en": "Identity expresses the direction through a logo system, typography, colour, imagery and applications. The test is not only whether one composition looks good, but whether the system remains recognizable across a website, a social post and a small printed application.",
+            "ar": "تعبر الهوية عن التوجه عبر نظام الشعار والخطوط والألوان والصور والتطبيقات. لا يقتصر الاختبار على جمال تصميم واحد، بل يشمل بقاء النظام معروفاً في الموقع والمنشور الاجتماعي والتطبيق المطبوع الصغير."
+          }
+        ],
+        [
+          {
+            "en": "Choose the scope around the gap",
+            "ar": "اختر النطاق وفق الفجوة"
+          },
+          {
+            "en": "If the business direction is clear but applications are inconsistent, identity work may be the priority. If the team cannot agree who the brand serves or why it is different, strategic work should come first. Review the current evidence before commissioning a complete rebrand.",
+            "ar": "إذا كان توجه العمل واضحاً والتطبيقات غير متسقة، فقد تكون الهوية هي الأولوية. وإذا لم يتفق الفريق على الجمهور أو وجه الاختلاف، ينبغي البدء بالاستراتيجية. راجع الأدلة الحالية قبل تكليف تجديد كامل للعلامة."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/insights/corporate-video-production-process/",
+    "title": "Planning a corporate video: from brief to delivery | Creovo Media",
+    "description": "What to agree before a corporate video shoot: message, contributors, locations, approvals and delivery formats.",
+    "heading": "Planning a corporate video: from brief to delivery",
+    "article": {
+      "slug": "corporate-video-production-process",
+      "service": "video-production",
+      "title": {
+        "en": "Planning a corporate video: from brief to delivery",
+        "ar": "تخطيط فيديو للشركات: من الموجز إلى التسليم"
+      },
+      "description": {
+        "en": "What to agree before a corporate video shoot: message, contributors, locations, approvals and delivery formats.",
+        "ar": "ما ينبغي الاتفاق عليه قبل تصوير فيديو للشركات: الرسالة والمشاركون والمواقع والموافقات وصيغ التسليم."
+      },
+      "sections": [
+        [
+          {
+            "en": "Resolve the message before the shoot",
+            "ar": "احسم الرسالة قبل التصوير"
+          },
+          {
+            "en": "Choose the primary audience and the question the film should answer. A sales introduction, recruitment film and internal update need different structures. Confirm the key claims and who can approve them before developing the treatment or script.",
+            "ar": "اختر الجمهور الرئيسي والسؤال الذي يجيب عنه الفيلم. تحتاج مقدمة المبيعات وفيلم التوظيف والتحديث الداخلي إلى هياكل مختلفة. أكد الادعاءات الرئيسية ومن يوافق عليها قبل تطوير المعالجة أو السيناريو."
+          }
+        ],
+        [
+          {
+            "en": "Make the production plan practical",
+            "ar": "اجعل خطة الإنتاج عملية"
+          },
+          {
+            "en": "Prepare the contributor schedule, location access, interview topics and supporting shots. Review sound conditions and filming permissions early. Share any restrictions on staff, screens, customer information or sensitive areas so the crew can plan around them.",
+            "ar": "جهز جدول المشاركين ودخول المواقع وموضوعات المقابلات واللقطات الداعمة. راجع ظروف الصوت وتصاريح التصوير مبكراً. وضح قيود تصوير الموظفين والشاشات وبيانات العملاء والمناطق الحساسة ليخطط الفريق على أساسها."
+          }
+        ],
+        [
+          {
+            "en": "Agree what “finished” means",
+            "ar": "اتفق على معنى «النسخة النهائية»"
+          },
+          {
+            "en": "List the required durations, aspect ratios, languages, subtitles and export formats. Consolidate review notes against one version at a time. A clear sign-off process helps the edit, colour and sound stages progress without reopening already approved decisions.",
+            "ar": "حدد المدد ونسب الأبعاد واللغات والترجمة النصية وصيغ التصدير. اجمع ملاحظات المراجعة على نسخة واحدة في كل مرة. تساعد آلية الاعتماد الواضحة على تقدم المونتاج والألوان والصوت دون إعادة فتح قرارات معتمدة."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/insights/social-media-management-vs-content-creation/",
+    "title": "Social management or content creation: which scope do you need? | Creovo Media",
+    "description": "Compare production-only briefs with ongoing social management before choosing responsibilities and deliverables.",
+    "heading": "Social management or content creation: which scope do you need?",
+    "article": {
+      "slug": "social-media-management-vs-content-creation",
+      "service": "social-media",
+      "title": {
+        "en": "Social management or content creation: which scope do you need?",
+        "ar": "إدارة حسابات أم صناعة محتوى: ما النطاق الذي تحتاجه؟"
+      },
+      "description": {
+        "en": "Compare production-only briefs with ongoing social management before choosing responsibilities and deliverables.",
+        "ar": "قارن بين موجز إنتاج المحتوى وإدارة الحسابات المستمرة قبل اختيار المسؤوليات والمخرجات."
+      },
+      "sections": [
+        [
+          {
+            "en": "Content creation produces the material",
+            "ar": "صناعة المحتوى تنتج المواد"
+          },
+          {
+            "en": "A content brief defines the concepts, images, videos and copy to be delivered. It suits teams that can manage their own publishing but need a coherent production plan or additional creative capacity.",
+            "ar": "يحدد موجز المحتوى الأفكار والصور والفيديوهات والنصوص المطلوب تسليمها. يناسب الفرق القادرة على إدارة النشر التي تحتاج إلى خطة إنتاج مترابطة أو قدرة إبداعية إضافية."
+          }
+        ],
+        [
+          {
+            "en": "Management connects the ongoing workflow",
+            "ar": "الإدارة تربط العمل المستمر"
+          },
+          {
+            "en": "Social management can connect channel strategy, planning, approvals, publishing, community response and reporting. The scope should identify what the agency manages and what remains with the client, especially customer service and sensitive enquiries.",
+            "ar": "قد تربط إدارة الحسابات استراتيجية القنوات والتخطيط والموافقات والنشر والرد والتقارير. يجب تحديد ما تديره الوكالة وما يبقى لدى العميل، خصوصاً خدمة العملاء والاستفسارات الحساسة."
+          }
+        ],
+        [
+          {
+            "en": "Choose around your team’s capacity",
+            "ar": "اختر وفق قدرة فريقك"
+          },
+          {
+            "en": "Map who currently plans, creates, approves and publishes. Look for the point where the workflow slows down. Then agree the content volume, access permissions, response expectations and reporting rhythm that the team can realistically support.",
+            "ar": "حدد من يخطط وينتج ويوافق وينشر حالياً. ابحث عن النقطة التي يتباطأ فيها العمل. ثم اتفق على حجم المحتوى وصلاحيات الوصول وتوقعات الرد ودورية التقارير بما يستطيع الفريق دعمه فعلياً."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "en",
+    "route": "/privacy/",
+    "title": "Privacy | Creovo Media",
+    "description": "When you send an enquiry, we collect the details you enter so we can review your request and reply. Please do not include sensitive personal information that is unnecessary for the project.",
+    "heading": "Privacy notice",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/",
+    "title": "وكالة إبداعية وإعلامية رقمية في قطر | Creovo Media",
+    "description": "Creovo Media وكالة إبداعية وإعلامية رقمية مقرها الوكرة وتخدم الشركات في جميع أنحاء قطر. نربط استراتيجية العلامة والمحتوى والإنتاج والتنفيذ الرقمي بالخطوة التالية التي يحتاجها عملك.",
+    "heading": "وكالة إبداعية وإعلامية رقمية في قطر",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/services/",
+    "title": "خدماتنا | Creovo Media",
+    "description": "تسع خدمات متكاملة. ونطاق عمل يحدده هدفك.",
+    "heading": "زوايا متعددة. رؤية واحدة.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/services/branding/",
+    "title": "تصميم الهوية البصرية وبناء العلامات التجارية في قطر | Creovo Media",
+    "description": "تربط Creovo Media بين تموضع العلامة وهويتها وتطبيقاتها للشركات في قطر. نبدأ بالرسالة التي تحتاج علامتك إلى إيصالها، ثم نبني نظاماً بصرياً ولفظياً يستطيع فريقك استخدامه باتساق.",
+    "heading": "هوية واضحة. وعلامة يعرفها جمهورك.",
+    "service": {
+      "slug": "branding",
+      "name": {
+        "en": "Branding",
+        "ar": "العلامة التجارية والهوية البصرية"
+      },
+      "title": {
+        "en": "Branding Agency in Qatar",
+        "ar": "تصميم الهوية البصرية وبناء العلامات التجارية في قطر"
+      },
+      "heading": {
+        "en": "A clear identity. A recognizable brand.",
+        "ar": "هوية واضحة. وعلامة يعرفها جمهورك."
+      },
+      "intro": {
+        "en": "Creovo Media connects positioning, identity and brand applications for businesses in Qatar. We start with what your brand needs to communicate, then shape a visual and verbal system your team can use consistently.",
+        "ar": "تربط Creovo Media بين تموضع العلامة وهويتها وتطبيقاتها للشركات في قطر. نبدأ بالرسالة التي تحتاج علامتك إلى إيصالها، ثم نبني نظاماً بصرياً ولفظياً يستطيع فريقك استخدامه باتساق."
+      },
+      "capabilities": {
+        "en": [
+          "Positioning and brand strategy",
+          "Visual identity and logo systems",
+          "Typography, colour and brand guidelines",
+          "Rebranding and creative direction"
+        ],
+        "ar": [
+          "استراتيجية العلامة وتموضعها",
+          "الهوية البصرية وأنظمة الشعار",
+          "الخطوط والألوان ودليل الهوية",
+          "تجديد العلامة والتوجيه الإبداعي"
+        ]
+      },
+      "deliverables": {
+        "en": "The agreed scope can include positioning, identity assets, usage guidelines and selected brand applications. A logo project and a complete brand system require different briefs; we clarify that distinction before quoting.",
+        "ar": "قد يشمل النطاق المتفق عليه تموضع العلامة وملفات الهوية ودليل الاستخدام وتطبيقات مختارة. يختلف مشروع الشعار عن نظام الهوية المتكامل، ونوضح هذا الفرق قبل إعداد العرض."
+      },
+      "approach": {
+        "en": "We review your existing identity, audience and competitors before choosing what to retain or change. Recognition, usability and consistency guide the creative direction.",
+        "ar": "نراجع هويتك الحالية وجمهورك ومنافسيك قبل تحديد ما يحتاج إلى الاستمرار أو التغيير. يقود التوجيه الإبداعي وضوح العلامة وسهولة استخدامها واتساقها."
+      },
+      "questions": [
+        {
+          "en": "Is branding the same as logo design?",
+          "ar": "هل بناء العلامة هو نفسه تصميم الشعار؟"
+        },
+        {
+          "en": "When should we consider rebranding?",
+          "ar": "متى نحتاج إلى تجديد العلامة؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "A logo is one part of a brand identity. Branding also addresses positioning, messaging and how the identity works across customer touchpoints.",
+          "ar": "الشعار جزء من هوية العلامة. يشمل بناء العلامة أيضاً تموضعها ورسائلها وطريقة ظهور هويتها في نقاط التواصل مع العملاء."
+        },
+        {
+          "en": "Consider a review when your offer, audience or business direction changes, or when the existing identity is difficult to use consistently. A review does not always require a complete redesign.",
+          "ar": "فكّر في المراجعة عندما تتغير خدماتك أو جمهورك أو توجه شركتك، أو حين يصعب استخدام الهوية الحالية باتساق. لا تعني المراجعة دائماً إعادة تصميم كاملة."
+        }
+      ],
+      "related": [
+        "web-design",
+        "content-creation"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/social-media/",
+    "title": "إدارة حسابات التواصل الاجتماعي في قطر | Creovo Media",
+    "description": "تخطط Creovo Media للمحتوى الاجتماعي وتنتجه وتديره للشركات في قطر. نربط بين الجمهور وجدول النشر وصوت العلامة ليؤدي كل حساب دوراً واضحاً بدلاً من الاكتفاء بملء التقويم.",
+    "heading": "حضور اجتماعي له هدف واضح.",
+    "service": {
+      "slug": "social-media",
+      "name": {
+        "en": "Social Media Management",
+        "ar": "إدارة مواقع التواصل الاجتماعي"
+      },
+      "title": {
+        "en": "Social Media Management Agency in Qatar",
+        "ar": "إدارة حسابات التواصل الاجتماعي في قطر"
+      },
+      "heading": {
+        "en": "A social presence with a clear purpose.",
+        "ar": "حضور اجتماعي له هدف واضح."
+      },
+      "intro": {
+        "en": "Creovo Media plans, creates and manages social content for Qatar businesses. We connect the audience, publishing rhythm and brand voice so each channel has a defined role instead of simply filling a calendar.",
+        "ar": "تخطط Creovo Media للمحتوى الاجتماعي وتنتجه وتديره للشركات في قطر. نربط بين الجمهور وجدول النشر وصوت العلامة ليؤدي كل حساب دوراً واضحاً بدلاً من الاكتفاء بملء التقويم."
+      },
+      "capabilities": {
+        "en": [
+          "Channel strategy and content calendars",
+          "Creative concepts, copy and social video",
+          "Publishing and community workflows",
+          "Reporting and content review"
+        ],
+        "ar": [
+          "استراتيجية القنوات وتقويم المحتوى",
+          "الأفكار الإبداعية والنصوص والفيديو الاجتماعي",
+          "النشر وآليات إدارة المجتمع",
+          "التقارير ومراجعة المحتوى"
+        ]
+      },
+      "deliverables": {
+        "en": "Agree the platforms, content formats, monthly production volume, publishing responsibilities and reporting cadence in the brief. Instagram, TikTok or LinkedIn should be selected for audience fit, not included automatically.",
+        "ar": "نحدد المنصات وصيغ المحتوى وحجم الإنتاج الشهري ومسؤوليات النشر ودورية التقارير في موجز المشروع. يُختار Instagram أو TikTok أو LinkedIn وفق الجمهور، وليس بصورة تلقائية."
+      },
+      "approach": {
+        "en": "Production and publishing are planned together. We establish approvals, response responsibilities and a practical learning cycle so the next content plan builds on actual audience response.",
+        "ar": "نخطط للإنتاج والنشر معاً. نحدد آلية الموافقات ومسؤوليات الرد ودورة عملية للتعلّم، كي تستند الخطة التالية إلى استجابة الجمهور الفعلية."
+      },
+      "questions": [
+        {
+          "en": "Is content creation included in management?",
+          "ar": "هل تشمل الإدارة صناعة المحتوى؟"
+        },
+        {
+          "en": "Which platforms should our business use?",
+          "ar": "ما المنصات المناسبة لشركتنا؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "The scope specifies which assets we produce and which your team supplies. Management can also include planning, publishing and reporting beyond production.",
+          "ar": "يحدد النطاق المواد التي ننتجها وما يقدمه فريقك. وقد تشمل الإدارة التخطيط والنشر والتقارير إلى جانب الإنتاج."
+        },
+        {
+          "en": "Start with where your customers discover and evaluate your offer. We consider your audience, available material and team capacity before recommending channels.",
+          "ar": "ابدأ بالقنوات التي يكتشف فيها عملاؤك خدماتك ويقيّمونها. ندرس الجمهور والمواد المتاحة وقدرة الفريق قبل التوصية بالقنوات."
+        }
+      ],
+      "related": [
+        "content-creation",
+        "digital-marketing"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/video-production/",
+    "title": "شركة إنتاج فيديو في قطر | Creovo Media",
+    "description": "من المعالجة الإبداعية الأولى إلى النسخة النهائية، تربط Creovo Media بين الرؤية والإنتاج لأفلام العلامات والمنتجات والشركات والمحتوى الاجتماعي في قطر. يبدأ كل فيديو بهدف اتصالي واضح ومعرفة الشاشات التي سيظهر عليها.",
+    "heading": "فيديو يحمل رؤية واضحة.",
+    "service": {
+      "slug": "video-production",
+      "name": {
+        "en": "Video Production",
+        "ar": "إنتاج الفيديو"
+      },
+      "title": {
+        "en": "Video Production Company in Qatar",
+        "ar": "شركة إنتاج فيديو في قطر"
+      },
+      "heading": {
+        "en": "Film with a point of view.",
+        "ar": "فيديو يحمل رؤية واضحة."
+      },
+      "intro": {
+        "en": "From the first treatment to the final cut, Creovo Media connects creative direction and production for brand, product, corporate and social video in Qatar. Each film starts with a communication objective and the screens it needs to reach.",
+        "ar": "من المعالجة الإبداعية الأولى إلى النسخة النهائية، تربط Creovo Media بين الرؤية والإنتاج لأفلام العلامات والمنتجات والشركات والمحتوى الاجتماعي في قطر. يبدأ كل فيديو بهدف اتصالي واضح ومعرفة الشاشات التي سيظهر عليها."
+      },
+      "capabilities": {
+        "en": [
+          "Concepts, scripts and storyboards",
+          "Location, crew and production planning",
+          "Filming, lighting and production sound",
+          "Editing, colour, sound and delivery formats"
+        ],
+        "ar": [
+          "الأفكار والسيناريو ولوحات المشاهد",
+          "تخطيط المواقع والفريق والإنتاج",
+          "التصوير والإضاءة وتسجيل الصوت",
+          "المونتاج والألوان والصوت وصيغ التسليم"
+        ]
+      },
+      "deliverables": {
+        "en": "A project may require a hero film, shorter edits, vertical versions or product sequences. We agree the duration, aspect ratios, languages, revision rounds and usage needs before filming so the production captures the right material.",
+        "ar": "قد يحتاج المشروع إلى فيلم رئيسي أو نسخ مختصرة أو عمودية أو مشاهد للمنتجات. نتفق على المدة ونسب الأبعاد واللغات وجولات التعديل والاستخدامات قبل التصوير لضمان التقاط المواد المناسبة."
+      },
+      "approach": {
+        "en": "Pre-production resolves the message, shot plan and logistics before the shoot. Editing then brings the narrative, pace, colour and sound together. Location access, permissions and any casting are confirmed for the specific brief.",
+        "ar": "تحسم مرحلة ما قبل الإنتاج الرسالة وخطة اللقطات والترتيبات قبل التصوير. ثم يجمع المونتاج السرد والإيقاع والألوان والصوت. تُؤكد إمكانية استخدام المواقع والتصاريح وأي متطلبات لاختيار المشاركين وفق المشروع."
+      },
+      "questions": [
+        {
+          "en": "What should we prepare before requesting a film?",
+          "ar": "ماذا نجهز قبل طلب إنتاج فيديو؟"
+        },
+        {
+          "en": "Can one shoot support different platforms?",
+          "ar": "هل يمكن أن يخدم تصوير واحد منصات متعددة؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Share the objective, audience, references, intended channels, key messages and deadline. Existing brand assets and location constraints help us plan an appropriate production.",
+          "ar": "شارك الهدف والجمهور والمراجع والقنوات والرسائل الأساسية والموعد المطلوب. تساعدنا ملفات الهوية وقيود المواقع على التخطيط لإنتاج مناسب."
+        },
+        {
+          "en": "Yes, when the formats are planned in advance. Vertical and horizontal framing, shorter narratives and text-safe areas influence the shot list and edit plan.",
+          "ar": "نعم، عندما تُخطط الصيغ مسبقاً. يؤثر التأطير العمودي والأفقي والقصص المختصرة ومساحات النص في قائمة اللقطات وخطة المونتاج."
+        }
+      ],
+      "related": [
+        "content-creation",
+        "event-coverage"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/content-creation/",
+    "title": "صناعة المحتوى للعلامات التجارية في قطر | Creovo Media",
+    "description": "تنتج Creovo Media محتوى الحملات والمنتجات والمنصات الاجتماعية للشركات في قطر. نحوّل اتجاه العلامة إلى قصص وصور وفيديوهات عملية تناسب طريقة اكتشاف الجمهور للشركة.",
+    "heading": "فكرة واحدة. وتعبيرات متعددة.",
+    "service": {
+      "slug": "content-creation",
+      "name": {
+        "en": "Content Creation",
+        "ar": "صناعة المحتوى"
+      },
+      "title": {
+        "en": "Content Creation Agency in Qatar",
+        "ar": "صناعة المحتوى للعلامات التجارية في قطر"
+      },
+      "heading": {
+        "en": "One idea. Many useful expressions.",
+        "ar": "فكرة واحدة. وتعبيرات متعددة."
+      },
+      "intro": {
+        "en": "Creovo Media creates campaign, product and social content for businesses in Qatar. We turn a brand direction into a practical set of stories, images and video assets suited to how people discover the business.",
+        "ar": "تنتج Creovo Media محتوى الحملات والمنتجات والمنصات الاجتماعية للشركات في قطر. نحوّل اتجاه العلامة إلى قصص وصور وفيديوهات عملية تناسب طريقة اكتشاف الجمهور للشركة."
+      },
+      "capabilities": {
+        "en": [
+          "Creative direction and content concepts",
+          "Product and lifestyle content",
+          "Short-form video and reels",
+          "Campaign assets and channel adaptations"
+        ],
+        "ar": [
+          "التوجيه الإبداعي وأفكار المحتوى",
+          "محتوى المنتجات وأسلوب الحياة",
+          "الفيديوهات القصيرة والريلز",
+          "مواد الحملات وتكييفها للقنوات"
+        ]
+      },
+      "deliverables": {
+        "en": "We define a content list with the formats, versions, copy requirements and delivery schedule. Production can be planned in batches so a focused session creates a coherent collection rather than disconnected posts.",
+        "ar": "نحدد قائمة بالمحتوى تشمل الصيغ والنسخ والنصوص المطلوبة وجدول التسليم. يمكن تنظيم الإنتاج على دفعات لتنتج الجلسة مجموعة مترابطة بدلاً من منشورات منفصلة."
+      },
+      "approach": {
+        "en": "For an F&B brief, texture, preparation and the customer occasion can shape the story. Corporate, hospitality and retail briefs need different evidence and tone; the approach follows the actual audience.",
+        "ar": "في مشاريع الأغذية والمشروبات، قد تقود القصة تفاصيل المنتج وتحضيره ومناسبة تناوله. وتحتاج مشاريع الشركات والضيافة والتجزئة إلى أدلة ونبرة مختلفة، لذلك يتبع النهج الجمهور الفعلي."
+      },
+      "questions": [
+        {
+          "en": "How is content creation different from social management?",
+          "ar": "ما الفرق بين صناعة المحتوى وإدارة الحسابات؟"
+        },
+        {
+          "en": "What determines the production scope?",
+          "ar": "ما الذي يحدد نطاق الإنتاج؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Content creation produces the assets. Social management adds channel planning, publishing and ongoing review. The two can be combined when the brief requires it.",
+          "ar": "تنتج صناعة المحتوى المواد، بينما تضيف إدارة الحسابات تخطيط القنوات والنشر والمراجعة المستمرة. يمكن الجمع بينهما بحسب احتياجات المشروع."
+        },
+        {
+          "en": "The number of concepts, locations, products, formats, languages and revisions affects the production plan. We define these before confirming delivery.",
+          "ar": "يؤثر عدد الأفكار والمواقع والمنتجات والصيغ واللغات والتعديلات في خطة الإنتاج. نحدد هذه العناصر قبل تأكيد التسليم."
+        }
+      ],
+      "related": [
+        "video-production",
+        "social-media"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/digital-marketing/",
+    "title": "وكالة تسويق رقمي في قطر | Creovo Media",
+    "description": "تجمع Creovo Media استراتيجية الحملات والمحتوى والقياس للشركات في قطر. نحدد الجمهور ومسار التحويل قبل تقرير شكل الحملة والقنوات التي ستعمل عليها.",
+    "heading": "اربط الإبداع بهدف عملك.",
+    "service": {
+      "slug": "digital-marketing",
+      "name": {
+        "en": "Digital Marketing",
+        "ar": "التسويق الرقمي"
+      },
+      "title": {
+        "en": "Digital Marketing Agency in Qatar",
+        "ar": "وكالة تسويق رقمي في قطر"
+      },
+      "heading": {
+        "en": "Connect the creative to the business goal.",
+        "ar": "اربط الإبداع بهدف عملك."
+      },
+      "intro": {
+        "en": "Creovo Media brings campaign strategy, content and measurement together for Qatar businesses. We define the audience and conversion journey before deciding how the campaign should look and where it should run.",
+        "ar": "تجمع Creovo Media استراتيجية الحملات والمحتوى والقياس للشركات في قطر. نحدد الجمهور ومسار التحويل قبل تقرير شكل الحملة والقنوات التي ستعمل عليها."
+      },
+      "capabilities": {
+        "en": [
+          "Digital strategy and campaign planning",
+          "Creative and paid-media coordination",
+          "Landing-page and conversion review",
+          "Measurement and campaign learning"
+        ],
+        "ar": [
+          "الاستراتيجية الرقمية وتخطيط الحملات",
+          "تنسيق الإبداع والإعلام المدفوع",
+          "مراجعة صفحات الوصول والتحويل",
+          "القياس والتعلّم من الحملات"
+        ]
+      },
+      "deliverables": {
+        "en": "A campaign brief connects audience, offer, creative assets, landing pages and success measures. Media budgets, production costs and ongoing management are scoped separately so responsibilities are clear.",
+        "ar": "يربط موجز الحملة بين الجمهور والعرض والمواد الإبداعية وصفحات الوصول ومقاييس النجاح. تُحدد ميزانيات الإعلان وتكاليف الإنتاج والإدارة المستمرة بصورة منفصلة لتوضيح المسؤوليات."
+      },
+      "approach": {
+        "en": "We review the full path from first impression to enquiry. The aim is useful business response, measured against an agreed objective. Organic-search work is scoped through the dedicated SEO service.",
+        "ar": "نراجع المسار كاملاً من الانطباع الأول إلى الاستفسار. الهدف استجابة تجارية مفيدة تُقاس وفق هدف متفق عليه. ويُحدد عمل البحث العضوي ضمن خدمة تحسين محركات البحث المستقلة."
+      },
+      "questions": [
+        {
+          "en": "Does the campaign fee include advertising spend?",
+          "ar": "هل تشمل تكلفة الحملة ميزانية الإعلان؟"
+        },
+        {
+          "en": "How do you define success?",
+          "ar": "كيف تحددون النجاح؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "The proposal separates media spend, creative production and management where applicable. No budget is assumed until the audience, channels and objective are understood.",
+          "ar": "يفصل العرض بين الإنفاق الإعلاني والإنتاج الإبداعي والإدارة عند الحاجة. لا تُفترض ميزانية قبل فهم الجمهور والقنوات والهدف."
+        },
+        {
+          "en": "We agree meaningful measures such as qualified enquiries or relevant visits, then verify what can be tracked. Results depend on the offer, audience, budget and execution.",
+          "ar": "نتفق على مقاييس مفيدة مثل الاستفسارات المؤهلة أو الزيارات ذات الصلة، ثم نتحقق مما يمكن تتبعه. تعتمد النتائج على العرض والجمهور والميزانية والتنفيذ."
+        }
+      ],
+      "related": [
+        "seo",
+        "social-media"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/seo/",
+    "title": "خدمات تحسين محركات البحث في قطر | Creovo Media",
+    "description": "تساعد Creovo Media الشركات في قطر على تنظيم مواقعها حول أسئلة العملاء. تعمل الأسس التقنية ومحتوى الخدمات ومسارات التواصل الواضحة معاً لدعم الوصول عبر البحث العضوي.",
+    "heading": "اظهر لمن يبحث عن خدماتك فعلاً.",
+    "service": {
+      "slug": "seo",
+      "name": {
+        "en": "SEO",
+        "ar": "تحسين محركات البحث"
+      },
+      "title": {
+        "en": "SEO Agency in Qatar",
+        "ar": "خدمات تحسين محركات البحث في قطر"
+      },
+      "heading": {
+        "en": "Be found for the work you actually do.",
+        "ar": "اظهر لمن يبحث عن خدماتك فعلاً."
+      },
+      "intro": {
+        "en": "Creovo Media helps Qatar businesses organize their websites around the questions buyers ask. Technical foundations, service content and clear conversion paths work together to support relevant organic discovery.",
+        "ar": "تساعد Creovo Media الشركات في قطر على تنظيم مواقعها حول أسئلة العملاء. تعمل الأسس التقنية ومحتوى الخدمات ومسارات التواصل الواضحة معاً لدعم الوصول عبر البحث العضوي."
+      },
+      "capabilities": {
+        "en": [
+          "Technical crawl and indexability audits",
+          "Search intent and keyword mapping",
+          "On-page content and internal linking",
+          "Local-search and measurement foundations"
+        ],
+        "ar": [
+          "تدقيق الزحف والفهرسة تقنياً",
+          "تحليل نية البحث وخريطة الكلمات",
+          "محتوى الصفحات والروابط الداخلية",
+          "أسس البحث المحلي والقياس"
+        ]
+      },
+      "deliverables": {
+        "en": "An agreed engagement can include a technical issue register, intent map, metadata and linking improvements, structured-data recommendations and a prioritized content plan. Search Console and analytics access are required for evidence-based reporting.",
+        "ar": "قد يشمل الاتفاق سجلاً للمشكلات التقنية وخريطة لنية البحث وتحسين البيانات الوصفية والروابط وتوصيات البيانات المنظمة وخطة محتوى مرتبة بالأولوية. يتطلب إعداد تقارير مبنية على الأدلة صلاحية الوصول إلى Search Console والتحليلات."
+      },
+      "approach": {
+        "en": "We address availability and indexability before adding pages. One useful destination should answer each distinct buying intent. Progress is assessed through search visibility and enquiry quality, not ranking guarantees.",
+        "ar": "نعالج الإتاحة والفهرسة قبل إضافة صفحات. ينبغي أن تخدم كل صفحة مفيدة نية شراء مميزة. يُقيّم التقدم عبر الظهور في البحث وجودة الاستفسارات، دون ضمانات لترتيب محدد."
+      },
+      "questions": [
+        {
+          "en": "Can you guarantee the first position on Google?",
+          "ar": "هل تضمنون المركز الأول في Google؟"
+        },
+        {
+          "en": "What affects how long SEO takes?",
+          "ar": "ما الذي يؤثر في مدة ظهور نتائج السيو؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "No. Search engines control rankings. We can define the work, implementation priorities and reporting, but cannot guarantee a position or a fixed volume of leads.",
+          "ar": "لا. تتحكم محركات البحث في الترتيب. نستطيع تحديد العمل وأولويات التنفيذ والتقارير، لكن لا نضمن ترتيباً معيناً أو عدداً ثابتاً من العملاء المحتملين."
+        },
+        {
+          "en": "The starting technical condition, competition, content evidence and implementation pace all matter. An audit is needed before setting realistic milestones.",
+          "ar": "تؤثر الحالة التقنية الحالية والمنافسة وأدلة المحتوى وسرعة التنفيذ. يلزم التدقيق قبل تحديد مراحل واقعية للعمل."
+        }
+      ],
+      "related": [
+        "web-design",
+        "digital-marketing"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/web-design/",
+    "title": "تصميم وتطوير مواقع إلكترونية في قطر | Creovo Media",
+    "description": "تصمم Creovo Media مواقع متجاوبة للشركات في قطر، تجمع بين تعبير العلامة وهيكلة المعلومات وسهولة الاستخدام. نخطط لكيفية استكشاف الزوار للخدمات وإدارة الفريق للموقع بعد الإطلاق.",
+    "heading": "موقع يجعل الخطوة التالية واضحة.",
+    "service": {
+      "slug": "web-design",
+      "name": {
+        "en": "Website Design",
+        "ar": "تصميم المواقع"
+      },
+      "title": {
+        "en": "Website Design Company in Qatar",
+        "ar": "تصميم وتطوير مواقع إلكترونية في قطر"
+      },
+      "heading": {
+        "en": "A website that makes the next step clear.",
+        "ar": "موقع يجعل الخطوة التالية واضحة."
+      },
+      "intro": {
+        "en": "Creovo Media designs responsive websites for Qatar businesses, connecting brand expression, information architecture and usability. We plan how visitors explore the offer and how the team will maintain the site after launch.",
+        "ar": "تصمم Creovo Media مواقع متجاوبة للشركات في قطر، تجمع بين تعبير العلامة وهيكلة المعلومات وسهولة الاستخدام. نخطط لكيفية استكشاف الزوار للخدمات وإدارة الفريق للموقع بعد الإطلاق."
+      },
+      "capabilities": {
+        "en": [
+          "Website strategy and information architecture",
+          "UX and interface design",
+          "Responsive development and interactions",
+          "Performance, accessibility and SEO foundations"
+        ],
+        "ar": [
+          "استراتيجية الموقع وهيكلة المعلومات",
+          "تجربة المستخدم وتصميم الواجهات",
+          "التطوير المتجاوب والتفاعلات",
+          "أسس الأداء وإمكانية الوصول والسيو"
+        ]
+      },
+      "deliverables": {
+        "en": "The proposal defines the page structure, design system, responsive templates, integrations and handover. Hosting, domain ownership, content supply and ongoing support should be agreed before development begins.",
+        "ar": "يحدد العرض هيكل الصفحات ونظام التصميم والقوالب المتجاوبة والتكاملات والتسليم. يجب الاتفاق على الاستضافة وملكية النطاق وتوفير المحتوى والدعم المستمر قبل بدء التطوير."
+      },
+      "approach": {
+        "en": "We treat mobile navigation, form completion and loading behaviour as part of the design. Search-friendly content and accessible interactions should remain clear even when the visual experience includes motion.",
+        "ar": "نعدّ التنقل على الهاتف وإكمال النماذج وسلوك التحميل جزءاً من التصميم. يجب أن يبقى المحتوى القابل للاكتشاف والتفاعل الميسّر واضحين حتى عندما تتضمن التجربة حركة بصرية."
+      },
+      "questions": [
+        {
+          "en": "Can you redesign an existing website?",
+          "ar": "هل يمكنكم إعادة تصميم موقع قائم؟"
+        },
+        {
+          "en": "What should we provide before design starts?",
+          "ar": "ماذا نقدم قبل بدء التصميم؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Yes. The first step is to review the current structure, content, user needs and URLs worth preserving. Redirect planning is part of a migration when addresses change.",
+          "ar": "نعم. نبدأ بمراجعة الهيكل والمحتوى واحتياجات المستخدمين والروابط التي ينبغي الحفاظ عليها. يشمل الانتقال تخطيط إعادة التوجيه إذا تغيرت العناوين."
+        },
+        {
+          "en": "Share your brand assets, business priorities, existing domain and hosting details, content responsibilities and required integrations.",
+          "ar": "شارك ملفات الهوية وأولويات العمل وتفاصيل النطاق والاستضافة ومسؤوليات المحتوى والتكاملات المطلوبة."
+        }
+      ],
+      "related": [
+        "branding",
+        "seo"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/influencer-marketing/",
+    "title": "التسويق عبر المؤثرين في قطر | Creovo Media",
+    "description": "تربط Creovo Media أهداف الحملة بملاءمة صانع المحتوى للعلامات في قطر. ندرس صلة الجمهور والتوجيه الإبداعي والمخرجات قبل اختيار من يروي القصة.",
+    "heading": "الصوت المناسب للقصة المناسبة.",
+    "service": {
+      "slug": "influencer-marketing",
+      "name": {
+        "en": "Influencer Marketing",
+        "ar": "التسويق عبر المؤثرين"
+      },
+      "title": {
+        "en": "Influencer Marketing Agency in Qatar",
+        "ar": "التسويق عبر المؤثرين في قطر"
+      },
+      "heading": {
+        "en": "The right voice for the right story.",
+        "ar": "الصوت المناسب للقصة المناسبة."
+      },
+      "intro": {
+        "en": "Creovo Media connects campaign objectives with creator fit for brands in Qatar. We consider audience relevance, creative direction and deliverables before selecting who should tell the story.",
+        "ar": "تربط Creovo Media أهداف الحملة بملاءمة صانع المحتوى للعلامات في قطر. ندرس صلة الجمهور والتوجيه الإبداعي والمخرجات قبل اختيار من يروي القصة."
+      },
+      "capabilities": {
+        "en": [
+          "Campaign strategy and creator identification",
+          "Brand-fit review and coordination",
+          "Briefing and content approval planning",
+          "Deliverables, usage terms and reporting"
+        ],
+        "ar": [
+          "استراتيجية الحملة واختيار صناع المحتوى",
+          "مراجعة ملاءمة العلامة والتنسيق",
+          "إعداد الموجز وتخطيط اعتماد المحتوى",
+          "المخرجات وشروط الاستخدام والتقارير"
+        ]
+      },
+      "deliverables": {
+        "en": "Agree the creator criteria, content formats, posting schedule, approvals and reporting needs in advance. Creator fees, availability, exclusivity and paid usage require project-specific confirmation.",
+        "ar": "اتفق مسبقاً على معايير اختيار صناع المحتوى وصيغ المحتوى وجدول النشر والموافقات والتقارير. تتطلب الأتعاب والتوفر والحصرية والاستخدام المدفوع تأكيداً خاصاً بالمشروع."
+      },
+      "approach": {
+        "en": "Follower counts alone do not establish fit. We assess the audience, the creator’s style and how a sponsored message can be communicated clearly. We do not claim an exclusive or guaranteed creator roster.",
+        "ar": "لا تكفي أعداد المتابعين لتحديد الملاءمة. نقيّم الجمهور وأسلوب صانع المحتوى وكيفية إيصال الرسالة الإعلانية بوضوح. لا ندّعي امتلاك قائمة حصرية أو مضمونة من المؤثرين."
+      },
+      "questions": [
+        {
+          "en": "Can we reuse creator content in paid advertising?",
+          "ar": "هل نستطيع استخدام محتوى المؤثر في الإعلانات المدفوعة؟"
+        },
+        {
+          "en": "How are creators selected?",
+          "ar": "كيف يتم اختيار صناع المحتوى؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "Only if the agreed rights allow it. Usage duration, channels, territory and editing permissions should be explicit in the campaign agreement.",
+          "ar": "فقط إذا سمحت الحقوق المتفق عليها بذلك. يجب توضيح مدة الاستخدام والقنوات والنطاق الجغرافي وصلاحيات التعديل في اتفاق الحملة."
+        },
+        {
+          "en": "Selection follows the audience, category, creative fit and budget. Availability and the final commercial terms are confirmed with each creator.",
+          "ar": "يتبع الاختيار الجمهور والمجال والملاءمة الإبداعية والميزانية. يُؤكد التوفر والشروط التجارية النهائية مع كل صانع محتوى."
+        }
+      ],
+      "related": [
+        "social-media",
+        "content-creation"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/services/event-coverage/",
+    "title": "تصوير وتغطية الفعاليات في قطر | Creovo Media",
+    "description": "توثّق Creovo Media فعاليات الشركات والإطلاقات ومناسبات العلامات في قطر عبر تغطية بصرية مخططة. نحدد اللحظات والأشخاص والرسائل المهمة قبل بدء الفعالية.",
+    "heading": "وثّق اللحظة. وامنح القصة امتداداً.",
+    "service": {
+      "slug": "event-coverage",
+      "name": {
+        "en": "Event Coverage",
+        "ar": "تغطية الفعاليات"
+      },
+      "title": {
+        "en": "Event Coverage & Video Production in Qatar",
+        "ar": "تصوير وتغطية الفعاليات في قطر"
+      },
+      "heading": {
+        "en": "Keep the moment. Extend the story.",
+        "ar": "وثّق اللحظة. وامنح القصة امتداداً."
+      },
+      "intro": {
+        "en": "Creovo Media documents corporate events, launches and brand occasions in Qatar through planned visual coverage. We identify the moments, people and messages that matter before the event begins.",
+        "ar": "توثّق Creovo Media فعاليات الشركات والإطلاقات ومناسبات العلامات في قطر عبر تغطية بصرية مخططة. نحدد اللحظات والأشخاص والرسائل المهمة قبل بدء الفعالية."
+      },
+      "capabilities": {
+        "en": [
+          "Coverage planning and priority shot lists",
+          "Event photography and videography",
+          "Interviews and highlight films",
+          "Social edits and delivery planning"
+        ],
+        "ar": [
+          "تخطيط التغطية وقائمة اللقطات المهمة",
+          "التصوير الفوتوغرافي والفيديو للفعاليات",
+          "المقابلات وأفلام الملخصات",
+          "النسخ الاجتماعية وتخطيط التسليم"
+        ]
+      },
+      "deliverables": {
+        "en": "The scope specifies coverage hours, crew, key moments and the required edits or image selections. Fast-turnaround or same-day delivery is confirmed only when the schedule and resources support it.",
+        "ar": "يحدد النطاق ساعات التغطية والفريق واللحظات الأساسية والنسخ المطلوبة أو مختارات الصور. لا يُؤكد التسليم السريع أو في اليوم نفسه إلا إذا سمح الجدول والموارد بذلك."
+      },
+      "approach": {
+        "en": "We plan around the run of show, venue access, lighting and sound conditions. Speaker priorities, brand assets and interview permissions help make the final coverage useful beyond the day itself.",
+        "ar": "نخطط وفق برنامج الفعالية وإمكانية الوصول للموقع وظروف الإضاءة والصوت. تساعد أولويات المتحدثين ومواد العلامة وتصاريح المقابلات على جعل التغطية مفيدة بعد يوم الحدث."
+      },
+      "questions": [
+        {
+          "en": "Do you organize the entire event?",
+          "ar": "هل تتولون تنظيم الفعالية بالكامل؟"
+        },
+        {
+          "en": "What is needed to plan the coverage?",
+          "ar": "ما المطلوب لتخطيط التغطية؟"
+        }
+      ],
+      "answers": [
+        {
+          "en": "This service focuses on media coverage. Share any wider production needs so the scope and responsibilities can be confirmed before booking.",
+          "ar": "تركز هذه الخدمة على التغطية الإعلامية. شارك أي احتياجات إنتاجية أوسع لتأكيد النطاق والمسؤوليات قبل الحجز."
+        },
+        {
+          "en": "Send the venue, date, schedule, audience, priority guests and required outputs. Access restrictions and consent requirements should be raised early.",
+          "ar": "أرسل الموقع والتاريخ والبرنامج والجمهور والضيوف الأساسيين والمخرجات المطلوبة. ينبغي توضيح قيود الدخول ومتطلبات الموافقة مبكراً."
+        }
+      ],
+      "related": [
+        "video-production",
+        "content-creation"
+      ]
+    },
+    "image": "/assets/gpt3.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/work/",
+    "title": "أعمالنا | Creovo Media",
+    "description": "مجموعة من الأفلام والمحتوى من أعمال Creovo Media. استكشف العمل، ثم أخبرنا بما ترغب في صنعه.",
+    "heading": "أعمال مختارة",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/case-studies/",
+    "title": "دراسات المشاريع | Creovo Media",
+    "description": "يمكنك مشاهدة أفلامنا في قسم الأعمال. ننشر قصص المشاريع المفصلة بعد تأكيد النطاق وأسماء المشاركين والنتائج.",
+    "heading": "أعمال نروي سياقها.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": true
+  },
+  {
+    "locale": "ar",
+    "route": "/about/",
+    "title": "من نحن | Creovo Media",
+    "description": "تعمل Creovo Media من الوكرة مع الشركات في جميع أنحاء قطر في مجالات العلامات التجارية والمحتوى والإنتاج والتجارب الرقمية. نجمع التخصصات التي يحتاجها كل مشروع من أول حوار إلى التسليم.",
+    "heading": "عقول مستقلة. هدف مشترك.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/contact/",
+    "title": "تواصل معنا | Creovo Media",
+    "description": "حدثنا عن التحدي والجمهور والنتيجة التي تسعى إليها. يصل استفسارك مباشرة إلى فريق Creovo Media.",
+    "heading": "ابدأ مشروعك",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/industries/",
+    "title": "القطاعات | Creovo Media",
+    "description": "نستقبل مشاريع المطاعم والأغذية والمشروبات والشركات والعقارات والضيافة والعلامات الفاخرة والشركات الناشئة والتجزئة. يبدأ كل مشروع بجمهوره وبيئة عمله وهدفه التجاري الخاص.",
+    "heading": "قطاعات مختلفة. احتياجات محددة.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/insights/",
+    "title": "رؤى وأفكار | Creovo Media",
+    "description": "أدلة عملية لتخطيط العمل الإبداعي وفهم مراحله واختيار النطاق المناسب.",
+    "heading": "أفكار مفيدة لمشروعك القادم.",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  },
+  {
+    "locale": "ar",
+    "route": "/insights/creative-agency-brief/",
+    "title": "كيف تكتب موجزاً لوكالة إبداعية | Creovo Media",
+    "description": "قائمة عملية لتحديد الهدف والجمهور والمخرجات وآلية الموافقة قبل بدء مشروع إبداعي.",
+    "heading": "كيف تكتب موجزاً لوكالة إبداعية",
+    "article": {
+      "slug": "creative-agency-brief",
+      "service": "branding",
+      "title": {
+        "en": "How to brief a creative agency",
+        "ar": "كيف تكتب موجزاً لوكالة إبداعية"
+      },
+      "description": {
+        "en": "A practical checklist for defining the objective, audience, deliverables and approval process before a creative project begins.",
+        "ar": "قائمة عملية لتحديد الهدف والجمهور والمخرجات وآلية الموافقة قبل بدء مشروع إبداعي."
+      },
+      "sections": [
+        [
+          {
+            "en": "Start with the decision",
+            "ar": "ابدأ بالقرار"
+          },
+          {
+            "en": "Explain what the work needs to help someone understand or do. “We need a video” defines a format; “help buyers understand the product before requesting a quote” defines a job. Include the audience, existing research and what they currently believe.",
+            "ar": "اشرح ما الذي ينبغي أن يساعد العمل شخصاً على فهمه أو فعله. «نحتاج فيديو» تحدد صيغة، بينما «نساعد المشترين على فهم المنتج قبل طلب عرض» تحدد مهمة. أضف الجمهور والأبحاث المتاحة وما يعتقده حالياً."
+          }
+        ],
+        [
+          {
+            "en": "Separate essentials from preferences",
+            "ar": "ميّز الضروري عن المفضل"
+          },
+          {
+            "en": "List required outputs, channels, languages, dates and brand constraints. Add references with a note explaining what is useful about each one. A preference for a visual style should not obscure an essential delivery requirement.",
+            "ar": "حدد المخرجات والقنوات واللغات والمواعيد وقيود العلامة المطلوبة. أرفق مراجع مع توضيح ما يفيدك في كل منها. يجب ألا تحجب الرغبة في أسلوب بصري معين متطلباً أساسياً للتسليم."
+          }
+        ],
+        [
+          {
+            "en": "Plan approvals before production",
+            "ar": "خطط للموافقات قبل الإنتاج"
+          },
+          {
+            "en": "Identify one person who consolidates feedback, the final approver and any legal or stakeholder review needed. Confirm what assets you can supply and which permissions are already secured. This makes the proposal more accurate and reduces avoidable rework.",
+            "ar": "حدد شخصاً يجمع الملاحظات وصاحب الموافقة النهائية وأي مراجعة قانونية أو مراجعة من أصحاب المصلحة. وضح المواد التي تستطيع توفيرها والتصاريح المؤكدة. يجعل ذلك العرض أدق ويقلل إعادة العمل التي يمكن تجنبها."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/insights/brand-strategy-vs-brand-identity/",
+    "title": "استراتيجية العلامة وهويتها: مهمتان في نظام واحد | Creovo Media",
+    "description": "افهم دور الاستراتيجية والهوية البصرية قبل تحديد نطاق مشروع علامتك.",
+    "heading": "استراتيجية العلامة وهويتها: مهمتان في نظام واحد",
+    "article": {
+      "slug": "brand-strategy-vs-brand-identity",
+      "service": "branding",
+      "title": {
+        "en": "Brand strategy and identity: different jobs, one system",
+        "ar": "استراتيجية العلامة وهويتها: مهمتان في نظام واحد"
+      },
+      "description": {
+        "en": "Understand what strategy and visual identity each contribute before deciding the scope of a branding brief.",
+        "ar": "افهم دور الاستراتيجية والهوية البصرية قبل تحديد نطاق مشروع علامتك."
+      },
+      "sections": [
+        [
+          {
+            "en": "Strategy makes the choices",
+            "ar": "الاستراتيجية تحدد الاختيارات"
+          },
+          {
+            "en": "Brand strategy clarifies the audience, position and promise. It helps the team decide which messages belong and which do not. A strategy brief should describe the business problem, competing offers and the reason customers should care.",
+            "ar": "توضح استراتيجية العلامة الجمهور والتموضع والوعد. تساعد الفريق في تحديد الرسائل المناسبة وغير المناسبة. ينبغي أن يصف موجز الاستراتيجية مشكلة العمل والعروض المنافسة والسبب الذي يجعل العملاء يهتمون."
+          }
+        ],
+        [
+          {
+            "en": "Identity makes those choices visible",
+            "ar": "الهوية تجعل الاختيارات مرئية"
+          },
+          {
+            "en": "Identity expresses the direction through a logo system, typography, colour, imagery and applications. The test is not only whether one composition looks good, but whether the system remains recognizable across a website, a social post and a small printed application.",
+            "ar": "تعبر الهوية عن التوجه عبر نظام الشعار والخطوط والألوان والصور والتطبيقات. لا يقتصر الاختبار على جمال تصميم واحد، بل يشمل بقاء النظام معروفاً في الموقع والمنشور الاجتماعي والتطبيق المطبوع الصغير."
+          }
+        ],
+        [
+          {
+            "en": "Choose the scope around the gap",
+            "ar": "اختر النطاق وفق الفجوة"
+          },
+          {
+            "en": "If the business direction is clear but applications are inconsistent, identity work may be the priority. If the team cannot agree who the brand serves or why it is different, strategic work should come first. Review the current evidence before commissioning a complete rebrand.",
+            "ar": "إذا كان توجه العمل واضحاً والتطبيقات غير متسقة، فقد تكون الهوية هي الأولوية. وإذا لم يتفق الفريق على الجمهور أو وجه الاختلاف، ينبغي البدء بالاستراتيجية. راجع الأدلة الحالية قبل تكليف تجديد كامل للعلامة."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/insights/corporate-video-production-process/",
+    "title": "تخطيط فيديو للشركات: من الموجز إلى التسليم | Creovo Media",
+    "description": "ما ينبغي الاتفاق عليه قبل تصوير فيديو للشركات: الرسالة والمشاركون والمواقع والموافقات وصيغ التسليم.",
+    "heading": "تخطيط فيديو للشركات: من الموجز إلى التسليم",
+    "article": {
+      "slug": "corporate-video-production-process",
+      "service": "video-production",
+      "title": {
+        "en": "Planning a corporate video: from brief to delivery",
+        "ar": "تخطيط فيديو للشركات: من الموجز إلى التسليم"
+      },
+      "description": {
+        "en": "What to agree before a corporate video shoot: message, contributors, locations, approvals and delivery formats.",
+        "ar": "ما ينبغي الاتفاق عليه قبل تصوير فيديو للشركات: الرسالة والمشاركون والمواقع والموافقات وصيغ التسليم."
+      },
+      "sections": [
+        [
+          {
+            "en": "Resolve the message before the shoot",
+            "ar": "احسم الرسالة قبل التصوير"
+          },
+          {
+            "en": "Choose the primary audience and the question the film should answer. A sales introduction, recruitment film and internal update need different structures. Confirm the key claims and who can approve them before developing the treatment or script.",
+            "ar": "اختر الجمهور الرئيسي والسؤال الذي يجيب عنه الفيلم. تحتاج مقدمة المبيعات وفيلم التوظيف والتحديث الداخلي إلى هياكل مختلفة. أكد الادعاءات الرئيسية ومن يوافق عليها قبل تطوير المعالجة أو السيناريو."
+          }
+        ],
+        [
+          {
+            "en": "Make the production plan practical",
+            "ar": "اجعل خطة الإنتاج عملية"
+          },
+          {
+            "en": "Prepare the contributor schedule, location access, interview topics and supporting shots. Review sound conditions and filming permissions early. Share any restrictions on staff, screens, customer information or sensitive areas so the crew can plan around them.",
+            "ar": "جهز جدول المشاركين ودخول المواقع وموضوعات المقابلات واللقطات الداعمة. راجع ظروف الصوت وتصاريح التصوير مبكراً. وضح قيود تصوير الموظفين والشاشات وبيانات العملاء والمناطق الحساسة ليخطط الفريق على أساسها."
+          }
+        ],
+        [
+          {
+            "en": "Agree what “finished” means",
+            "ar": "اتفق على معنى «النسخة النهائية»"
+          },
+          {
+            "en": "List the required durations, aspect ratios, languages, subtitles and export formats. Consolidate review notes against one version at a time. A clear sign-off process helps the edit, colour and sound stages progress without reopening already approved decisions.",
+            "ar": "حدد المدد ونسب الأبعاد واللغات والترجمة النصية وصيغ التصدير. اجمع ملاحظات المراجعة على نسخة واحدة في كل مرة. تساعد آلية الاعتماد الواضحة على تقدم المونتاج والألوان والصوت دون إعادة فتح قرارات معتمدة."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/insights/social-media-management-vs-content-creation/",
+    "title": "إدارة حسابات أم صناعة محتوى: ما النطاق الذي تحتاجه؟ | Creovo Media",
+    "description": "قارن بين موجز إنتاج المحتوى وإدارة الحسابات المستمرة قبل اختيار المسؤوليات والمخرجات.",
+    "heading": "إدارة حسابات أم صناعة محتوى: ما النطاق الذي تحتاجه؟",
+    "article": {
+      "slug": "social-media-management-vs-content-creation",
+      "service": "social-media",
+      "title": {
+        "en": "Social management or content creation: which scope do you need?",
+        "ar": "إدارة حسابات أم صناعة محتوى: ما النطاق الذي تحتاجه؟"
+      },
+      "description": {
+        "en": "Compare production-only briefs with ongoing social management before choosing responsibilities and deliverables.",
+        "ar": "قارن بين موجز إنتاج المحتوى وإدارة الحسابات المستمرة قبل اختيار المسؤوليات والمخرجات."
+      },
+      "sections": [
+        [
+          {
+            "en": "Content creation produces the material",
+            "ar": "صناعة المحتوى تنتج المواد"
+          },
+          {
+            "en": "A content brief defines the concepts, images, videos and copy to be delivered. It suits teams that can manage their own publishing but need a coherent production plan or additional creative capacity.",
+            "ar": "يحدد موجز المحتوى الأفكار والصور والفيديوهات والنصوص المطلوب تسليمها. يناسب الفرق القادرة على إدارة النشر التي تحتاج إلى خطة إنتاج مترابطة أو قدرة إبداعية إضافية."
+          }
+        ],
+        [
+          {
+            "en": "Management connects the ongoing workflow",
+            "ar": "الإدارة تربط العمل المستمر"
+          },
+          {
+            "en": "Social management can connect channel strategy, planning, approvals, publishing, community response and reporting. The scope should identify what the agency manages and what remains with the client, especially customer service and sensitive enquiries.",
+            "ar": "قد تربط إدارة الحسابات استراتيجية القنوات والتخطيط والموافقات والنشر والرد والتقارير. يجب تحديد ما تديره الوكالة وما يبقى لدى العميل، خصوصاً خدمة العملاء والاستفسارات الحساسة."
+          }
+        ],
+        [
+          {
+            "en": "Choose around your team’s capacity",
+            "ar": "اختر وفق قدرة فريقك"
+          },
+          {
+            "en": "Map who currently plans, creates, approves and publishes. Look for the point where the workflow slows down. Then agree the content volume, access permissions, response expectations and reporting rhythm that the team can realistically support.",
+            "ar": "حدد من يخطط وينتج ويوافق وينشر حالياً. ابحث عن النقطة التي يتباطأ فيها العمل. ثم اتفق على حجم المحتوى وصلاحيات الوصول وتوقعات الرد ودورية التقارير بما يستطيع الفريق دعمه فعلياً."
+          }
+        ]
+      ]
+    },
+    "image": "/assets/gpt6.webp"
+  },
+  {
+    "locale": "ar",
+    "route": "/privacy/",
+    "title": "الخصوصية | Creovo Media",
+    "description": "عند إرسال استفسار، نجمع البيانات التي تدخلها لمراجعة طلبك والرد عليه. يرجى عدم تضمين معلومات شخصية حساسة لا يحتاجها المشروع.",
+    "heading": "إشعار الخصوصية",
+    "image": "/assets/creovo-reactive-hero.webp",
+    "noindex": false
+  }
+]
