@@ -8,7 +8,7 @@ export function SiteShell({children,locale,route}) {
  return <div className={`${route==='/'?'':'page-body'} ${route==='/work/'?'work-route':''}`}>
   <a className="skip" href="#main">{t.skip}</a>
   <header className={`nav-shell ${route==='/'?'hero-nav':'page-nav'}`}>
-   <a className="logo" href={path('/')} aria-label={`Creovo Media — ${t.home}`}><img src="/assets/creovo-media-logo-nav.webp" width="809" height="308" alt="Creovo Media"/></a>
+   <a className="logo" href={path('/')} aria-label={`Creovo Media — ${t.home}`}><img src={route==='/'?'/assets/black-logo.png':'/assets/creovo-media-logo-nav.webp'} width={route==='/'?788:809} height={route==='/'?317:308} alt="Creovo Media"/></a>
    <nav aria-label={t.mainNav}>{nav.map(key=><a key={key} href={path(`/${key}/`)} aria-current={route.startsWith(`/${key}/`)?'page':undefined}>{t[key]}</a>)}</nav>
    <a className="language-switch" href={locale==='en'?`/ar${route}`:route} lang={locale==='en'?'ar':'en'} hrefLang={locale==='en'?'ar':'en'}>{locale==='en'?'العربية':'English'}</a>
    <a className="nav-cta" href={path('/contact/')}>{t.start}<Arrow/></a>
