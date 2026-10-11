@@ -1,0 +1,781 @@
+{
+  "date": "2026-10-11",
+  "method": "HTTP HTML, not a rank report; headings may be client rendered; contact/portfolio/FAQ booleans are inspection aids, not quality scores",
+  "results": [
+    {
+      "cluster": "social-media",
+      "url": "https://tsmaqa.com/",
+      "error": "fetch failed"
+    },
+    {
+      "cluster": "social-media",
+      "url": "https://www.kenshomediagroup.com/",
+      "status": 200,
+      "finalUrl": "https://www.kenshomediagroup.com/",
+      "title": "Kensho Media | Best Social Media Marketing & Digital Agency – Doha, Qatar",
+      "h1": "",
+      "headings": [],
+      "hasPortfolioLink": false,
+      "hasContactLink": false,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "social-media",
+      "url": "https://www.globalhub.qa/",
+      "status": 200,
+      "finalUrl": "https://www.globalhub.qa/",
+      "title": "Global Hub Consulting | Digital Marketing & Media Agency",
+      "h1": "",
+      "headings": [
+        "What We Deliver",
+        "Our Core Services",
+        "Digital Marketing Strategy &amp; Growth Consulting",
+        "Creative Content Calendar",
+        "Production Services",
+        "AI-Creative Solutions",
+        "Social Media Management",
+        "Let's Get Started"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": false,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "social-media",
+      "url": "https://qdash.qa/?lang=en&service=social-media",
+      "status": 200,
+      "finalUrl": "https://qdash.qa/?lang=en&service=social-media",
+      "title": "Social Media Management in Qatar | Q-DASH",
+      "h1": "Social Media Management Services in Qatar",
+      "headings": [
+        "Professional Social Media Management That Drives Engagement &amp; Sales",
+        "Q-DASH Control Center",
+        "Social Media Management Packages",
+        "A social operating platform that connects content to growth",
+        "Social performance intelligence center",
+        "Every platform has a role in the customer journey",
+        "One team operating the full content cycle",
+        "A clear, reviewable workflow"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "social-media",
+      "url": "https://eyefocusmedia.com/en",
+      "status": 200,
+      "finalUrl": "https://eyefocusmedia.com/en",
+      "title": "Marketing Media Agency in Doha Qatar | Eye Focus Media",
+      "h1": "Media. Strategy. Impact.",
+      "headings": [
+        "End-to-end creative and strategic services for brands that demand more.",
+        "Award-worthy productions across luxury real estate, tourism, events, and commercial sectors.",
+        "Creative direction. Strategic execution. Results that matter.",
+        "Frequently Asked Questions",
+        "Let&#x27;s Create Something Impactful."
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "video-production",
+      "url": "https://www.qdb.qa/-/media/qdbapp/Other-Documents/Media-and-Production-Sector-in-Qatar-Current-State-Assessment-Series.ashx",
+      "status": 200,
+      "finalUrl": "https://www.qdb.qa/-/media/qdbapp/Other-Documents/Media-and-Production-Sector-in-Qatar-Current-State-Assessment-Series.ashx",
+      "title": "",
+      "h1": "",
+      "headings": [],
+      "hasPortfolioLink": false,
+      "hasContactLink": false,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "video-production",
+      "url": "https://www.dtm.qa/",
+      "status": 200,
+      "finalUrl": "https://www.dtm.qa/",
+      "title": "DTM - Home / Video Production Company - Qatar",
+      "h1": "Corporate video",
+      "headings": [
+        "We’re a passionate bunch, dedicated to high standards of media production and the evolution of Qatar.",
+        "Since its inception in 2003, DTM has been Qatar's premium media production company. Supported by our membership of the United Group of Companies, DTM's got you covered for all your media production needs. Our hands-on, friendly approach allows you to have as much input and control as you'd like - we're flexible people who are open to your suggestions. With our insider understanding of Qatar, our years of (local and international) experience, as well as our creative talent, we are set up to deliver the best in the industry."
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": false,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "video-production",
+      "url": "https://www.creativeloft.qa/blog/top-video-production-companies-in-doha",
+      "status": 200,
+      "finalUrl": "https://www.creativeloft.qa/blog/top-video-production-companies-in-doha",
+      "title": "Top Video Production Companies in Doha (2026): Reading a Quote Before You Approve It | Creative Loft",
+      "h1": "Top Video Production Companies in Doha (2026): Reading a Quote Before You Approve It",
+      "headings": [
+        "The top video production companies in Doha, ranked",
+        "What's actually in a production quote",
+        "Permits are a schedule risk, not a formality",
+        "What actually drives the number",
+        "The heat is a production constraint",
+        "Before you approve",
+        "Keep reading"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "video-production",
+      "url": "https://www.alraza.com/",
+      "status": 200,
+      "finalUrl": "https://www.alraza.com/",
+      "title": "Professional Photography & Video Production Company in Doha",
+      "h1": "Professional Photography and Video Production Company in Doha, Qatar",
+      "headings": [
+        "Meet Al Raza Photography – Where Every Shot Tells Your Story",
+        "Why Al Raza Photography & Videoproduction Company To Capture Your Moments?",
+        "Professional Videographer &amp; Photographer Services in Qatar",
+        "Professional Photographers in Qatar",
+        "Professional Photographers in Qatar",
+        "Professional Videographer in Qatar",
+        "Professional Videographer in Qatar",
+        "Trusted Photography And Videography Service Partner In Qatar"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "video-production",
+      "url": "https://alburaqmedia.com/",
+      "status": 200,
+      "finalUrl": "https://alburaqmedia.com/",
+      "title": "Al Buraq Media &#8211; Making the ordinary extraordinary",
+      "h1": "",
+      "headings": [
+        "OUR FILM PRODUCTION",
+        "LATEST TV SHOW",
+        "Need a quick help or have questions?"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "content-creation",
+      "url": "https://taqnia.qa/content-creation-agency-qatar/",
+      "status": 200,
+      "finalUrl": "https://taqnia.qa/content-creation-agency-qatar/",
+      "title": "Content Creation Agency in Qatar | Photos, Reels &amp; Videos",
+      "h1": "Content Creation Agency in Qatar | Fast &#038; Affordable Visuals",
+      "headings": [
+        "Why choose the content creation package ?",
+        "Frequently Asked Questions"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "content-creation",
+      "url": "https://www.ottorastudio.com/content-creation",
+      "status": 200,
+      "finalUrl": "https://www.ottorastudio.com/content-creation",
+      "title": "Content Creation Services in Doha | Ottora Studio",
+      "h1": "Ready to stop guessing what to post on social media?",
+      "headings": [
+        "The real work happens before we ever hit record",
+        "Doesn&#x27;t matter if it&#x27;s your brand or your face on camera",
+        "A peek at the good stuff we produce",
+        "Every video has a job - attention, position or sell",
+        "What you get when you work with us",
+        "Not sure this is the right fit?",
+        "How we think about content"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "content-creation",
+      "url": "https://multiipixels.com/qa/content-creation/",
+      "status": 200,
+      "finalUrl": "https://multiipixels.com/qa/content-creation/",
+      "title": "Content Creation Agency Qatar | Multi Pixels",
+      "h1": "Content creation agency in Qatar connecting ideas to action",
+      "headings": [
+        "Content built around message, channel and measurement",
+        "Delivery shaped around customer journeys in Qatar",
+        "What do we plan around before choosing the channel?",
+        "Need a focused plan for Egypt or the GCC?",
+        "Guides for the next growth decision.",
+        "Before we define the starting point.",
+        "Start with the business goal—not a shopping list.",
+        "See the system inside real projects."
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "content-creation",
+      "url": "https://amuga.agency/",
+      "status": 200,
+      "finalUrl": "https://amuga.agency/",
+      "title": "AMUGA — AI Video & Creative Production Agency in Doha, Qatar",
+      "h1": "AMUGA Agency — AI Video Production, Creative Studio and Brand Design in Doha, Qatar",
+      "headings": [
+        "",
+        "",
+        "OUR EDGE",
+        "Common Questions",
+        ""
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "content-creation",
+      "url": "https://fiorevastudio.com/",
+      "status": 200,
+      "finalUrl": "https://fiorevastudio.com/",
+      "title": "Fioreva Studio — We Build Presence, Not Promises.",
+      "h1": "We &nbsp; Build Presence. Not &nbsp; Promises",
+      "headings": [
+        "A studio for brands that refuse to blend in.",
+        "How we work",
+        "Seven disciplines. One standard.",
+        "Built to be remembered."
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "digital-marketing",
+      "url": "https://www.designrush.com/agency/digital-marketing/qa",
+      "status": 403,
+      "finalUrl": "https://www.designrush.com/agency/digital-marketing/qa",
+      "title": "Attention Required! | Cloudflare",
+      "h1": "Sorry, you have been blocked",
+      "headings": [
+        "You are unable to access designrush.com",
+        "Why have I been blocked?",
+        "What can I do to resolve this?"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": false,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "digital-marketing",
+      "url": "https://adagency.qa/",
+      "status": 200,
+      "finalUrl": "https://adagency.qa/",
+      "title": "Digital Marketing Agency in Qatar | Ad Agency Qatar",
+      "h1": "Digital Marketing Agency in Qatar That Turns Clicks Into Customers",
+      "headings": [
+        "How Our Digital Marketing Process Works",
+        "Digital Marketing Services in Qatar",
+        "SEO Services in Qatar",
+        "AI &amp; WhatsApp Automation for Qatar Businesses",
+        "Google Ads Management in Doha",
+        "Ecommerce Website Design in Qatar",
+        "Social Media Marketing in Qatar",
+        "Website Design &amp; Development in Doha"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "digital-marketing",
+      "url": "https://www.pickanagency.com/best-digital-marketing-agencies/qatar",
+      "status": 200,
+      "finalUrl": "https://www.pickanagency.com/best-digital-marketing-agencies/qatar",
+      "title": "Best Digital Marketing Agencies in Qatar | Pick an Agency",
+      "h1": "Best Digital Marketing Agencies in Qatar",
+      "headings": [
+        "Frequently Asked Questions"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "digital-marketing",
+      "url": "https://ppc4.com/digital-marketing/qatar",
+      "status": 200,
+      "finalUrl": "https://ppc4.com/digital-marketing/qatar",
+      "title": "Digital Marketing Agencies in Qatar | PPC4 | PPC4",
+      "h1": "Digital Marketing Agencies in Qatar",
+      "headings": [
+        "Digital Marketing Agencies by City in Qatar",
+        "All Digital Marketing Agencies in Qatar ( 128 )"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "digital-marketing",
+      "url": "https://entasher.com/qa/s/digital-marketing-agencies",
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "cluster": "seo",
+      "url": "https://themanifest.com/qa/seo/agencies",
+      "status": 403,
+      "finalUrl": "https://themanifest.com/qa/seo/agencies",
+      "title": "Just a moment...",
+      "h1": "",
+      "headings": [],
+      "hasPortfolioLink": false,
+      "hasContactLink": false,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "seo",
+      "url": "https://roi.com.qa/services/seo",
+      "error": "fetch failed"
+    },
+    {
+      "cluster": "seo",
+      "url": "https://seoagencyqatar.com/",
+      "status": 200,
+      "finalUrl": "https://seoagencyqatar.com/",
+      "title": "SEO Agency in Qatar | SEO, PPC &amp; GEO Services - SEO Agency Qatar",
+      "h1": "Qatar's Search Landscape Has a Power Structure. We Put You at the Top of It.",
+      "headings": [
+        "Full-Service Digital Performance for the Qatar Market",
+        "What Makes the Difference Between an Agency and a Partner",
+        "If Your Competitors Can Find \"SEO Agency Qatar\", So Can Your Customers",
+        "What Qatar Businesses Say",
+        "Questions Qatar Businesses Ask Before Signing On"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "seo",
+      "url": "https://www.creativeloft.qa/blog/top-seo-agencies-in-doha",
+      "status": 200,
+      "finalUrl": "https://www.creativeloft.qa/blog/top-seo-agencies-in-doha",
+      "title": "Top SEO Agencies in Doha (2026): How to Tell Real Search Work From Reporting Theatre | Creative Loft",
+      "h1": "Top SEO Agencies in Doha (2026): How to Tell Real Search Work From Reporting Theatre",
+      "headings": [
+        "The top SEO agencies in Doha, ranked",
+        "The guarantee test",
+        "What real SEO work looks like",
+        "Arabic search is a separate project",
+        "AI search changed the target",
+        "What to demand in reporting",
+        "Timeline",
+        "Keep reading"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "seo",
+      "url": "https://thehovi.com/seo-agency-qatar",
+      "status": 200,
+      "finalUrl": "https://thehovi.com/seo-agency-qatar",
+      "title": "SEO Agency Qatar: Bilingual Search &amp; Technical SEO | Hovi Digital Lab",
+      "h1": "SEO Agency in Qatar",
+      "headings": [
+        "Why Qatar Businesses Choose Hovi",
+        "Our Services in Qatar",
+        "Serving Qatar from Dubai",
+        "Frequently Asked Questions",
+        "We Also Serve",
+        "AI Marketing by Industry",
+        "Ready to grow your Qatar business with AI?"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "web-design",
+      "url": "https://www.sitemap.qa/",
+      "status": 200,
+      "finalUrl": "https://www.sitemap.qa/",
+      "title": "Web Design Doha, Qatar | Best Web Design Company in Qatar | Website Designers Qatar",
+      "h1": "Award-Winning Web Design &amp; Development Company in Qatar",
+      "headings": [
+        "Secured Web Hosting &amp; Emails",
+        "Website Maintenance in Qatar",
+        "Sitemap is Qatar's FIRST Commercially Registered Web Design &amp; Full-Service Digital Development Company, Based in Doha.",
+        "Website Design Company in Doha, Qatar",
+        "Trusted Web Design Company in Qatar Since 2011",
+        "What We Do",
+        "From startups to enterprise businesses, we've delivered 650+ projects across Qatar",
+        "“ What our customers are saying"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "web-design",
+      "url": "https://www.papayaqatar.com/",
+      "status": 200,
+      "finalUrl": "https://www.papayaqatar.com/",
+      "title": "Website Design Company in Qatar | PaPaYaQatar",
+      "h1": "Website Design Company in Qatar | PaPaYaQatar | Web Design Experts",
+      "headings": [
+        "Our Web Design &amp; Development Services in Qatar",
+        "E-Commerce Development",
+        "Graphic Design",
+        "Ready to Go Web &amp; Mobile Apps",
+        "Managed Services",
+        "Our Portfolio",
+        "Why Choose PaPaYaQatar as Your Website Design Company in Qatar?",
+        "Our Website Design Process"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "web-design",
+      "url": "https://www.webdesign.qa/",
+      "status": 200,
+      "finalUrl": "https://www.webdesign.qa/",
+      "title": "Website Design Company in Qatar | Creative Web Design Qatar",
+      "h1": "Best Web Design Company in Doha, Qatar",
+      "headings": [
+        "Keep Your Website up to Date and Get the Best Support from Our Team of Experts",
+        "Empowering Ideas, Building Innovative Mobile Applications",
+        "Web Hosting, Domain & SEO Solutions Backed by 24/7 Support",
+        "18+",
+        "Why Choose Our Website Design Company in Doha",
+        "Proven Expertise",
+        "Results-Driven Approach",
+        "Client-Centric Solutions"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "web-design",
+      "url": "https://www.qatar-website-design.com/",
+      "status": 200,
+      "finalUrl": "https://www.qatar-website-design.com/",
+      "title": "",
+      "h1": "Web Design Qatar : Bilingual Website Design Company",
+      "headings": [
+        "Digital Marketing That Brings Leads",
+        "Web Development That Performs",
+        "Bilingual Websites Built to Bring Qatari Businesses Leads",
+        "Our Web Design Services",
+        "Why Businesses Choose Us",
+        "Website Design Services Across Qatar",
+        "International Experience. Qatar Focus.",
+        "Website Design Projects by Our Team"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "web-design",
+      "url": "https://vortex.qa/",
+      "status": 200,
+      "finalUrl": "https://vortex.qa/",
+      "title": "Web Design Qatar | Best Website Design Company in Doha | Vortex",
+      "h1": "We Design Websites That Win Clients in Qatar.",
+      "headings": [
+        "We build digital experiences that help brands grow.",
+        "Everything Your Business Needs to Dominate Online in Qatar",
+        "WHY QATAR'S BEST BRANDS CHOOSE VORTEX",
+        "OUR WORK",
+        "LATEST ARTICLES",
+        "LET'S TALK!"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "influencer-marketing",
+      "url": "https://myinfluencers.me/",
+      "status": 200,
+      "finalUrl": "https://myinfluencers.me/",
+      "title": "Influencer Marketing Agency in Qatar, Jordan &amp; Palestine",
+      "h1": "Influencer marketing agency in Qatar · Jordan · Palestine — Book the Right Influencer. In the Right Market.",
+      "headings": [
+        "Our Markets",
+        "Featured Influencers",
+        "How Booking Works",
+        "MyInfluencers in Numbers",
+        "Recent work",
+        "Why Brands Choose MyInfluencers",
+        "Guides",
+        "Ready to launch your influencer campaign?"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "influencer-marketing",
+      "url": "https://www.xqatar.qa/services/influencer-marketing/",
+      "status": 200,
+      "finalUrl": "https://www.xqatar.qa/services/influencer-marketing/",
+      "title": "Influencer Marketing Agency in Qatar | X! Qatar",
+      "h1": "INFLUENCER",
+      "headings": [
+        "MARKETING",
+        "Our Latest Case Studies",
+        "Let’s Talk",
+        "Experience",
+        "Hameburger PopUp"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "influencer-marketing",
+      "url": "https://entasher.com/qa/s/influencer-marketing-agencies",
+      "status": 200,
+      "finalUrl": "https://entasher.com/qa/s/influencer-marketing-agencies",
+      "title": "Influencer marketing in Qatar",
+      "h1": "2026 Influencer marketing Agencies in Qatar (QA) — Compare 7 Agencies",
+      "headings": [
+        "At a glance — Qatar",
+        "On this page",
+        "Preview from this listing",
+        "Eligible providers for Influencer marketing in Qatar",
+        "Top 5 listed providers for Influencer marketing in Qatar",
+        "About Influencer marketing",
+        "Influencers Marketing agencies that you can trust&nbsp; in Qatar",
+        "How to get quotations for Influencer marketing"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "influencer-marketing",
+      "url": "https://bx.qa/influencer-marketing-qatar/",
+      "status": 200,
+      "finalUrl": "https://bx.qa/influencer-marketing-qatar/",
+      "title": "Influencer Marketing Agency in Qatar | bX",
+      "h1": "Influencer Marketing Agency in Qatar",
+      "headings": [
+        "What’s included",
+        "How it works",
+        "Influencer marketing that fits Qatar",
+        "Results we can actually point to",
+        "Frequently asked questions",
+        "Related services",
+        "Let&#x27;s talk about your project"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "influencer-marketing",
+      "url": "https://valors.agency/best-influencer-marketing-agencies-qatar",
+      "status": 200,
+      "finalUrl": "https://valors.agency/best-influencer-marketing-agencies-mena",
+      "title": "12 Best Influencer Marketing Agencies in MENA 2026 | Valors",
+      "h1": "Top 12 Influencer Marketing Agencies in MENA",
+      "headings": [
+        "How we ranked",
+        "Valors vs other influencer marketing agencies in MENA",
+        "All 12 agencies at a glance",
+        "What good looks like: our 2026 MENA benchmarks",
+        "Valors",
+        "Hive Innovative Group",
+        "Glambox MENA",
+        "Socialeyez"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "event-coverage",
+      "url": "https://shootday.com/en/qa/event-photography/",
+      "status": 403,
+      "finalUrl": "https://shootday.com/en/qa/event-photography/",
+      "title": "Just a moment...",
+      "h1": "",
+      "headings": [],
+      "hasPortfolioLink": false,
+      "hasContactLink": false,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "event-coverage",
+      "url": "https://www.alraza.com/event-photography.html",
+      "status": 200,
+      "finalUrl": "https://www.alraza.com/event-photography.html",
+      "title": "Event Photographers in Qatar | Event Photography Pricing",
+      "h1": "",
+      "headings": [
+        "Best event photography company in Qatar",
+        "What We Offer",
+        "Image Gallery",
+        "Video Gallery",
+        "We’ve got a plan that’s perfect for you",
+        "Don’t just take our words"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "event-coverage",
+      "url": "https://www.pictureworldqatar.com/photography/event-photography",
+      "status": 200,
+      "finalUrl": "https://www.pictureworldqatar.com/photography/event-photography",
+      "title": "Best Event Photography in Qatar | Picture World Studio | Picture World Studio | Best Photo Frames &amp; Photography Shop",
+      "h1": "Best Event Photography in Qatar",
+      "headings": [
+        "What to Expect",
+        "Why Choose Us",
+        "Our Locations",
+        "Frequently Asked Questions",
+        "Related Services",
+        "Ready to Capture Your Special Moment?",
+        "Expert Assistance"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "event-coverage",
+      "url": "https://event.photography/qatar/",
+      "status": 200,
+      "finalUrl": "https://event.photography/qatar/",
+      "title": "Hire Event Photographers in Qatar – Event Photography",
+      "h1": "End to end event photography in Qatar",
+      "headings": [
+        "Looking for Premier Event Photography in Qatar?",
+        "A Glimpse from our event photography shoots",
+        "Spotlight shoots in MENA",
+        "Corporate Events in Qatar",
+        "Trade Shows and Exhibitions in Qatar",
+        "Conference and Seminar Photography Qatar",
+        "Why companies large and small trust us",
+        "Top destinations in MENA"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "event-coverage",
+      "url": "https://themusawar.com/portfolio/eventphotography/",
+      "status": 200,
+      "finalUrl": "https://themusawar.com/portfolio/eventphotography/",
+      "title": "Event Photography - TM Digital Photography &amp; Events",
+      "h1": "TM Digital Photography &amp; Events",
+      "headings": [
+        "Event Photography"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "branding",
+      "url": "https://novamediaqa.com/services/branding",
+      "status": 200,
+      "finalUrl": "https://novamediaqa.com/services/branding",
+      "title": "Branding &amp; Identity Design in Qatar — Nova Media",
+      "h1": "Branding A brand that is unmistakable.",
+      "headings": [
+        "What it is",
+        "Who it&#x27;s for",
+        "What&#x27;s included.",
+        "See it for yourself.",
+        "Let’s make something worth watching."
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "branding",
+      "url": "https://taqnia.qa/branding/",
+      "status": 200,
+      "finalUrl": "https://taqnia.qa/branding/",
+      "title": "Branding Agency in Qatar | Brand Identity Design &amp; Packaging",
+      "h1": "Branding",
+      "headings": [
+        "Trusted by Qatar Fund for Development, Woqod, Qatar University, Al Meera and leading businesses across Qatar",
+        "Custom packaging design in Qatar"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "branding",
+      "url": "https://www.sphereqatar.com/services/branding-services",
+      "status": 200,
+      "finalUrl": "https://www.sphereqatar.com/services/branding-services",
+      "title": "Brand Advertising | Branding Services in Qatar | Sphere",
+      "h1": "Shape Your Brand’s Future with Sphere&#x27;s Creative Branding Solutions",
+      "headings": [
+        "Branding"
+      ],
+      "hasPortfolioLink": true,
+      "hasContactLink": true,
+      "hasFaqSection": false
+    },
+    {
+      "cluster": "branding",
+      "url": "https://www.everythink.qa/services/brand-identity-design-qatar",
+      "status": 200,
+      "finalUrl": "https://www.everythink.qa/services/brand-identity-design-qatar",
+      "title": "Branding Agency Qatar - Brand Strategy &amp; Identity | Everythink Design",
+      "h1": "Brand Identity Design Qatar",
+      "headings": [
+        "Brand Strategy &amp; Identity",
+        "Why Choose Us",
+        "Our Process",
+        "Frequently Asked Questions",
+        "Start a Brand Strategy &amp; Identity project"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    },
+    {
+      "cluster": "branding",
+      "url": "https://www.adagency.qa/branding",
+      "status": 200,
+      "finalUrl": "https://adagency.qa/branding-services",
+      "title": "Branding Agency in Qatar | Logo &amp; Brand Identity Doha",
+      "h1": "Branding Agency in Qatar: Logos &amp; Brand Identities People Remember",
+      "headings": [
+        "Brand Identity Design in Doha",
+        "Why Visuals Without Positioning Don&#x27;t Work",
+        "Our Branding Process, Step by Step",
+        "Our Branding Services in Qatar",
+        "Build a Brand That Drives Growth",
+        "Branding Company in Doha",
+        "Branding for Qatar Industries",
+        "Branding Agency Qatar – FAQs"
+      ],
+      "hasPortfolioLink": false,
+      "hasContactLink": true,
+      "hasFaqSection": true
+    }
+  ]
+}
