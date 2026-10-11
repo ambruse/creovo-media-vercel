@@ -37,7 +37,8 @@ function initWebGLHero() {
         min((uResolution.x / uResolution.y) / (uImageSize.x / uImageSize.y), 1.0),
         min((uResolution.y / uResolution.x) / (uImageSize.y / uImageSize.x), 1.0)
       );
-      return uv * ratio + (1.0 - ratio) * 0.5;
+      // Match the fallback's subtle, centered 8% crop without shifting pointer coordinates.
+      return (uv - 0.5) * ratio / 1.08 + 0.5;
     }
     float random(vec2 p) {
       return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453);
