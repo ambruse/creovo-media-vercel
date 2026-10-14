@@ -26,7 +26,7 @@ html[dir=rtl]{--display:'Noto Sans Arabic',Arial,sans-serif;--body:'Noto Sans Ar
 .scene-caption .work-service-link{display:block;font-size:13px;margin-top:12px;opacity:.85}
 .related-insights + .page-button{margin-top:40px}
 
-/* Homepage Work Scenes: one supplied film in a restrained editorial frame. */
+/* Homepage Work Scenes: landscape film and portrait reel, following the supplied sketch. */
 .spatial-universe{height:auto;min-height:0;--journey:0}
 .spatial-universe .work-experience-inner{height:auto;min-height:0;position:relative;top:auto;overflow:visible;display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);align-items:center;gap:clamp(28px,5vw,88px);padding:clamp(64px,8vw,132px) var(--space)}
 .spatial-universe .work-experience-heading,html[dir=rtl] .spatial-universe .work-experience-heading{position:relative;inset:auto;max-width:42ch;padding:0;text-shadow:none;grid-column:1;grid-row:1;pointer-events:auto}
@@ -60,3 +60,23 @@ html[dir=rtl]{--display:'Noto Sans Arabic',Arial,sans-serif;--body:'Noto Sans Ar
 @media(max-width:900px){.spatial-universe .work-experience-inner{display:flex;flex-direction:column;align-items:stretch;gap:30px;padding-block:60px}.spatial-universe .work-experience-heading,html[dir=rtl] .spatial-universe .work-experience-heading{position:relative;inset:auto;max-width:56ch;padding:0}.spatial-universe .work-scenes{position:relative;inset:auto;display:block;overflow:visible;padding:0;perspective:none}.universe-film-frame{width:calc(min(78svh,820px)*.5625);height:min(78svh,820px)}.spatial-universe .universe-work-link{position:relative;bottom:auto;display:inline-flex;align-self:flex-start;margin:0;inset-inline-start:auto}}
 @media(max-width:520px){.spatial-universe .work-experience-inner{gap:24px;padding-block:44px}.universe-film{margin:0 auto}.universe-film-frame{width:calc(min(76svh,720px)*.5625);height:min(76svh,720px)}.universe-film-caption{flex-wrap:wrap;gap:7px 16px;padding-top:12px;font-size:9px}.universe-film-live{font-size:9px}}
 @media(prefers-reduced-motion:reduce){.universe-film-frame,.universe-film[data-visible] .universe-film-frame{clip-path:none;opacity:1;transform:none;transition:none}.universe-film-play,.universe-film-play-arrow{transition:none}.universe-player-dialog[open]{animation:none}}
+
+/* Two-film editorial composition: landscape and copy left, portrait right. */
+.spatial-universe .work-experience-inner{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);align-items:start;column-gap:clamp(28px,5vw,80px);row-gap:24px}
+.spatial-universe .work-scenes{display:contents}
+.spatial-universe .universe-film--landscape{grid-column:1;grid-row:1;width:100%;min-width:0;margin:0}
+.spatial-universe .universe-film--portrait{grid-column:2;grid-row:1 / span 3;width:100%;min-width:0;margin:0}
+.spatial-universe .universe-film-frame{width:100%;height:auto;aspect-ratio:var(--film-ratio)}
+.spatial-universe .work-experience-heading,html[dir=rtl] .spatial-universe .work-experience-heading{grid-column:1;grid-row:2;max-width:none}
+.spatial-universe .work-experience-heading h2{font-size:clamp(40px,4.8vw,72px)}
+.spatial-universe .universe-work-link{grid-column:1;grid-row:3;margin:0;justify-self:start}
+.universe-film-caption{flex-wrap:wrap;gap:8px 16px}
+.universe-player-dialog--landscape{width:min(1200px,96vw)}
+.universe-player-dialog--landscape video{width:100%;height:auto;max-height:74svh;aspect-ratio:16/9}
+@media(max-width:900px){
+ .spatial-universe .work-experience-inner{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+ .spatial-universe .universe-film--portrait{grid-column:1;grid-row:4;width:min(100%,420px);justify-self:center;margin-top:16px}
+ .spatial-universe .universe-film--landscape{grid-column:1;grid-row:1}
+ .spatial-universe .work-experience-heading,html[dir=rtl] .spatial-universe .work-experience-heading{grid-column:1;grid-row:2}
+ .spatial-universe .universe-work-link{grid-column:1;grid-row:3}
+}
