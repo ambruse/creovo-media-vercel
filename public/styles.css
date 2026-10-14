@@ -304,8 +304,9 @@ select:focus-visible {
 }
 .hero-mark img {
   display: block;
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin-inline: auto;
 }
 .hero-mark .hero-seo-line {
   display: block;
