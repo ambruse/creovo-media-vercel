@@ -12,7 +12,7 @@ The highest-priority outstanding deployment issue is the preferred hostname: the
 
 - Server-rendered page content, one H1 per page, descriptive metadata, self-canonicals and reciprocal en-QA/ar-QA/x-default alternates.
 - Crawlable language switch to the equivalent page. Locale URLs preserve language across navigation/refresh; local storage also records the choice. No forced language detection or crawler-dependent redirects.
-- Full Arabic navigation, footer, service/guide copy, forms, validation, errors, privacy/consent text, media controls and dialogs. Proper nouns remain unchanged. RTL uses logical spacing, mirrored directional arrows and Noto Sans Arabic. Native browser video controls still follow the visitor's browser language.
+- Full Arabic navigation, footer, service/guide copy, forms, validation, errors, privacy text, media controls and dialogs. Proper nouns remain unchanged. RTL uses logical spacing, mirrored directional arrows and Noto Sans Arabic. Native browser video controls still follow the visitor's browser language.
 - Nine bilingual commercial services with scope, capabilities, deliverables, approach, process, buyer questions, related services and enquiry paths. SEO, influencer marketing and event coverage are explicit. Paid campaigns sit within digital marketing. No music service is advertised.
 - Static sitemap with 42 indexable locale URLs, no artificial lastmod dates. The empty case-study holding pages are noindex. Permanent Vercel redirects for old event-management/ad-campaigns service paths.
 - JSON-LD Organization, WebSite, WebPage, BreadcrumbList, Service and company-authored Article where appropriate. No ratings, invented prices, fake awards or review schema. No speculative LocalBusiness coordinates or video publication dates.
@@ -20,7 +20,7 @@ The highest-priority outstanding deployment issue is the preferred hostname: the
 - Home media universe is rendered from the shared inventory, with client-safe randomization. Stable server markup avoids hydration mismatch. There are no fabricated project-client associations.
 - WebP hero/logo/share artwork. Hero rendering pauses outside its section or when the document is hidden/reduced motion is enabled. Pointer interaction and user-enabled phone tilt remain.
 - Existing Formspree endpoint retained, with localized required/email validation, pending/success/failure states and a genuine-success-only lead event. No live test enquiry was sent to the business.
-- Optional consent-gated GA4 integration, verification-token configuration for Search Console/Bing, lean event taxonomy and session attribution. No unknown tracking account IDs are inserted.
+- Automatic GA4 integration, verification-token configuration for Search Console/Bing, lean event taxonomy and session attribution. No unknown tracking account IDs are inserted.
 
 ## Architecture and maintainability
 
@@ -58,9 +58,9 @@ Explicit media dimensions, ratio-aware mobile frames, lazy source attachment, pa
 
 ## Analytics and attribution
 
-GA4 uses the owner's measurement ID `G-K55JL8J8LF`, configured in `components/SiteControls.jsx`; no Vercel analytics environment variable is required. Do not add a second GA/GTM installation for the same property. It loads only after analytics consent. Declining prevents the custom event pipeline; changing consent updates storage permission. `generate_lead` fires only after Formspree returns success; other events include phone_click, email_click, whatsapp_click, contact_cta_click, service_cta_click, portfolio_to_service_click, portfolio_interaction, video_start (once per selected playback) and video_complete. A WhatsApp click measures opening the conversation, not sending a message. No names, emails or enquiry text are sent by these custom events.
+GA4 uses the owner's measurement ID `G-K55JL8J8LF`, configured in `components/SiteControls.jsx`; no Vercel analytics environment variable is required. Do not add a second GA/GTM installation for the same property. It loads automatically on page mount without a consent prompt, as requested by the owner on 2026-10-14. The previous stored analytics preference is no longer used. `generate_lead` fires only after Formspree returns success; other events include phone_click, email_click, whatsapp_click, contact_cta_click, service_cta_click, portfolio_to_service_click, portfolio_interaction, video_start (once per selected playback) and video_complete. A WhatsApp click measures opening the conversation, not sending a message. No names, emails or enquiry text are sent by these custom events.
 
-Consent-aware session attribution records landing path, language, referrer hostname, allowlisted campaign labels and last service path. It starts when consent is granted; it cannot reconstruct browsing before consent. Current-page campaign parameters are included in the Formspree payload. Search Console and Bing tokens use the example environment settings. Account verification, real event delivery, owner receipt/reply of a test enquiry and conversion reporting still require account access or an owner-controlled test.
+Session attribution records landing path, language, referrer hostname, allowlisted campaign labels and last service path. It starts on page mount and does not reconstruct earlier visits. Current-page campaign parameters are included in the Formspree payload. Search Console and Bing tokens use the example environment settings. Account verification, real event delivery, owner receipt/reply of a test enquiry and conversion reporting still require account access or an owner-controlled test.
 
 ## Validation
 
@@ -80,7 +80,7 @@ AI visibility is not a separate invented schema or llms.txt ranking guarantee. U
 
 1. Coordinate preferred apex domain versus currently serving www in Vercel, then retest redirects/canonicals and production crawler access.
 2. Deployment through the existing Git/Vercel workflow is complete. Keep the live verification script as a release check; deployment does not establish search-engine indexing.
-3. Verify Search Console, Bing and GA4 ownership; set account IDs, test consent and lead events, submit the canonical sitemap.
+3. Verify Search Console, Bing and GA4 ownership; set account IDs, test page views and lead events, submit the canonical sitemap.
 4. Confirm hours, public-office eligibility, email and WhatsApp. Supply approved company/team information.
 5. Supply client scope/approvals, media mapping, rights, upload dates and meaningful outcomes. Then publish case studies/watch pages and warranted sector content.
 6. Run production mobile performance and accessibility checks, field monitoring and real form receipt/reply verification. Review indexing and qualified enquiries over time.
