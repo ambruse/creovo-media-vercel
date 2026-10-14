@@ -1811,3 +1811,29 @@ body:has(dialog[open]) {
 
 /* Keep project headlines clear of the exploration control at intermediate widths. */
 .project-pair .image-title{bottom:82px}
+
+/* One lightweight contact shortcut, kept on the right in both languages. */
+.whatsapp-float {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(24px, env(safe-area-inset-bottom));
+  z-index: 35;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #ffffff26;
+  border-radius: 50%;
+  background: #25d366;
+  color: #082b18;
+  box-shadow: 0 4px 20px #0005;
+  transition: transform .2s ease, background-color .2s ease;
+}
+.whatsapp-float svg { width: 29px; height: 29px; }
+.whatsapp-float:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+@media (hover: hover) {
+  .whatsapp-float:hover { background: #40e17c; transform: translateY(-2px); }
+}
+@media (max-width: 700px) {
+  .whatsapp-float { right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); width: 52px; height: 52px; }
+}

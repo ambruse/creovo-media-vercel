@@ -1,5 +1,6 @@
 export const ui = {
  en: {
+  whatsapp:'Enquire on WhatsApp (opens in a new tab)',
   home:'Home', work:'Work', services:'Services', industries:'Industries', about:'About', insights:'Insights', contact:'Contact', privacy:'Privacy', cases:'Case studies',
   start:'Start a project', proposal:'Request a proposal', viewWork:'View our work', viewService:'Explore service', skip:'Skip to content', menu:'Open navigation', close:'Close', mainNav:'Main navigation', footerNav:'Footer navigation', breadcrumb:'Breadcrumb',
   tagline:'Creative ideas. Real impact.', next:'Your next chapter', footerHeading:'Let’s make something impossible to ignore.', location:'Al Wakrah, Qatar', serviceArea:'Serving businesses across Qatar', hours:'Saturday–Thursday, 09:00–17:00', phone:'Call Creovo Media', instagram:'Instagram', back:'Back to top', rights:'Creovo Media. All rights reserved.',
@@ -13,6 +14,7 @@ export const ui = {
   privacyHeading:'Privacy notice', privacyIntro:'When you send an enquiry, we collect the details you enter so we can review your request and reply. Please do not include sensitive personal information that is unnecessary for the project.', privacyForm:'Forms are delivered through Formspree. The submission includes the page and language used, and may include campaign source information supplied in the URL. Creovo Media uses this information to understand and respond to the enquiry.', privacyAnalytics:'Optional analytics remain disabled until you accept analytics cookies. If enabled, they measure page and service engagement without sending form contents. You can change your choice at any time.', privacyContact:'To ask about your information, contact Creovo Media on +974 7235 7755.', cookies:'Analytics preferences', cookieText:'Allow optional analytics to help us understand which pages are useful? Your enquiry details are never sent to analytics.', accept:'Allow analytics', decline:'Essential only', missing:'Page not found', missingText:'The page may have moved. Explore our services or return home.',
  },
  ar: {
+  whatsapp:'تواصل معنا عبر WhatsApp (يفتح في علامة تبويب جديدة)',
   home:'الرئيسية', work:'أعمالنا', services:'خدماتنا', industries:'القطاعات', about:'من نحن', insights:'رؤى وأفكار', contact:'تواصل معنا', privacy:'الخصوصية', cases:'دراسات المشاريع',
   start:'ابدأ مشروعك', proposal:'اطلب عرضاً', viewWork:'شاهد أعمالنا', viewService:'اكتشف الخدمة', skip:'انتقل إلى المحتوى', menu:'افتح قائمة التنقل', close:'إغلاق', mainNav:'التنقل الرئيسي', footerNav:'روابط التذييل', breadcrumb:'مسار الصفحة',
   tagline:'أفكار إبداعية. أثر حقيقي.', next:'خطوتك القادمة', footerHeading:'لنصنع عملاً يستحق الانتباه.', location:'الوكرة، قطر', serviceArea:'نخدم الشركات في جميع أنحاء قطر', hours:'السبت–الخميس، 09:00–17:00', phone:'اتصل بـ Creovo Media', instagram:'Instagram', back:'العودة للأعلى', rights:'Creovo Media. جميع الحقوق محفوظة.',
