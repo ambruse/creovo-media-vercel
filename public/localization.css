@@ -80,3 +80,23 @@ html[dir=rtl]{--display:'Noto Sans Arabic',Arial,sans-serif;--body:'Noto Sans Ar
  .spatial-universe .work-experience-heading,html[dir=rtl] .spatial-universe .work-experience-heading{grid-column:1;grid-row:2}
  .spatial-universe .universe-work-link{grid-column:1;grid-row:3}
 }
+
+/* Website previews sit beside the work heading, with restrained stacked depth. */
+.universe-work-details{grid-column:1;grid-row:2;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:20px;min-width:0}
+.spatial-universe .universe-work-details .work-experience-heading,html[dir=rtl] .spatial-universe .universe-work-details .work-experience-heading{grid-column:1;grid-row:1;min-width:0}
+.spatial-universe .universe-work-details h2{font-size:clamp(32px,3.2vw,48px)}
+.website-showcase{min-width:0;width:100%;grid-column:2;grid-row:1}
+.website-stack{height:300px;position:relative;overflow:hidden;touch-action:pan-y;isolation:isolate;mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)}
+.website-preview{position:absolute;top:12px;left:50%;height:272px;width:125px;display:block;border:1px solid #ffffff22;border-radius:3px;overflow:hidden;background:#141414;opacity:.5;transform:translateX(calc(-50% + var(--slide-offset)*64px)) scale(.88);transition:transform .5s var(--ease),opacity .5s var(--ease);box-shadow:0 12px 28px #0006;z-index:1}
+.website-preview.is-active{opacity:1;transform:translateX(-50%) scale(1);z-index:2}
+.website-preview img{display:block;width:100%;height:100%;object-fit:contain}
+.website-preview:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.website-slider-controls{display:flex;align-items:center;justify-content:center;gap:4px}
+.website-slider-controls button{flex:0 0 44px;width:44px;height:44px;display:grid;place-items:center;color:var(--text);background:transparent;border:1px solid transparent;border-radius:50%;cursor:pointer}
+.website-slider-controls button:hover{border-color:var(--line);color:var(--accent)}
+.website-slider-controls svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5}
+.website-slider-caption{display:grid;gap:6px;text-align:center;font-size:clamp(10px,.85vw,12px);min-width:0}
+.website-slider-caption small{color:var(--muted);font-size:9px;letter-spacing:.15em}
+@media(max-width:900px){.universe-work-details{grid-column:1;grid-row:2}.website-slider-caption{font-size:12px}}
+@media(max-width:520px){.universe-work-details{grid-template-columns:minmax(0,1fr);gap:24px}.website-showcase{grid-column:1;grid-row:2;max-width:340px;justify-self:center}.website-stack{height:360px}.website-preview{height:328px;width:151px}.spatial-universe .universe-work-details h2{font-size:40px}}
+@media(prefers-reduced-motion:reduce){.website-preview{transition:none}}
