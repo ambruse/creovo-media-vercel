@@ -3,7 +3,6 @@ import { useEffect,useRef,useState } from 'react';
 import { workVideos,getRandomWorkVideos,workTitle } from '../lib/work-videos';
 import { ui,localePath } from '../content/ui.mjs';
 import { track } from '../lib/analytics';
-import WebsiteShowcase from './WebsiteShowcase';
 
 // A page-wide playback budget: 1 preview on narrow screens, 2 on desktop.
 const candidates=new Map();
@@ -63,7 +62,7 @@ export default function WorkMedia({mode='portfolio',locale='en'}){
  const open=v=>{playerOpen=true;started.current=false;for(const [el] of candidates)el.pause();setSelected(v);};
  const close=()=>{full.current?.pause();dialog.current?.close();setSelected(null);playerOpen=false;reconcile();};
  return <section ref={section} className={`work-experience ${mode==='universe'?'spatial-universe':'editorial-portfolio'}`} aria-label={mode==='universe'?t.universe:t.portfolio}>
-  <div className="work-experience-inner">{mode==='universe'?<div className="universe-work-details"><header className="work-experience-heading"><p className="micro">{mode==='universe'?t.universe:t.portfolio}</p><h2>{mode==='universe'?t.ourWork:t.stories}<br/><em>{mode==='universe'?t.inMotion:t.move}</em></h2><p>{t.scrollWork}</p></header><WebsiteShowcase locale={locale}/></div>:<header className="work-experience-heading"><p className="micro">{mode==='universe'?t.universe:t.portfolio}</p><h2>{mode==='universe'?t.ourWork:t.stories}<br/><em>{mode==='universe'?t.inMotion:t.move}</em></h2><p>{t.scrollWork}</p></header>}
+  <div className="work-experience-inner"><header className="work-experience-heading"><p className="micro">{mode==='universe'?t.universe:t.portfolio}</p><h2>{mode==='universe'?t.ourWork:t.stories}<br/><em>{mode==='universe'?t.inMotion:t.move}</em></h2><p>{t.scrollWork}</p></header>
    {mode==='universe'?<div className="work-scenes"><SingleWorkFilm film={landscapeFilm} label={locale==='ar'?'فيلم أفقي':'Landscape film'} locale={locale}/><SingleWorkFilm label={`${t.ourWork} ${t.inMotion}`} locale={locale}/></div>:<div className="work-scenes">{videos.slice(0,pageSize).map((v,i)=><article key={v.id} className={`work-scene scene-${i} ${i===0?'dominant':''}`} style={{'--media-ratio':`${v.width} / ${v.height}`}}>
     <button className="scene-open" onClick={()=>open(v)} aria-label={`${t.play} — ${workTitle(v,locale)}`}><Preview video={v}/><span className="scene-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7z"/></svg></span></button>
     <div className="scene-caption"><span className="micro">Creovo Media / {String(v.number).padStart(2,'0')}</span><h3>{workTitle(v,locale)}</h3><a href={localePath('/contact/',locale)+'?service=content-creation'}>{t.similar}</a>{mode==='portfolio'&&<a className="work-service-link" data-portfolio-service="content-creation" href={localePath('/services/content-creation/',locale)}>{locale==='ar'?'خدمة صناعة المحتوى':'Content creation service'}</a>}</div>
