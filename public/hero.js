@@ -215,7 +215,7 @@ function initWebGLHero() {
     ready = true;
 
   });
-  image.src = "/assets/creovo-reactive-hero.webp";
+  image.src = "/assets/creovo-filmmaking-hero.webp";
   new ResizeObserver(resize).observe(canvas);
   canvas.addEventListener("webglcontextlost", (event) => {
     event.preventDefault();
