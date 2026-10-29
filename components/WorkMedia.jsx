@@ -1,6 +1,6 @@
 'use client';
 import { useEffect,useRef,useState } from 'react';
-import { workVideos,getRandomWorkVideos,workTitle } from '../lib/work-videos';
+import { workVideos,workPath,workTitle } from '../lib/work-videos';
 import { ui,localePath } from '../content/ui.mjs';
 import { track } from '../lib/analytics';
 
@@ -53,11 +53,10 @@ function SingleWorkFilm({label,locale,film=portraitFilm}){
  </figure>;
 }
 export default function WorkMedia({mode='portfolio',locale='en'}){
- const t=ui[locale],count=mode==='universe'?0:workVideos.length;
- const [videos,setVideos]=useState(workVideos.slice(0,count)),[selected,setSelected]=useState(null),[failed,setFailed]=useState(false),[pageSize,setPageSize]=useState(6);
+ const t=ui[locale],videos=mode==='universe'?[]:workVideos;
+ const [selected,setSelected]=useState(null),[failed,setFailed]=useState(false),[pageSize,setPageSize]=useState(6);
  const section=useRef(null),dialog=useRef(null),full=useRef(null),started=useRef(false);
  useEffect(()=>()=>{playerOpen=false;},[]);
- useEffect(()=>{if(mode==='universe')return;let previous;try{previous=sessionStorage.getItem(`creovo.first.${mode}`);}catch{}const chosen=getRandomWorkVideos(count,workVideos,previous);setVideos(chosen);try{sessionStorage.setItem(`creovo.first.${mode}`,chosen[0].id);}catch{}},[count,mode]);
  useEffect(()=>{if(selected){setFailed(false);dialog.current.showModal();track('portfolio_interaction',{video_id:selected.id});}},[selected]);
  const open=v=>{playerOpen=true;started.current=false;for(const [el] of candidates)el.pause();setSelected(v);};
  const close=()=>{full.current?.pause();dialog.current?.close();setSelected(null);playerOpen=false;reconcile();};
@@ -65,7 +64,7 @@ export default function WorkMedia({mode='portfolio',locale='en'}){
   <div className="work-experience-inner"><header className="work-experience-heading"><p className="micro">{mode==='universe'?t.universe:t.portfolio}</p><h2>{mode==='universe'?t.ourWork:t.stories}<br/><em>{mode==='universe'?t.inMotion:t.move}</em></h2><p>{t.scrollWork}</p></header>
    {mode==='universe'?<div className="work-scenes"><SingleWorkFilm film={landscapeFilm} label={locale==='ar'?'فيلم أفقي':'Landscape film'} locale={locale}/><SingleWorkFilm label={`${t.ourWork} ${t.inMotion}`} locale={locale}/></div>:<div className="work-scenes">{videos.slice(0,pageSize).map((v,i)=><article key={v.id} className={`work-scene scene-${i} ${i===0?'dominant':''}`} style={{'--media-ratio':`${v.width} / ${v.height}`}}>
     <button className="scene-open" onClick={()=>open(v)} aria-label={`${t.play} — ${workTitle(v,locale)}`}><Preview video={v}/><span className="scene-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7z"/></svg></span></button>
-    <div className="scene-caption"><span className="micro">Creovo Media / {String(v.number).padStart(2,'0')}</span><h3>{workTitle(v,locale)}</h3><a href={localePath('/contact/',locale)+'?service=content-creation'}>{t.similar}</a>{mode==='portfolio'&&<a className="work-service-link" data-portfolio-service="content-creation" href={localePath('/services/content-creation/',locale)}>{locale==='ar'?'خدمة صناعة المحتوى':'Content creation service'}</a>}</div>
+    <div className="scene-caption"><span className="micro">Creovo Media / {String(v.number).padStart(2,'0')}</span><h3><a href={localePath(workPath(v),locale)}>{workTitle(v,locale)}</a></h3><a href={localePath('/contact/',locale)+'?service=content-creation'}>{t.similar}</a>{mode==='portfolio'&&<a className="work-service-link" data-portfolio-service="content-creation" href={localePath('/services/content-creation/',locale)}>{locale==='ar'?'خدمة صناعة المحتوى':'Content creation service'}</a>}</div>
    </article>)}</div>}
    {mode==='universe'?<a className="universe-work-link" href={localePath('/work/',locale)}>{t.viewWork}</a>:pageSize<videos.length&&<button className="page-button load-work" onClick={()=>setPageSize(n=>n+6)}>{locale==='ar'?'شاهد المزيد من الأعمال':'More work'}</button>}
   </div>

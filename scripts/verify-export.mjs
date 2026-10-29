@@ -1,7 +1,8 @@
 import {readFile,access,writeFile,mkdir} from 'node:fs/promises';
 import {allRoutes,pageForRoute,metadataFor,siteUrl} from '../lib/site.js';
 import {services} from '../content/services.mjs';
-import {ui} from '../content/ui.mjs';
+import {ui,localePath} from '../content/ui.mjs';
+import {workVideos,workPath} from '../lib/work-videos.js';
 const failures=[],pages=[],canonicalHost=siteUrl();
 const check=(condition,message)=>{if(!condition)failures.push(message);};
 check(JSON.stringify(Object.keys(ui.en).sort())===JSON.stringify(Object.keys(ui.ar).sort()),'UI dictionary key parity');
@@ -36,6 +37,19 @@ for(const locale of ['en','ar'])for(const route of allRoutes()){
   const file=`out${pathname}${pathname.endsWith('/')?'index.html':''}`;
   try{await access(file);}catch{failures.push(`${url}: broken local reference ${pathname}`);}
  }
+ if(route==='/work/'){
+  for(const video of workVideos)check(main.includes(`href="${localePath(workPath(video),locale)}"`),`${url}: crawlable film link ${video.id}`);
+  const sourceOrder=[...main.matchAll(/class="scene-open"[^>]*aria-label="([^"]*)"/g)].map(m=>m[1]);
+  check(sourceOrder.length===6,`${url}: six initial film previews`);
+ }
+ if(page.video){
+  check(main.includes(`<video src="${page.video.src}"`),`${url}: watchable video in source HTML`);
+  check(main.includes(`poster="${page.video.poster}"`),`${url}: correct film poster`);
+  check(main.includes(`href="${localePath('/work/',locale)}"`),`${url}: portfolio return link`);
+ }
+ check((html.match(/data-language-switch="true"/g)||[]).length===2,`${url}: desktop and mobile language switches`);
+ if(route==='/contact/')check(main.includes('href="#project-enquiry"'),`${url}: contact CTA reaches form`);
+ if(locale==='ar')check(html.includes(encodeURIComponent(ui.ar.whatsappMessage)),`${url}: Arabic WhatsApp draft`);
  pages.push({url,title:page.title,h1:page.heading,description:page.description,indexable:!page.noindex,locale});
 }
 check((await readFile('out/404.html','utf8')).includes('noindex'),'404 must be noindex');

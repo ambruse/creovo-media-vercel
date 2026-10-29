@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-29",
+  "branch": "codex/seo-audit-fixes",
+  "deployment": "Local code and static export only; no deployment or external submissions.",
+  "audit_status": {
+    "F01": {
+      "status": "implemented",
+      "details": "21 stable film URLs per language, complete HTML index, deterministic gallery, source video, canonical/hreflang/breadcrumbs/sitemap, contextual service links."
+    },
+    "F02": {
+      "status": "partially supported",
+      "details": "Viewing pages and related content-creation links are available. Existing client references remain draft; approved scope, credits, deliverables and outcomes are still needed for case studies."
+    },
+    "F03": {
+      "status": "implemented",
+      "details": "Allowlisted service survives EN/AR switches in header and mobile menu, including changed dropdown values. Arabic WhatsApp draft localized. Contact hero CTA targets the form. Language switches no longer emit contact CTA analytics."
+    },
+    "F04": {
+      "status": "needs owner facts",
+      "details": "No verified biographies or experience records available in the source content; none invented."
+    },
+    "F05": {
+      "status": "resource improvements implemented",
+      "details": "Copyable bilingual brief, labeled illustrative café example and redirect-planning example. Actual editorial dates and reviewer identity still need confirmation."
+    },
+    "F06": {
+      "status": "account/field evidence outstanding",
+      "details": "Build/export/browser checks complete. GSC, field CWV and agreed test-enquiry receipt still require the corresponding evidence; no live lead sent."
+    },
+    "F07": {
+      "status": "publication-date dependency outstanding",
+      "details": "All 21 manifest uploadDate values are null. No dates inferred from filesystem timestamps and no incomplete VideoObject markup added."
+    }
+  },
+  "verification": {
+    "production_build": "passed",
+    "static_export": {
+      "pages": 88,
+      "indexable_urls": 86,
+      "failures": 0
+    },
+    "language_unit_tests": "3 passed; cover nine service slugs in both directions, unknown/injected values and non-contact routes.",
+    "browser": [
+      "Desktop English SEO enquiry switched to Arabic retaining SEO.",
+      "Arabic form changed from SEO to Event Coverage; mobile-menu English switch retained Event Coverage.",
+      "Arabic WhatsApp draft observed in rendered link.",
+      "Portfolio initial first six follow source order; More work adds six while the complete index retains all 21 links.",
+      "Opened Chocolate tasting beyond the initial six via its index link.",
+      "Native video playback advanced to 9.93 seconds with readyState 4, 40.40-second duration and no media error.",
+      "Film language switch reached the corresponding Arabic URL.",
+      "Reviewed mobile English/Arabic film layouts at 390 × 844 and desktop film layout at 1280 × 900.",
+      "Rendered copyable project-brief resource observed.",
+      "No browser error logs on the inspected desktop film page."
+    ],
+    "source_checks": "All routes: one H1, unique metadata, self-canonicals, language alternatives, valid JSON-LD, local references, sitemap policy, image alt attributes and no orphan pages.",
+    "limits": "Single browser and sample playback only; no actual Google indexing, field performance, enquiry delivery, or client outcomes verified."
+  }
+}

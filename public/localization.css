@@ -24,6 +24,32 @@ html[dir=rtl]{--display:'Noto Sans Arabic',Arial,sans-serif;--body:'Noto Sans Ar
 .sector-links{display:flex;flex-wrap:wrap;gap:14px 22px;margin-top:24px;font-size:15px;letter-spacing:normal}
 .sector-links .ui-icon{width:14px;height:14px}
 .scene-caption .work-service-link{display:block;font-size:13px;margin-top:12px;opacity:.85}
+.scene-caption h3 a{font:inherit;color:inherit;border:0;display:inline;min-height:0}
+.scene-caption h3 a:hover{text-decoration:underline;text-underline-offset:.15em}
+.work-index h2{font-size:clamp(28px,4vw,48px);margin-bottom:28px}
+.work-index ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;list-style:none;padding:0}
+.work-index li{min-width:0;border-bottom:1px solid var(--line)}
+.work-index a{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:20px 0;min-height:64px;overflow-wrap:anywhere}
+.work-index a:hover{color:var(--accent)}
+.page-hero.work-film-hero{min-height:0;padding-block:48px;gap:24px}
+.work-film-hero h1{font-size:clamp(36px,5vw,76px);line-height:1.15}
+.work-film-section{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(32px,6vw,90px);align-items:start;scroll-margin-top:130px}
+.work-film{margin:0;min-width:0}
+.work-film video{display:block;width:100%;height:auto;max-height:75svh;object-fit:contain;background:#000}
+.work-film figcaption{margin-top:18px;color:var(--accent)}
+.work-film-details h2{font-size:32px}
+.work-film-details dl{margin-block:28px}
+.work-film-details dl>div{display:flex;justify-content:space-between;gap:20px;padding-block:16px;border-bottom:1px solid var(--line)}
+.work-film-details dd{margin:0}
+.work-film-details>.text-link{display:block;width:fit-content;margin-top:24px}
+#project-enquiry{scroll-margin-top:130px}
+.guide-resource{margin-block:50px;padding:clamp(18px,3vw,36px);border:1px solid var(--line)}
+.guide-resource h2{font-size:clamp(26px,3vw,38px)}
+.guide-resource pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.8;color:var(--muted);margin-block:24px;user-select:text}
+.guide-resource table{width:100%;border-collapse:collapse;margin-block:24px;font-size:14px}
+.guide-resource th,.guide-resource td{border-bottom:1px solid var(--line);padding:16px 8px;text-align:start;overflow-wrap:anywhere}
+@media(max-width:900px){.work-index ul{grid-template-columns:repeat(2,minmax(0,1fr))}.work-film-section{grid-template-columns:1fr}}
+@media(max-width:600px){.work-index ul{grid-template-columns:1fr}.page-hero.work-film-hero{padding-block:32px}.work-film-hero h1,html[dir=rtl] .work-film-hero h1{font-size:36px}.guide-resource table{font-size:12px}}
 .related-insights + .page-button{margin-top:40px}
 
 /* Homepage Work Scenes: landscape film and portrait reel, following the supplied sketch. */
